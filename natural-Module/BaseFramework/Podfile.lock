@@ -1,0 +1,22 @@
+PODS:
+  - HexColors (6.0.0)
+
+DEPENDENCIES:
+  - HexColors (from `https://github.com/mRs-/HexColors.git`, tag `6.0.0`)
+
+EXTERNAL SOURCES:
+  HexColors:
+    :git: https://github.com/mRs-/HexColors.git
+    :tag: 6.0.0
+
+CHECKOUT OPTIONS:
+  HexColors:
+    :git: https://github.com/mRs-/HexColors.git
+    :tag: 6.0.0
+
+SPEC CHECKSUMS:
+  HexColors: 59b66679d71777ba70a4ad57b1952dabd2138ca4
+
+PODFILE CHECKSUM: 5c8167b9dec84fbbbb2750ccd17c5ae4ac144119
+
+COCOAPODS: 1.5.0

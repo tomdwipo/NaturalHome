@@ -1,0 +1,23 @@
+PODS:
+  - BaseFramework (0.0.1):
+    - HexColors
+  - HexColors (6.0.0)
+
+DEPENDENCIES:
+  - BaseFramework (from `../BaseFramework`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HexColors
+
+EXTERNAL SOURCES:
+  BaseFramework:
+    :path: "../BaseFramework"
+
+SPEC CHECKSUMS:
+  BaseFramework: 795e3832fc4aa36b0ee5142568ff8913d4c0d718
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+
+PODFILE CHECKSUM: aa613ebec84938799c777dbf9ce949b4cf6f4d69
+
+COCOAPODS: 1.5.0

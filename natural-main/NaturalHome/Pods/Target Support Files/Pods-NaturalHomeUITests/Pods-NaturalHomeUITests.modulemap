@@ -1,0 +1,6 @@
+framework module Pods_NaturalHomeUITests {
+  umbrella header "Pods-NaturalHomeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

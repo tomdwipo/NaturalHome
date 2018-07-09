@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AE8B9A20F3415100E24D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8B9920F3415100E24D31 /* AppDelegate.swift */; };
+		03AE8B9C20F3415100E24D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8B9B20F3415100E24D31 /* ViewController.swift */; };
+		03AE8B9F20F3415100E24D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8B9D20F3415100E24D31 /* Main.storyboard */; };
+		03AE8BA220F3415100E24D31 /* NaturalHome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8BA020F3415100E24D31 /* NaturalHome.xcdatamodeld */; };
+		03AE8BA420F3415200E24D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8BA320F3415200E24D31 /* Assets.xcassets */; };
+		03AE8BA720F3415200E24D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8BA520F3415200E24D31 /* LaunchScreen.storyboard */; };
+		03AE8BB220F3415200E24D31 /* NaturalHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8BB120F3415200E24D31 /* NaturalHomeTests.swift */; };
+		03AE8BBD20F3415200E24D31 /* NaturalHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8BBC20F3415200E24D31 /* NaturalHomeUITests.swift */; };
+		3235E4E2AC87175FBA1D8A57 /* Pods_NaturalHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB5137C649FDDAB1AF93A1A /* Pods_NaturalHomeTests.framework */; };
+		39266B5CF019A3ECA5B0FE50 /* Pods_NaturalHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B05AF41936F2A0927EDE7 /* Pods_NaturalHome.framework */; };
+		DD1F4A1046D08123E037E74D /* Pods_NaturalHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC25B97703BACA57AC0A14C /* Pods_NaturalHomeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AE8BAE20F3415200E24D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE8B8E20F3415100E24D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE8B9520F3415100E24D31;
+			remoteInfo = NaturalHome;
+		};
+		03AE8BB920F3415200E24D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE8B8E20F3415100E24D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE8B9520F3415100E24D31;
+			remoteInfo = NaturalHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AE8B9620F3415100E24D31 /* NaturalHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8B9920F3415100E24D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AE8B9B20F3415100E24D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03AE8B9E20F3415100E24D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AE8BA120F3415100E24D31 /* NaturalHome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaturalHome.xcdatamodel; sourceTree = "<group>"; };
+		03AE8BA320F3415200E24D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AE8BA620F3415200E24D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AE8BA820F3415200E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8BAD20F3415200E24D31 /* NaturalHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8BB120F3415200E24D31 /* NaturalHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalHomeTests.swift; sourceTree = "<group>"; };
+		03AE8BB320F3415200E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8BB820F3415200E24D31 /* NaturalHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8BBC20F3415200E24D31 /* NaturalHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalHomeUITests.swift; sourceTree = "<group>"; };
+		03AE8BBE20F3415200E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094B05AF41936F2A0927EDE7 /* Pods_NaturalHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C961A4DCE6B13CB1AD06B21 /* Pods-NaturalHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHome/Pods-NaturalHome.release.xcconfig"; sourceTree = "<group>"; };
+		3DA77060E07E7E0F28C44740 /* Pods-NaturalHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeTests/Pods-NaturalHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DC25B97703BACA57AC0A14C /* Pods_NaturalHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB5137C649FDDAB1AF93A1A /* Pods_NaturalHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CE2475BE46F8C4370169C4 /* Pods-NaturalHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeTests/Pods-NaturalHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0B36C0F64A5C713AEC974D /* Pods-NaturalHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeUITests/Pods-NaturalHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0B8D3C11DBE5AC1E23C4A82 /* Pods-NaturalHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHome/Pods-NaturalHome.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0398F93D3372AD5A00FD2B /* Pods-NaturalHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeUITests/Pods-NaturalHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AE8B9320F3415100E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39266B5CF019A3ECA5B0FE50 /* Pods_NaturalHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8BAA20F3415200E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3235E4E2AC87175FBA1D8A57 /* Pods_NaturalHomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8BB520F3415200E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1F4A1046D08123E037E74D /* Pods_NaturalHomeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AE8B8D20F3415100E24D31 = {
+			isa = PBXGroup;
+			children = (
+				03AE8B9820F3415100E24D31 /* NaturalHome */,
+				03AE8BB020F3415200E24D31 /* NaturalHomeTests */,
+				03AE8BBB20F3415200E24D31 /* NaturalHomeUITests */,
+				03AE8B9720F3415100E24D31 /* Products */,
+				928AFBE55CC12F4ACB1B88D3 /* Pods */,
+				7784DDE19196CAA68CB2A435 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03AE8B9720F3415100E24D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8B9620F3415100E24D31 /* NaturalHome.app */,
+				03AE8BAD20F3415200E24D31 /* NaturalHomeTests.xctest */,
+				03AE8BB820F3415200E24D31 /* NaturalHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AE8B9820F3415100E24D31 /* NaturalHome */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8B9920F3415100E24D31 /* AppDelegate.swift */,
+				03AE8B9B20F3415100E24D31 /* ViewController.swift */,
+				03AE8B9D20F3415100E24D31 /* Main.storyboard */,
+				03AE8BA320F3415200E24D31 /* Assets.xcassets */,
+				03AE8BA520F3415200E24D31 /* LaunchScreen.storyboard */,
+				03AE8BA820F3415200E24D31 /* Info.plist */,
+				03AE8BA020F3415100E24D31 /* NaturalHome.xcdatamodeld */,
+			);
+			path = NaturalHome;
+			sourceTree = "<group>";
+		};
+		03AE8BB020F3415200E24D31 /* NaturalHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8BB120F3415200E24D31 /* NaturalHomeTests.swift */,
+				03AE8BB320F3415200E24D31 /* Info.plist */,
+			);
+			path = NaturalHomeTests;
+			sourceTree = "<group>";
+		};
+		03AE8BBB20F3415200E24D31 /* NaturalHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8BBC20F3415200E24D31 /* NaturalHomeUITests.swift */,
+				03AE8BBE20F3415200E24D31 /* Info.plist */,
+			);
+			path = NaturalHomeUITests;
+			sourceTree = "<group>";
+		};
+		7784DDE19196CAA68CB2A435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094B05AF41936F2A0927EDE7 /* Pods_NaturalHome.framework */,
+				7BB5137C649FDDAB1AF93A1A /* Pods_NaturalHomeTests.framework */,
+				3DC25B97703BACA57AC0A14C /* Pods_NaturalHomeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		928AFBE55CC12F4ACB1B88D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0B8D3C11DBE5AC1E23C4A82 /* Pods-NaturalHome.debug.xcconfig */,
+				2C961A4DCE6B13CB1AD06B21 /* Pods-NaturalHome.release.xcconfig */,
+				89CE2475BE46F8C4370169C4 /* Pods-NaturalHomeTests.debug.xcconfig */,
+				3DA77060E07E7E0F28C44740 /* Pods-NaturalHomeTests.release.xcconfig */,
+				BA0398F93D3372AD5A00FD2B /* Pods-NaturalHomeUITests.debug.xcconfig */,
+				9F0B36C0F64A5C713AEC974D /* Pods-NaturalHomeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AE8B9520F3415100E24D31 /* NaturalHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8BC120F3415300E24D31 /* Build configuration list for PBXNativeTarget "NaturalHome" */;
+			buildPhases = (
+				58BC14C9C2BE3C44F2D080A6 /* [CP] Check Pods Manifest.lock */,
+				03AE8B9220F3415100E24D31 /* Sources */,
+				03AE8B9320F3415100E24D31 /* Frameworks */,
+				03AE8B9420F3415100E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaturalHome;
+			productName = NaturalHome;
+			productReference = 03AE8B9620F3415100E24D31 /* NaturalHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AE8BAC20F3415200E24D31 /* NaturalHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8BC420F3415300E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeTests" */;
+			buildPhases = (
+				7E9612DDDE438F8A4ED0D46B /* [CP] Check Pods Manifest.lock */,
+				03AE8BA920F3415200E24D31 /* Sources */,
+				03AE8BAA20F3415200E24D31 /* Frameworks */,
+				03AE8BAB20F3415200E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE8BAF20F3415200E24D31 /* PBXTargetDependency */,
+			);
+			name = NaturalHomeTests;
+			productName = NaturalHomeTests;
+			productReference = 03AE8BAD20F3415200E24D31 /* NaturalHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AE8BB720F3415200E24D31 /* NaturalHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8BC720F3415300E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeUITests" */;
+			buildPhases = (
+				E222A807E4B3D2088140DD96 /* [CP] Check Pods Manifest.lock */,
+				03AE8BB420F3415200E24D31 /* Sources */,
+				03AE8BB520F3415200E24D31 /* Frameworks */,
+				03AE8BB620F3415200E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE8BBA20F3415200E24D31 /* PBXTargetDependency */,
+			);
+			name = NaturalHomeUITests;
+			productName = NaturalHomeUITests;
+			productReference = 03AE8BB820F3415200E24D31 /* NaturalHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AE8B8E20F3415100E24D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tommy;
+				TargetAttributes = {
+					03AE8B9520F3415100E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					03AE8BAC20F3415200E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AE8B9520F3415100E24D31;
+					};
+					03AE8BB720F3415200E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AE8B9520F3415100E24D31;
+					};
+				};
+			};
+			buildConfigurationList = 03AE8B9120F3415100E24D31 /* Build configuration list for PBXProject "NaturalHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AE8B8D20F3415100E24D31;
+			productRefGroup = 03AE8B9720F3415100E24D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AE8B9520F3415100E24D31 /* NaturalHome */,
+				03AE8BAC20F3415200E24D31 /* NaturalHomeTests */,
+				03AE8BB720F3415200E24D31 /* NaturalHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AE8B9420F3415100E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8BA720F3415200E24D31 /* LaunchScreen.storyboard in Resources */,
+				03AE8BA420F3415200E24D31 /* Assets.xcassets in Resources */,
+				03AE8B9F20F3415100E24D31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8BAB20F3415200E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8BB620F3415200E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58BC14C9C2BE3C44F2D080A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9612DDDE438F8A4ED0D46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E222A807E4B3D2088140DD96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalHomeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AE8B9220F3415100E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8B9C20F3415100E24D31 /* ViewController.swift in Sources */,
+				03AE8B9A20F3415100E24D31 /* AppDelegate.swift in Sources */,
+				03AE8BA220F3415100E24D31 /* NaturalHome.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8BA920F3415200E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8BB220F3415200E24D31 /* NaturalHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8BB420F3415200E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8BBD20F3415200E24D31 /* NaturalHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AE8BAF20F3415200E24D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE8B9520F3415100E24D31 /* NaturalHome */;
+			targetProxy = 03AE8BAE20F3415200E24D31 /* PBXContainerItemProxy */;
+		};
+		03AE8BBA20F3415200E24D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE8B9520F3415100E24D31 /* NaturalHome */;
+			targetProxy = 03AE8BB920F3415200E24D31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AE8B9D20F3415100E24D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE8B9E20F3415100E24D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AE8BA520F3415200E24D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE8BA620F3415200E24D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AE8BBF20F3415300E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03AE8BC020F3415300E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AE8BC220F3415300E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B8D3C11DBE5AC1E23C4A82 /* Pods-NaturalHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AE8BC320F3415300E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C961A4DCE6B13CB1AD06B21 /* Pods-NaturalHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AE8BC520F3415300E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CE2475BE46F8C4370169C4 /* Pods-NaturalHomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalHome.app/NaturalHome";
+			};
+			name = Debug;
+		};
+		03AE8BC620F3415300E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA77060E07E7E0F28C44740 /* Pods-NaturalHomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalHome.app/NaturalHome";
+			};
+			name = Release;
+		};
+		03AE8BC820F3415300E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0398F93D3372AD5A00FD2B /* Pods-NaturalHomeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaturalHome;
+			};
+			name = Debug;
+		};
+		03AE8BC920F3415300E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0B36C0F64A5C713AEC974D /* Pods-NaturalHomeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaturalHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AE8B9120F3415100E24D31 /* Build configuration list for PBXProject "NaturalHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8BBF20F3415300E24D31 /* Debug */,
+				03AE8BC020F3415300E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8BC120F3415300E24D31 /* Build configuration list for PBXNativeTarget "NaturalHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8BC220F3415300E24D31 /* Debug */,
+				03AE8BC320F3415300E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8BC420F3415300E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8BC520F3415300E24D31 /* Debug */,
+				03AE8BC620F3415300E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8BC720F3415300E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8BC820F3415300E24D31 /* Debug */,
+				03AE8BC920F3415300E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03AE8BA020F3415100E24D31 /* NaturalHome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03AE8BA120F3415100E24D31 /* NaturalHome.xcdatamodel */,
+			);
+			currentVersion = 03AE8BA120F3415100E24D31 /* NaturalHome.xcdatamodel */;
+			path = NaturalHome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03AE8B8E20F3415100E24D31 /* Project object */;
+}

@@ -2,9 +2,12 @@ PODS:
   - BaseFramework (0.0.1):
     - HexColors
   - HexColors (6.0.0)
+  - NaturalDashboard (0.0.1):
+    - BaseFramework
 
 DEPENDENCIES:
   - BaseFramework (from `../BaseFramework`)
+  - NaturalDashboard (from `../NaturalDashboard`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -13,11 +16,14 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   BaseFramework:
     :path: "../BaseFramework"
+  NaturalDashboard:
+    :path: "../NaturalDashboard"
 
 SPEC CHECKSUMS:
   BaseFramework: 795e3832fc4aa36b0ee5142568ff8913d4c0d718
   HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  NaturalDashboard: bba2ee3ca89d8416d129386eeeacd79e51168033
 
-PODFILE CHECKSUM: aa613ebec84938799c777dbf9ce949b4cf6f4d69
+PODFILE CHECKSUM: 1c1984d37f89fbeb7fbe3331f28d5b954b244f76
 
 COCOAPODS: 1.5.0

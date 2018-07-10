@@ -11,7 +11,25 @@
 		03AE8C1120F3588400E24D31 /* NaturalDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AE8C0720F3588400E24D31 /* NaturalDashboard.framework */; };
 		03AE8C1620F3588400E24D31 /* NaturalDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C1520F3588400E24D31 /* NaturalDashboardTests.swift */; };
 		03AE8C1820F3588400E24D31 /* NaturalDashboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AE8C0A20F3588400E24D31 /* NaturalDashboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03AE8C2820F4551A00E24D31 /* NaturalDashboard.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8C2720F4551A00E24D31 /* NaturalDashboard.podspec */; };
+		03AE8C3320F455A900E24D31 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8C3220F455A900E24D31 /* Dashboard.storyboard */; };
+		03AE8C3520F455C300E24D31 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C3420F455C300E24D31 /* HomeViewController.swift */; };
+		03AE8C3D20F4563A00E24D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C3C20F4563A00E24D31 /* AppDelegate.swift */; };
+		03AE8C3F20F4563A00E24D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C3E20F4563A00E24D31 /* ViewController.swift */; };
+		03AE8C4220F4563A00E24D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8C4020F4563A00E24D31 /* Main.storyboard */; };
+		03AE8C4520F4563A00E24D31 /* NaturalDashboardApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C4320F4563A00E24D31 /* NaturalDashboardApps.xcdatamodeld */; };
+		03AE8C4720F4563D00E24D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8C4620F4563D00E24D31 /* Assets.xcassets */; };
+		03AE8C4A20F4563D00E24D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8C4820F4563D00E24D31 /* LaunchScreen.storyboard */; };
+		03AE8C5520F4563D00E24D31 /* NaturalDashboardAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C5420F4563D00E24D31 /* NaturalDashboardAppsTests.swift */; };
+		03AE8C6020F4563D00E24D31 /* NaturalDashboardAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C5F20F4563D00E24D31 /* NaturalDashboardAppsUITests.swift */; };
+		03AE8C6E20F4570600E24D31 /* DashboardRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C6D20F4570600E24D31 /* DashboardRoute.swift */; };
+		03AE8C7520F4648000E24D31 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C7420F4648000E24D31 /* StoreViewController.swift */; };
+		03AE8C7820F4649900E24D31 /* ShopcartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C7720F4649900E24D31 /* ShopcartViewController.swift */; };
+		03AE8C7B20F464B700E24D31 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C7A20F464B700E24D31 /* MyViewController.swift */; };
+		03AE8C7D20F4686C00E24D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8C7C20F4686C00E24D31 /* Assets.xcassets */; };
+		915B571D64697B3239A268FF /* Pods_NaturalDashboardAppsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C40D3D825C5D1C2DB5AE51 /* Pods_NaturalDashboardAppsTests.framework */; };
 		A557A792F1DBD33D836DA7FD /* Pods_NaturalDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE77B0CE43536184471145F /* Pods_NaturalDashboard.framework */; };
+		C27C8681E4EEB690E54077BA /* Pods_NaturalDashboardApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26874776FB065F9CB46F949F /* Pods_NaturalDashboardApps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +40,20 @@
 			remoteGlobalIDString = 03AE8C0620F3588400E24D31;
 			remoteInfo = NaturalDashboard;
 		};
+		03AE8C5120F4563D00E24D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE8BFE20F3588400E24D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE8C3920F4563A00E24D31;
+			remoteInfo = NaturalDashboardApps;
+		};
+		03AE8C5C20F4563D00E24D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE8BFE20F3588400E24D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE8C3920F4563A00E24D31;
+			remoteInfo = NaturalDashboardApps;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +63,38 @@
 		03AE8C1020F3588400E24D31 /* NaturalDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE8C1520F3588400E24D31 /* NaturalDashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalDashboardTests.swift; sourceTree = "<group>"; };
 		03AE8C1720F3588400E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8C2720F4551A00E24D31 /* NaturalDashboard.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NaturalDashboard.podspec; sourceTree = "<group>"; };
+		03AE8C3220F455A900E24D31 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		03AE8C3420F455C300E24D31 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03AE8C3A20F4563A00E24D31 /* NaturalDashboardApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalDashboardApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8C3C20F4563A00E24D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AE8C3E20F4563A00E24D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03AE8C4120F4563A00E24D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AE8C4420F4563A00E24D31 /* NaturalDashboardApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaturalDashboardApps.xcdatamodel; sourceTree = "<group>"; };
+		03AE8C4620F4563D00E24D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AE8C4920F4563D00E24D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AE8C4B20F4563D00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8C5020F4563D00E24D31 /* NaturalDashboardAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalDashboardAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8C5420F4563D00E24D31 /* NaturalDashboardAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalDashboardAppsTests.swift; sourceTree = "<group>"; };
+		03AE8C5620F4563D00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8C5B20F4563D00E24D31 /* NaturalDashboardAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalDashboardAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8C5F20F4563D00E24D31 /* NaturalDashboardAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalDashboardAppsUITests.swift; sourceTree = "<group>"; };
+		03AE8C6120F4563D00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8C6D20F4570600E24D31 /* DashboardRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardRoute.swift; sourceTree = "<group>"; };
+		03AE8C7420F4648000E24D31 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		03AE8C7720F4649900E24D31 /* ShopcartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopcartViewController.swift; sourceTree = "<group>"; };
+		03AE8C7A20F464B700E24D31 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		03AE8C7C20F4686C00E24D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26874776FB065F9CB46F949F /* Pods_NaturalDashboardApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalDashboardApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2788487D2620B903296B66AD /* Pods-NaturalDashboardAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboardAppsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboardAppsTests/Pods-NaturalDashboardAppsTests.release.xcconfig"; sourceTree = "<group>"; };
 		2949517E0CE7FF1B5DD3AFDB /* Pods_NaturalDashboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalDashboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FFFD5E625D8710D45A052C /* Pods-NaturalDashboardApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboardApps.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboardApps/Pods-NaturalDashboardApps.release.xcconfig"; sourceTree = "<group>"; };
+		647B17F5CCE56AADB238FDD2 /* Pods-NaturalDashboardAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboardAppsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboardAppsTests/Pods-NaturalDashboardAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		858B8C827619519B857DCD41 /* Pods-NaturalDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboard/Pods-NaturalDashboard.debug.xcconfig"; sourceTree = "<group>"; };
 		ABE77B0CE43536184471145F /* Pods_NaturalDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25BD94336510A83A3823081 /* Pods-NaturalDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboard/Pods-NaturalDashboard.release.xcconfig"; sourceTree = "<group>"; };
+		B9C40D3D825C5D1C2DB5AE51 /* Pods_NaturalDashboardAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalDashboardAppsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDFDF1F3E5D8FB10989642C /* Pods-NaturalDashboardApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboardApps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboardApps/Pods-NaturalDashboardApps.debug.xcconfig"; sourceTree = "<group>"; };
 		BE2E8F7A70F16ACFC57ED212 /* Pods-NaturalDashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboardTests/Pods-NaturalDashboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		D8952AB1E988B392A253CC39 /* Pods-NaturalDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalDashboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalDashboardTests/Pods-NaturalDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,14 +117,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03AE8C3720F4563A00E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27C8681E4EEB690E54077BA /* Pods_NaturalDashboardApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8C4D20F4563D00E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915B571D64697B3239A268FF /* Pods_NaturalDashboardAppsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8C5820F4563D00E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		03AE8BFD20F3588400E24D31 = {
 			isa = PBXGroup;
 			children = (
+				03AE8C2720F4551A00E24D31 /* NaturalDashboard.podspec */,
 				03AE8C0920F3588400E24D31 /* NaturalDashboard */,
 				03AE8C1420F3588400E24D31 /* NaturalDashboardTests */,
+				03AE8C3B20F4563A00E24D31 /* NaturalDashboardApps */,
+				03AE8C5320F4563D00E24D31 /* NaturalDashboardAppsTests */,
+				03AE8C5E20F4563D00E24D31 /* NaturalDashboardAppsUITests */,
 				03AE8C0820F3588400E24D31 /* Products */,
 				87214F901E77313E674720CB /* Pods */,
 				34A6F3D38153F5649B7A0C9F /* Frameworks */,
@@ -76,6 +163,9 @@
 			children = (
 				03AE8C0720F3588400E24D31 /* NaturalDashboard.framework */,
 				03AE8C1020F3588400E24D31 /* NaturalDashboardTests.xctest */,
+				03AE8C3A20F4563A00E24D31 /* NaturalDashboardApps.app */,
+				03AE8C5020F4563D00E24D31 /* NaturalDashboardAppsTests.xctest */,
+				03AE8C5B20F4563D00E24D31 /* NaturalDashboardAppsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +173,8 @@
 		03AE8C0920F3588400E24D31 /* NaturalDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				03AE8C2A20F4554500E24D31 /* Module */,
+				03AE8C2920F4553300E24D31 /* Assets */,
 				03AE8C0A20F3588400E24D31 /* NaturalDashboard.h */,
 				03AE8C0B20F3588400E24D31 /* Info.plist */,
 			);
@@ -98,11 +190,122 @@
 			path = NaturalDashboardTests;
 			sourceTree = "<group>";
 		};
+		03AE8C2920F4553300E24D31 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C2B20F4554E00E24D31 /* UI */,
+				03AE8C7C20F4686C00E24D31 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		03AE8C2A20F4554500E24D31 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C3020F4558A00E24D31 /* View */,
+				03AE8C2C20F4556300E24D31 /* Route */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		03AE8C2B20F4554E00E24D31 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C3220F455A900E24D31 /* Dashboard.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		03AE8C2C20F4556300E24D31 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C6D20F4570600E24D31 /* DashboardRoute.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		03AE8C3020F4558A00E24D31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C7920F464AA00E24D31 /* My */,
+				03AE8C7620F4648E00E24D31 /* Shopcart */,
+				03AE8C7320F4647600E24D31 /* Store */,
+				03AE8C7120F4603700E24D31 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03AE8C3B20F4563A00E24D31 /* NaturalDashboardApps */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C3C20F4563A00E24D31 /* AppDelegate.swift */,
+				03AE8C3E20F4563A00E24D31 /* ViewController.swift */,
+				03AE8C4020F4563A00E24D31 /* Main.storyboard */,
+				03AE8C4620F4563D00E24D31 /* Assets.xcassets */,
+				03AE8C4820F4563D00E24D31 /* LaunchScreen.storyboard */,
+				03AE8C4B20F4563D00E24D31 /* Info.plist */,
+				03AE8C4320F4563A00E24D31 /* NaturalDashboardApps.xcdatamodeld */,
+			);
+			path = NaturalDashboardApps;
+			sourceTree = "<group>";
+		};
+		03AE8C5320F4563D00E24D31 /* NaturalDashboardAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C5420F4563D00E24D31 /* NaturalDashboardAppsTests.swift */,
+				03AE8C5620F4563D00E24D31 /* Info.plist */,
+			);
+			path = NaturalDashboardAppsTests;
+			sourceTree = "<group>";
+		};
+		03AE8C5E20F4563D00E24D31 /* NaturalDashboardAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C5F20F4563D00E24D31 /* NaturalDashboardAppsUITests.swift */,
+				03AE8C6120F4563D00E24D31 /* Info.plist */,
+			);
+			path = NaturalDashboardAppsUITests;
+			sourceTree = "<group>";
+		};
+		03AE8C7120F4603700E24D31 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C3420F455C300E24D31 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03AE8C7320F4647600E24D31 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C7420F4648000E24D31 /* StoreViewController.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		03AE8C7620F4648E00E24D31 /* Shopcart */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C7720F4649900E24D31 /* ShopcartViewController.swift */,
+			);
+			path = Shopcart;
+			sourceTree = "<group>";
+		};
+		03AE8C7920F464AA00E24D31 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8C7A20F464B700E24D31 /* MyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
 		34A6F3D38153F5649B7A0C9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ABE77B0CE43536184471145F /* Pods_NaturalDashboard.framework */,
 				2949517E0CE7FF1B5DD3AFDB /* Pods_NaturalDashboardTests.framework */,
+				26874776FB065F9CB46F949F /* Pods_NaturalDashboardApps.framework */,
+				B9C40D3D825C5D1C2DB5AE51 /* Pods_NaturalDashboardAppsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,6 +317,10 @@
 				B25BD94336510A83A3823081 /* Pods-NaturalDashboard.release.xcconfig */,
 				D8952AB1E988B392A253CC39 /* Pods-NaturalDashboardTests.debug.xcconfig */,
 				BE2E8F7A70F16ACFC57ED212 /* Pods-NaturalDashboardTests.release.xcconfig */,
+				BBDFDF1F3E5D8FB10989642C /* Pods-NaturalDashboardApps.debug.xcconfig */,
+				40FFFD5E625D8710D45A052C /* Pods-NaturalDashboardApps.release.xcconfig */,
+				647B17F5CCE56AADB238FDD2 /* Pods-NaturalDashboardAppsTests.debug.xcconfig */,
+				2788487D2620B903296B66AD /* Pods-NaturalDashboardAppsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -171,6 +378,62 @@
 			productReference = 03AE8C1020F3588400E24D31 /* NaturalDashboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		03AE8C3920F4563A00E24D31 /* NaturalDashboardApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8C6220F4563D00E24D31 /* Build configuration list for PBXNativeTarget "NaturalDashboardApps" */;
+			buildPhases = (
+				88F14670B932E790500807E2 /* [CP] Check Pods Manifest.lock */,
+				03AE8C3620F4563A00E24D31 /* Sources */,
+				03AE8C3720F4563A00E24D31 /* Frameworks */,
+				03AE8C3820F4563A00E24D31 /* Resources */,
+				2F49C0B715310608A6F82067 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaturalDashboardApps;
+			productName = NaturalDashboardApps;
+			productReference = 03AE8C3A20F4563A00E24D31 /* NaturalDashboardApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AE8C4F20F4563D00E24D31 /* NaturalDashboardAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8C6520F4563D00E24D31 /* Build configuration list for PBXNativeTarget "NaturalDashboardAppsTests" */;
+			buildPhases = (
+				79037460BAC8F729637505B8 /* [CP] Check Pods Manifest.lock */,
+				03AE8C4C20F4563D00E24D31 /* Sources */,
+				03AE8C4D20F4563D00E24D31 /* Frameworks */,
+				03AE8C4E20F4563D00E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE8C5220F4563D00E24D31 /* PBXTargetDependency */,
+			);
+			name = NaturalDashboardAppsTests;
+			productName = NaturalDashboardAppsTests;
+			productReference = 03AE8C5020F4563D00E24D31 /* NaturalDashboardAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AE8C5A20F4563D00E24D31 /* NaturalDashboardAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8C6820F4563D00E24D31 /* Build configuration list for PBXNativeTarget "NaturalDashboardAppsUITests" */;
+			buildPhases = (
+				03AE8C5720F4563D00E24D31 /* Sources */,
+				03AE8C5820F4563D00E24D31 /* Frameworks */,
+				03AE8C5920F4563D00E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE8C5D20F4563D00E24D31 /* PBXTargetDependency */,
+			);
+			name = NaturalDashboardAppsUITests;
+			productName = NaturalDashboardAppsUITests;
+			productReference = 03AE8C5B20F4563D00E24D31 /* NaturalDashboardAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,9 +446,21 @@
 				TargetAttributes = {
 					03AE8C0620F3588400E24D31 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					03AE8C0F20F3588400E24D31 = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					03AE8C3920F4563A00E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					03AE8C4F20F4563D00E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AE8C3920F4563A00E24D31;
+					};
+					03AE8C5A20F4563D00E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AE8C3920F4563A00E24D31;
 					};
 				};
 			};
@@ -195,6 +470,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 03AE8BFD20F3588400E24D31;
 			productRefGroup = 03AE8C0820F3588400E24D31 /* Products */;
@@ -203,6 +479,9 @@
 			targets = (
 				03AE8C0620F3588400E24D31 /* NaturalDashboard */,
 				03AE8C0F20F3588400E24D31 /* NaturalDashboardTests */,
+				03AE8C3920F4563A00E24D31 /* NaturalDashboardApps */,
+				03AE8C4F20F4563D00E24D31 /* NaturalDashboardAppsTests */,
+				03AE8C5A20F4563D00E24D31 /* NaturalDashboardAppsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +491,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AE8C2820F4551A00E24D31 /* NaturalDashboard.podspec in Resources */,
+				03AE8C7D20F4686C00E24D31 /* Assets.xcassets in Resources */,
+				03AE8C3320F455A900E24D31 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +504,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03AE8C3820F4563A00E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8C4A20F4563D00E24D31 /* LaunchScreen.storyboard in Resources */,
+				03AE8C4720F4563D00E24D31 /* Assets.xcassets in Resources */,
+				03AE8C4220F4563A00E24D31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8C4E20F4563D00E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8C5920F4563D00E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F49C0B715310608A6F82067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NaturalDashboardApps/Pods-NaturalDashboardApps-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BaseFramework/BaseFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/NaturalDashboard/NaturalDashboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaturalDashboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalDashboardApps/Pods-NaturalDashboardApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3C7413B466972837B3B5FE10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,6 +565,42 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-NaturalDashboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79037460BAC8F729637505B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalDashboardAppsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F14670B932E790500807E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalDashboardApps-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -288,6 +652,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AE8C6E20F4570600E24D31 /* DashboardRoute.swift in Sources */,
+				03AE8C3520F455C300E24D31 /* HomeViewController.swift in Sources */,
+				03AE8C7820F4649900E24D31 /* ShopcartViewController.swift in Sources */,
+				03AE8C7B20F464B700E24D31 /* MyViewController.swift in Sources */,
+				03AE8C7520F4648000E24D31 /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +668,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03AE8C3620F4563A00E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8C3F20F4563A00E24D31 /* ViewController.swift in Sources */,
+				03AE8C4520F4563A00E24D31 /* NaturalDashboardApps.xcdatamodeld in Sources */,
+				03AE8C3D20F4563A00E24D31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8C4C20F4563D00E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8C5520F4563D00E24D31 /* NaturalDashboardAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8C5720F4563D00E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8C6020F4563D00E24D31 /* NaturalDashboardAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,7 +702,36 @@
 			target = 03AE8C0620F3588400E24D31 /* NaturalDashboard */;
 			targetProxy = 03AE8C1220F3588400E24D31 /* PBXContainerItemProxy */;
 		};
+		03AE8C5220F4563D00E24D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE8C3920F4563A00E24D31 /* NaturalDashboardApps */;
+			targetProxy = 03AE8C5120F4563D00E24D31 /* PBXContainerItemProxy */;
+		};
+		03AE8C5D20F4563D00E24D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE8C3920F4563A00E24D31 /* NaturalDashboardApps */;
+			targetProxy = 03AE8C5C20F4563D00E24D31 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AE8C4020F4563A00E24D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE8C4120F4563A00E24D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AE8C4820F4563D00E24D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE8C4920F4563D00E24D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		03AE8C1920F3588500E24D31 /* Debug */ = {
@@ -434,6 +858,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 858B8C827619519B857DCD41 /* Pods-NaturalDashboard.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -443,10 +868,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NaturalDashboard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +886,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B25BD94336510A83A3823081 /* Pods-NaturalDashboard.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -465,7 +896,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NaturalDashboard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -478,10 +913,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8952AB1E988B392A253CC39 /* Pods-NaturalDashboardTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9734PFSD6;
 				INFOPLIST_FILE = NaturalDashboardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -493,14 +933,141 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE2E8F7A70F16ACFC57ED212 /* Pods-NaturalDashboardTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9734PFSD6;
 				INFOPLIST_FILE = NaturalDashboardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AE8C6320F4563D00E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDFDF1F3E5D8FB10989642C /* Pods-NaturalDashboardApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalDashboardApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AE8C6420F4563D00E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FFFD5E625D8710D45A052C /* Pods-NaturalDashboardApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalDashboardApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AE8C6620F4563D00E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647B17F5CCE56AADB238FDD2 /* Pods-NaturalDashboardAppsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalDashboardAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalDashboardApps.app/NaturalDashboardApps";
+			};
+			name = Debug;
+		};
+		03AE8C6720F4563D00E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2788487D2620B903296B66AD /* Pods-NaturalDashboardAppsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalDashboardAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalDashboardApps.app/NaturalDashboardApps";
+			};
+			name = Release;
+		};
+		03AE8C6920F4563D00E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalDashboardAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaturalDashboardApps;
+			};
+			name = Debug;
+		};
+		03AE8C6A20F4563D00E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalDashboardAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalDashboardAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaturalDashboardApps;
 			};
 			name = Release;
 		};
@@ -534,7 +1101,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		03AE8C6220F4563D00E24D31 /* Build configuration list for PBXNativeTarget "NaturalDashboardApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8C6320F4563D00E24D31 /* Debug */,
+				03AE8C6420F4563D00E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8C6520F4563D00E24D31 /* Build configuration list for PBXNativeTarget "NaturalDashboardAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8C6620F4563D00E24D31 /* Debug */,
+				03AE8C6720F4563D00E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8C6820F4563D00E24D31 /* Build configuration list for PBXNativeTarget "NaturalDashboardAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8C6920F4563D00E24D31 /* Debug */,
+				03AE8C6A20F4563D00E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03AE8C4320F4563A00E24D31 /* NaturalDashboardApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03AE8C4420F4563A00E24D31 /* NaturalDashboardApps.xcdatamodel */,
+			);
+			currentVersion = 03AE8C4420F4563A00E24D31 /* NaturalDashboardApps.xcdatamodel */;
+			path = NaturalDashboardApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03AE8BFE20F3588400E24D31 /* Project object */;
 }

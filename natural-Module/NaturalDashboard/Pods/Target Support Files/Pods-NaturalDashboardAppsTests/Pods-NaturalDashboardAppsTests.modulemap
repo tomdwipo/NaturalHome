@@ -1,0 +1,6 @@
+framework module Pods_NaturalDashboardAppsTests {
+  umbrella header "Pods-NaturalDashboardAppsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 import Foundation
 public struct BundleFramework {
-    static var bundle:Bundle {
+    public static var bundle:Bundle {
         let podBundle = Bundle(for: BaseViewController.self)
         let bundleURL = podBundle.url(forResource:"BaseFramework", withExtension: "bundle")
         if bundleURL == nil {

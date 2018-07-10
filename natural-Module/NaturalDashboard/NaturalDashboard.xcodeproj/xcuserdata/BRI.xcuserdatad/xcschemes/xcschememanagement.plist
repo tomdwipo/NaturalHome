@@ -7,7 +7,12 @@
 		<key>NaturalDashboard.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>9</integer>
+		</dict>
+		<key>NaturalDashboardApps.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 </dict>

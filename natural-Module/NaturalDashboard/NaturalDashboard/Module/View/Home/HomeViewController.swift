@@ -10,10 +10,11 @@ import UIKit
 import BaseFramework
 
 class HomeViewController: UIViewController {
-  //  lazy var searchBar:UISearchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 20))
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //  lazy var searchBar:UISearchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 20))
+
 //        searchBar.placeholder = "Your placeholder"
 //        let leftNavBarButton = UIBarButtonItem(customView:searchBar)
 //        self.navigationItem.leftBarButtonItem = leftNavBarButton

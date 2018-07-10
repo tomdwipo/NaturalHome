@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ParralaxHeaderView" id="eyE-PK-hq5" customClass="ParralaxHeaderView" customModule="NaturalHome" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-header" translatesAutoresizingMaskIntoConstraints="NO" id="Euu-h4-OxM">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                </imageView>
+                <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDf-Yr-gCG" customClass="ParallaxView" customModule="NaturalHome" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="mZH-QY-5Z5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Euu-h4-OxM" firstAttribute="top" secondItem="x2F-Sm-61y" secondAttribute="top" id="85e-7R-HZ0"/>
+                <constraint firstItem="x2F-Sm-61y" firstAttribute="bottom" secondItem="Euu-h4-OxM" secondAttribute="bottom" id="FSV-mW-r9d"/>
+                <constraint firstItem="x2F-Sm-61y" firstAttribute="bottom" secondItem="XDf-Yr-gCG" secondAttribute="bottom" id="IN0-kc-KS5"/>
+                <constraint firstItem="Euu-h4-OxM" firstAttribute="leading" secondItem="x2F-Sm-61y" secondAttribute="leading" id="JyJ-QC-Okv"/>
+                <constraint firstItem="x2F-Sm-61y" firstAttribute="trailing" secondItem="Euu-h4-OxM" secondAttribute="trailing" id="Lho-Zb-SrQ"/>
+                <constraint firstItem="XDf-Yr-gCG" firstAttribute="top" secondItem="x2F-Sm-61y" secondAttribute="top" id="OaN-dq-8Ha"/>
+                <constraint firstItem="x2F-Sm-61y" firstAttribute="trailing" secondItem="XDf-Yr-gCG" secondAttribute="trailing" id="oYI-Bi-tbw"/>
+                <constraint firstItem="XDf-Yr-gCG" firstAttribute="leading" secondItem="x2F-Sm-61y" secondAttribute="leading" id="pTi-tQ-byo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="x2F-Sm-61y"/>
+            <point key="canvasLocation" x="41.5" y="-214.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home-header" width="2500" height="1666"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module NaturalHome {
+  umbrella header "NaturalHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

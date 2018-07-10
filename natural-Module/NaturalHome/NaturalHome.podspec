@@ -12,5 +12,5 @@ s.resource_bundles = {'NaturalHome' => ['NaturalHome/Assets/**/*.{storyboard,xib
 s.resource = 'NaturalHome/Assets/**/*'
 s.platform         = :ios, "9.0"
 s.dependency 'BaseFramework'
-
+s.dependency 'ParallaxHeader'
 end

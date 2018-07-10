@@ -10,8 +10,32 @@
 		03AE8C9220F46E4D00E24D31 /* NaturalHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AE8C8820F46E4D00E24D31 /* NaturalHome.framework */; };
 		03AE8C9720F46E4D00E24D31 /* NaturalHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C9620F46E4D00E24D31 /* NaturalHomeTests.swift */; };
 		03AE8C9920F46E4D00E24D31 /* NaturalHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AE8C8B20F46E4D00E24D31 /* NaturalHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03AE8CA320F46F3C00E24D31 /* NaturalHome.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CA220F46F3C00E24D31 /* NaturalHome.podspec */; };
+		03AE8CA820F46F6F00E24D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CA720F46F6F00E24D31 /* Assets.xcassets */; };
+		03AE8CB120F46FDB00E24D31 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CB020F46FDB00E24D31 /* Home.storyboard */; };
+		03AE8CB320F46FFD00E24D31 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CB220F46FFD00E24D31 /* HomeRoute.swift */; };
+		03AE8CB520F4700900E24D31 /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CB420F4700900E24D31 /* HomeEntity.swift */; };
+		03AE8CB720F4701D00E24D31 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CB620F4701D00E24D31 /* HomePresenter.swift */; };
+		03AE8CB920F4702B00E24D31 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CB820F4702B00E24D31 /* HomeInteractor.swift */; };
+		03AE8CBB20F4703500E24D31 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CBA20F4703500E24D31 /* HomeViewController.swift */; };
+		03AE8CBD20F4704000E24D31 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CBC20F4704000E24D31 /* HomeProtocol.swift */; };
+		03AE8CC520F476BA00E24D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CC420F476BA00E24D31 /* AppDelegate.swift */; };
+		03AE8CC720F476BA00E24D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CC620F476BA00E24D31 /* ViewController.swift */; };
+		03AE8CCA20F476BA00E24D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CC820F476BA00E24D31 /* Main.storyboard */; };
+		03AE8CCD20F476BA00E24D31 /* NaturalHomeApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CCB20F476BA00E24D31 /* NaturalHomeApps.xcdatamodeld */; };
+		03AE8CCF20F476BB00E24D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CCE20F476BB00E24D31 /* Assets.xcassets */; };
+		03AE8CD220F476BB00E24D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CD020F476BB00E24D31 /* LaunchScreen.storyboard */; };
+		03AE8CDD20F476BB00E24D31 /* NaturalHomeAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CDC20F476BB00E24D31 /* NaturalHomeAppsTests.swift */; };
+		03AE8CE820F476BC00E24D31 /* NaturalHomeAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CE720F476BC00E24D31 /* NaturalHomeAppsUITests.swift */; };
+		03AE8CF520F4926A00E24D31 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CF420F4926A00E24D31 /* HeaderCell.xib */; };
+		03AE8CF820F4929B00E24D31 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CF720F4929B00E24D31 /* HeaderTableViewCell.swift */; };
+		03AE8CFB20F492F800E24D31 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CFA20F492F800E24D31 /* Helper.swift */; };
+		03AE8CFD20F49D3A00E24D31 /* ParralaxHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AE8CFC20F49D3A00E24D31 /* ParralaxHeaderView.xib */; };
+		03AE8CFF20F49E1900E24D31 /* ParralaxHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8CFE20F49E1900E24D31 /* ParralaxHeaderView.swift */; };
 		8545DB5498FAF11149F5528C /* Pods_NaturalHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6B13A54CDD7B108E5C699D /* Pods_NaturalHome.framework */; };
 		8E22D9B6F71AA798E76ED254 /* Pods_NaturalHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF4C9E2EACCBFE5D46E61D3 /* Pods_NaturalHomeTests.framework */; };
+		9BFC0380DEB406D6ABB7C3B8 /* Pods_NaturalHomeAppsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC91737B0A08CEFD0F1CECF /* Pods_NaturalHomeAppsTests.framework */; };
+		E4EB00D227B2B5F0E58B6CAB /* Pods_NaturalHomeApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2F6443EB61875876C99883 /* Pods_NaturalHomeApps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +46,20 @@
 			remoteGlobalIDString = 03AE8C8720F46E4D00E24D31;
 			remoteInfo = NaturalHome;
 		};
+		03AE8CD920F476BB00E24D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE8C7F20F46E4C00E24D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE8CC120F476BA00E24D31;
+			remoteInfo = NaturalHomeApps;
+		};
+		03AE8CE420F476BC00E24D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE8C7F20F46E4C00E24D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE8CC120F476BA00E24D31;
+			remoteInfo = NaturalHomeApps;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +69,46 @@
 		03AE8C9120F46E4D00E24D31 /* NaturalHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE8C9620F46E4D00E24D31 /* NaturalHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalHomeTests.swift; sourceTree = "<group>"; };
 		03AE8C9820F46E4D00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8CA220F46F3C00E24D31 /* NaturalHome.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NaturalHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		03AE8CA720F46F6F00E24D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AE8CB020F46FDB00E24D31 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		03AE8CB220F46FFD00E24D31 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		03AE8CB420F4700900E24D31 /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		03AE8CB620F4701D00E24D31 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		03AE8CB820F4702B00E24D31 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		03AE8CBA20F4703500E24D31 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03AE8CBC20F4704000E24D31 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		03AE8CC220F476BA00E24D31 /* NaturalHomeApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalHomeApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8CC420F476BA00E24D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AE8CC620F476BA00E24D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03AE8CC920F476BA00E24D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AE8CCC20F476BA00E24D31 /* NaturalHomeApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaturalHomeApps.xcdatamodel; sourceTree = "<group>"; };
+		03AE8CCE20F476BB00E24D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AE8CD120F476BB00E24D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AE8CD320F476BB00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8CD820F476BB00E24D31 /* NaturalHomeAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalHomeAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8CDC20F476BB00E24D31 /* NaturalHomeAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalHomeAppsTests.swift; sourceTree = "<group>"; };
+		03AE8CDE20F476BB00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8CE320F476BB00E24D31 /* NaturalHomeAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalHomeAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE8CE720F476BC00E24D31 /* NaturalHomeAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalHomeAppsUITests.swift; sourceTree = "<group>"; };
+		03AE8CE920F476BC00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE8CF420F4926A00E24D31 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		03AE8CF720F4929B00E24D31 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		03AE8CFA20F492F800E24D31 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		03AE8CFC20F49D3A00E24D31 /* ParralaxHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParralaxHeaderView.xib; sourceTree = "<group>"; };
+		03AE8CFE20F49E1900E24D31 /* ParralaxHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParralaxHeaderView.swift; sourceTree = "<group>"; };
 		0C6B13A54CDD7B108E5C699D /* Pods_NaturalHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		372BEF17C970D710B0F7F042 /* Pods-NaturalHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHome/Pods-NaturalHome.debug.xcconfig"; sourceTree = "<group>"; };
+		3B2F6443EB61875876C99883 /* Pods_NaturalHomeApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHomeApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3C68C2395978947F03D8AB /* Pods-NaturalHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHome/Pods-NaturalHome.release.xcconfig"; sourceTree = "<group>"; };
 		4439DD3851F8F4C0A6ED20C1 /* Pods-NaturalHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeTests/Pods-NaturalHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AC91737B0A08CEFD0F1CECF /* Pods_NaturalHomeAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHomeAppsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBDB6C1A6769D9683C29A60 /* Pods-NaturalHomeApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeApps.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeApps/Pods-NaturalHomeApps.release.xcconfig"; sourceTree = "<group>"; };
+		AE178B148817A4BC3C62F5A3 /* Pods-NaturalHomeAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeAppsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeAppsTests/Pods-NaturalHomeAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C73CEDB4CD6D03DB976E8ECD /* Pods-NaturalHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeTests/Pods-NaturalHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF4C9E2EACCBFE5D46E61D3 /* Pods_NaturalHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74336FDDC77E71F6EDBACE7 /* Pods-NaturalHomeApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeApps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeApps/Pods-NaturalHomeApps.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE18DC845CD48D61ED8EF64 /* Pods-NaturalHomeAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalHomeAppsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalHomeAppsTests/Pods-NaturalHomeAppsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +129,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03AE8CBF20F476BA00E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EB00D227B2B5F0E58B6CAB /* Pods_NaturalHomeApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8CD520F476BB00E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFC0380DEB406D6ABB7C3B8 /* Pods_NaturalHomeAppsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8CE020F476BB00E24D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		03AE8C7E20F46E4C00E24D31 = {
 			isa = PBXGroup;
 			children = (
+				03AE8CA220F46F3C00E24D31 /* NaturalHome.podspec */,
 				03AE8C8A20F46E4D00E24D31 /* NaturalHome */,
 				03AE8C9520F46E4D00E24D31 /* NaturalHomeTests */,
+				03AE8CC320F476BA00E24D31 /* NaturalHomeApps */,
+				03AE8CDB20F476BB00E24D31 /* NaturalHomeAppsTests */,
+				03AE8CE620F476BC00E24D31 /* NaturalHomeAppsUITests */,
 				03AE8C8920F46E4D00E24D31 /* Products */,
 				7781AE063BEFB0108D00FA2E /* Pods */,
 				8A36F7FFD24205A00786BB4E /* Frameworks */,
@@ -76,6 +175,9 @@
 			children = (
 				03AE8C8820F46E4D00E24D31 /* NaturalHome.framework */,
 				03AE8C9120F46E4D00E24D31 /* NaturalHomeTests.xctest */,
+				03AE8CC220F476BA00E24D31 /* NaturalHomeApps.app */,
+				03AE8CD820F476BB00E24D31 /* NaturalHomeAppsTests.xctest */,
+				03AE8CE320F476BB00E24D31 /* NaturalHomeAppsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +185,9 @@
 		03AE8C8A20F46E4D00E24D31 /* NaturalHome */ = {
 			isa = PBXGroup;
 			children = (
+				03AE8CF920F492F000E24D31 /* Helper */,
+				03AE8CA520F46F5400E24D31 /* Module */,
+				03AE8CA420F46F4A00E24D31 /* Assets */,
 				03AE8C8B20F46E4D00E24D31 /* NaturalHome.h */,
 				03AE8C8C20F46E4D00E24D31 /* Info.plist */,
 			);
@@ -98,6 +203,144 @@
 			path = NaturalHomeTests;
 			sourceTree = "<group>";
 		};
+		03AE8CA420F46F4A00E24D31 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CF320F4925100E24D31 /* nib */,
+				03AE8CA620F46F6500E24D31 /* UI */,
+				03AE8CA720F46F6F00E24D31 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		03AE8CA520F46F5400E24D31 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CAF20F46FCE00E24D31 /* Protocols */,
+				03AE8CAE20F46FC300E24D31 /* View */,
+				03AE8CAD20F46FBC00E24D31 /* Interactor */,
+				03AE8CAC20F46FB300E24D31 /* Presenter */,
+				03AE8CAB20F46FA800E24D31 /* Entity */,
+				03AE8CAA20F46F8B00E24D31 /* Route */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		03AE8CA620F46F6500E24D31 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CB020F46FDB00E24D31 /* Home.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		03AE8CAA20F46F8B00E24D31 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CB220F46FFD00E24D31 /* HomeRoute.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		03AE8CAB20F46FA800E24D31 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CB420F4700900E24D31 /* HomeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		03AE8CAC20F46FB300E24D31 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CB620F4701D00E24D31 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		03AE8CAD20F46FBC00E24D31 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CB820F4702B00E24D31 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		03AE8CAE20F46FC300E24D31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CF620F4928600E24D31 /* nib */,
+				03AE8CBA20F4703500E24D31 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03AE8CAF20F46FCE00E24D31 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CBC20F4704000E24D31 /* HomeProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		03AE8CC320F476BA00E24D31 /* NaturalHomeApps */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CC420F476BA00E24D31 /* AppDelegate.swift */,
+				03AE8CC620F476BA00E24D31 /* ViewController.swift */,
+				03AE8CC820F476BA00E24D31 /* Main.storyboard */,
+				03AE8CCE20F476BB00E24D31 /* Assets.xcassets */,
+				03AE8CD020F476BB00E24D31 /* LaunchScreen.storyboard */,
+				03AE8CD320F476BB00E24D31 /* Info.plist */,
+				03AE8CCB20F476BA00E24D31 /* NaturalHomeApps.xcdatamodeld */,
+			);
+			path = NaturalHomeApps;
+			sourceTree = "<group>";
+		};
+		03AE8CDB20F476BB00E24D31 /* NaturalHomeAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CDC20F476BB00E24D31 /* NaturalHomeAppsTests.swift */,
+				03AE8CDE20F476BB00E24D31 /* Info.plist */,
+			);
+			path = NaturalHomeAppsTests;
+			sourceTree = "<group>";
+		};
+		03AE8CE620F476BC00E24D31 /* NaturalHomeAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CE720F476BC00E24D31 /* NaturalHomeAppsUITests.swift */,
+				03AE8CE920F476BC00E24D31 /* Info.plist */,
+			);
+			path = NaturalHomeAppsUITests;
+			sourceTree = "<group>";
+		};
+		03AE8CF320F4925100E24D31 /* nib */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CF420F4926A00E24D31 /* HeaderCell.xib */,
+				03AE8CFC20F49D3A00E24D31 /* ParralaxHeaderView.xib */,
+			);
+			path = nib;
+			sourceTree = "<group>";
+		};
+		03AE8CF620F4928600E24D31 /* nib */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CF720F4929B00E24D31 /* HeaderTableViewCell.swift */,
+				03AE8CFE20F49E1900E24D31 /* ParralaxHeaderView.swift */,
+			);
+			path = nib;
+			sourceTree = "<group>";
+		};
+		03AE8CF920F492F000E24D31 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				03AE8CFA20F492F800E24D31 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		7781AE063BEFB0108D00FA2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +348,10 @@
 				3B3C68C2395978947F03D8AB /* Pods-NaturalHome.release.xcconfig */,
 				C73CEDB4CD6D03DB976E8ECD /* Pods-NaturalHomeTests.debug.xcconfig */,
 				4439DD3851F8F4C0A6ED20C1 /* Pods-NaturalHomeTests.release.xcconfig */,
+				D74336FDDC77E71F6EDBACE7 /* Pods-NaturalHomeApps.debug.xcconfig */,
+				6BBDB6C1A6769D9683C29A60 /* Pods-NaturalHomeApps.release.xcconfig */,
+				AE178B148817A4BC3C62F5A3 /* Pods-NaturalHomeAppsTests.debug.xcconfig */,
+				DCE18DC845CD48D61ED8EF64 /* Pods-NaturalHomeAppsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -114,6 +361,8 @@
 			children = (
 				0C6B13A54CDD7B108E5C699D /* Pods_NaturalHome.framework */,
 				CAF4C9E2EACCBFE5D46E61D3 /* Pods_NaturalHomeTests.framework */,
+				3B2F6443EB61875876C99883 /* Pods_NaturalHomeApps.framework */,
+				5AC91737B0A08CEFD0F1CECF /* Pods_NaturalHomeAppsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,6 +420,62 @@
 			productReference = 03AE8C9120F46E4D00E24D31 /* NaturalHomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		03AE8CC120F476BA00E24D31 /* NaturalHomeApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8CEA20F476BC00E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeApps" */;
+			buildPhases = (
+				02A0DF67979A9258512CA530 /* [CP] Check Pods Manifest.lock */,
+				03AE8CBE20F476BA00E24D31 /* Sources */,
+				03AE8CBF20F476BA00E24D31 /* Frameworks */,
+				03AE8CC020F476BA00E24D31 /* Resources */,
+				A52AF30A62637061096A7037 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaturalHomeApps;
+			productName = NaturalHomeApps;
+			productReference = 03AE8CC220F476BA00E24D31 /* NaturalHomeApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AE8CD720F476BB00E24D31 /* NaturalHomeAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8CED20F476BC00E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeAppsTests" */;
+			buildPhases = (
+				6EA14ED31FDE910B09D74E7D /* [CP] Check Pods Manifest.lock */,
+				03AE8CD420F476BB00E24D31 /* Sources */,
+				03AE8CD520F476BB00E24D31 /* Frameworks */,
+				03AE8CD620F476BB00E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE8CDA20F476BB00E24D31 /* PBXTargetDependency */,
+			);
+			name = NaturalHomeAppsTests;
+			productName = NaturalHomeAppsTests;
+			productReference = 03AE8CD820F476BB00E24D31 /* NaturalHomeAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AE8CE220F476BB00E24D31 /* NaturalHomeAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE8CF020F476BC00E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeAppsUITests" */;
+			buildPhases = (
+				03AE8CDF20F476BB00E24D31 /* Sources */,
+				03AE8CE020F476BB00E24D31 /* Frameworks */,
+				03AE8CE120F476BB00E24D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE8CE520F476BC00E24D31 /* PBXTargetDependency */,
+			);
+			name = NaturalHomeAppsUITests;
+			productName = NaturalHomeAppsUITests;
+			productReference = 03AE8CE320F476BB00E24D31 /* NaturalHomeAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,9 +488,21 @@
 				TargetAttributes = {
 					03AE8C8720F46E4D00E24D31 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					03AE8C9020F46E4D00E24D31 = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					03AE8CC120F476BA00E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					03AE8CD720F476BB00E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AE8CC120F476BA00E24D31;
+					};
+					03AE8CE220F476BB00E24D31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AE8CC120F476BA00E24D31;
 					};
 				};
 			};
@@ -195,6 +512,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 03AE8C7E20F46E4C00E24D31;
 			productRefGroup = 03AE8C8920F46E4D00E24D31 /* Products */;
@@ -203,6 +521,9 @@
 			targets = (
 				03AE8C8720F46E4D00E24D31 /* NaturalHome */,
 				03AE8C9020F46E4D00E24D31 /* NaturalHomeTests */,
+				03AE8CC120F476BA00E24D31 /* NaturalHomeApps */,
+				03AE8CD720F476BB00E24D31 /* NaturalHomeAppsTests */,
+				03AE8CE220F476BB00E24D31 /* NaturalHomeAppsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +533,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AE8CF520F4926A00E24D31 /* HeaderCell.xib in Resources */,
+				03AE8CB120F46FDB00E24D31 /* Home.storyboard in Resources */,
+				03AE8CFD20F49D3A00E24D31 /* ParralaxHeaderView.xib in Resources */,
+				03AE8CA820F46F6F00E24D31 /* Assets.xcassets in Resources */,
+				03AE8CA320F46F3C00E24D31 /* NaturalHome.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +548,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03AE8CC020F476BA00E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8CD220F476BB00E24D31 /* LaunchScreen.storyboard in Resources */,
+				03AE8CCF20F476BB00E24D31 /* Assets.xcassets in Resources */,
+				03AE8CCA20F476BA00E24D31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8CD620F476BB00E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8CE120F476BB00E24D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02A0DF67979A9258512CA530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalHomeApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		054179AD041D9B98E52C96E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +629,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6EA14ED31FDE910B09D74E7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalHomeAppsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7E08A549D01C453B071FE8FD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,15 +656,41 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-NaturalHomeTests/Pods-NaturalHomeTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BaseFramework/BaseFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalHomeTests/Pods-NaturalHomeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52AF30A62637061096A7037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NaturalHomeApps/Pods-NaturalHomeApps-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BaseFramework/BaseFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/NaturalHome/NaturalHome.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaturalHome.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalHomeApps/Pods-NaturalHomeApps-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -288,6 +700,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AE8CBB20F4703500E24D31 /* HomeViewController.swift in Sources */,
+				03AE8CB720F4701D00E24D31 /* HomePresenter.swift in Sources */,
+				03AE8CB320F46FFD00E24D31 /* HomeRoute.swift in Sources */,
+				03AE8CFF20F49E1900E24D31 /* ParralaxHeaderView.swift in Sources */,
+				03AE8CF820F4929B00E24D31 /* HeaderTableViewCell.swift in Sources */,
+				03AE8CB520F4700900E24D31 /* HomeEntity.swift in Sources */,
+				03AE8CBD20F4704000E24D31 /* HomeProtocol.swift in Sources */,
+				03AE8CB920F4702B00E24D31 /* HomeInteractor.swift in Sources */,
+				03AE8CFB20F492F800E24D31 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +720,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03AE8CBE20F476BA00E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8CCD20F476BA00E24D31 /* NaturalHomeApps.xcdatamodeld in Sources */,
+				03AE8CC720F476BA00E24D31 /* ViewController.swift in Sources */,
+				03AE8CC520F476BA00E24D31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8CD420F476BB00E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8CDD20F476BB00E24D31 /* NaturalHomeAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE8CDF20F476BB00E24D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE8CE820F476BC00E24D31 /* NaturalHomeAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,7 +754,36 @@
 			target = 03AE8C8720F46E4D00E24D31 /* NaturalHome */;
 			targetProxy = 03AE8C9320F46E4D00E24D31 /* PBXContainerItemProxy */;
 		};
+		03AE8CDA20F476BB00E24D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE8CC120F476BA00E24D31 /* NaturalHomeApps */;
+			targetProxy = 03AE8CD920F476BB00E24D31 /* PBXContainerItemProxy */;
+		};
+		03AE8CE520F476BC00E24D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE8CC120F476BA00E24D31 /* NaturalHomeApps */;
+			targetProxy = 03AE8CE420F476BC00E24D31 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AE8CC820F476BA00E24D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE8CC920F476BA00E24D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AE8CD020F476BB00E24D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE8CD120F476BB00E24D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		03AE8C9A20F46E4D00E24D31 /* Debug */ = {
@@ -434,6 +910,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 372BEF17C970D710B0F7F042 /* Pods-NaturalHome.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -443,10 +920,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NaturalHome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHome;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +938,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B3C68C2395978947F03D8AB /* Pods-NaturalHome.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -465,7 +948,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NaturalHome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHome;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -478,10 +965,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C73CEDB4CD6D03DB976E8ECD /* Pods-NaturalHomeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9734PFSD6;
 				INFOPLIST_FILE = NaturalHomeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -493,14 +985,141 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4439DD3851F8F4C0A6ED20C1 /* Pods-NaturalHomeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9734PFSD6;
 				INFOPLIST_FILE = NaturalHomeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AE8CEB20F476BC00E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74336FDDC77E71F6EDBACE7 /* Pods-NaturalHomeApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AE8CEC20F476BC00E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BBDB6C1A6769D9683C29A60 /* Pods-NaturalHomeApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AE8CEE20F476BC00E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE178B148817A4BC3C62F5A3 /* Pods-NaturalHomeAppsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalHomeApps.app/NaturalHomeApps";
+			};
+			name = Debug;
+		};
+		03AE8CEF20F476BC00E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE18DC845CD48D61ED8EF64 /* Pods-NaturalHomeAppsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalHomeApps.app/NaturalHomeApps";
+			};
+			name = Release;
+		};
+		03AE8CF120F476BC00E24D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaturalHomeApps;
+			};
+			name = Debug;
+		};
+		03AE8CF220F476BC00E24D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9734PFSD6;
+				INFOPLIST_FILE = NaturalHomeAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tommy.NaturalHomeAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaturalHomeApps;
 			};
 			name = Release;
 		};
@@ -534,7 +1153,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		03AE8CEA20F476BC00E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8CEB20F476BC00E24D31 /* Debug */,
+				03AE8CEC20F476BC00E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8CED20F476BC00E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8CEE20F476BC00E24D31 /* Debug */,
+				03AE8CEF20F476BC00E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE8CF020F476BC00E24D31 /* Build configuration list for PBXNativeTarget "NaturalHomeAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE8CF120F476BC00E24D31 /* Debug */,
+				03AE8CF220F476BC00E24D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03AE8CCB20F476BA00E24D31 /* NaturalHomeApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03AE8CCC20F476BA00E24D31 /* NaturalHomeApps.xcdatamodel */,
+			);
+			currentVersion = 03AE8CCC20F476BA00E24D31 /* NaturalHomeApps.xcdatamodel */;
+			path = NaturalHomeApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03AE8C7F20F46E4C00E24D31 /* Project object */;
 }

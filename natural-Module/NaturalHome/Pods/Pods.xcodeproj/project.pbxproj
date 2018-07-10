@@ -7,53 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D2C5DE346F41D9AF9526ECFA2C84B2 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6B9F36819A9DCC3ACEAF9E755F8C56 /* MaterialCard.swift */; };
-		0C5EF156F4970A2437337CE62B101E39 /* BaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1344FD5794C47A5378474FAAEEDCE3D1 /* BaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23F3358E85A7937E5D17A10A0676CE66 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95C9854C5A1E9D1863834AA6302259 /* HexColors.framework */; };
-		2C5A655192346D93BA9834E5A26F87AB /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA2100905F77D8EF2546ADB65626DC /* HexColors-dummy.m */; };
-		44BF34D00C1A4515C6890E09B62644DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD10C7C3795860EF024A950C2277DBE /* Assets.xcassets */; };
-		4A7EDD53040FC9F2C02364E544DAB4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD10C7C3795860EF024A950C2277DBE /* Assets.xcassets */; };
-		6254CAA5C677D2CAEF3474A599F839D2 /* Pods-NaturalHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E611E7555B8FD20EC629A84BD80E0C83 /* Pods-NaturalHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7311FDC9D7A2CE4A6C73AB1E9BED4442 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCF95563EE2912C9E5FD0D613309DE /* BaseViewController.swift */; };
-		7959F33917C522D553F021801EFBC0E8 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB989FE6F6DF587A9AB6897A2983B7EC /* BundleHelper.swift */; };
-		95CF1100AD592309338966426318BA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78499944B142B5C9B2DDC4DD45A9B97 /* Foundation.framework */; };
-		A38DD147C8D8E0F10B68CAD53AF68DAC /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA30B4023520E4FB3A0E8CCD2BD6E2F9 /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7C3FE64A49D206D8F35D3CF38C61027 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F4EB9AE8E483F5F36C5001E9932DA /* HexColors.swift */; };
-		BE3CAEE2249FEA5944074581FE1C7339 /* Pods-NaturalHomeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D88BC4E002C0E133A0E9A1C7AA9EB /* Pods-NaturalHomeTests-dummy.m */; };
-		C64E1D9662DE0DB566E3BFC5D49F7125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78499944B142B5C9B2DDC4DD45A9B97 /* Foundation.framework */; };
-		D9B89C803739AE4B4EBD7B34FF1E2FD7 /* BaseFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FE23F4582A9772479354B0C6A3BCC61 /* BaseFramework.bundle */; };
-		E07207E922DEE4FA5EA07DCEE7E912F9 /* Pods-NaturalHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C900804FA4D22EB9402D99DCBFE1CEDD /* Pods-NaturalHome-dummy.m */; };
-		E17EAEB661E13097D0BF1396AFA9812E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF7D7EB1E2E290552827B4954917031 /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA9C4803303AC7764CD012C54D3FA681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78499944B142B5C9B2DDC4DD45A9B97 /* Foundation.framework */; };
-		EDE08A46B42DA194DAD78333AAD4B186 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19CCEEF16DF75266CB9F9B85310DB5 /* ColorHelper.swift */; };
-		F36D3F81022C03FF3AFC48AC0DD6065D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B039EB147E44E70D54732EEAD1849 /* DateHelper.swift */; };
-		F453A251AFEBAE0FC8BB73DDC8525021 /* BaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF1A881BA89EED72700AC31844DA5 /* BaseFramework-dummy.m */; };
-		F5F11B86B779702886D24D55DA991C10 /* PrefHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B408CF756068A50E090F14E1FF531AF2 /* PrefHelper.swift */; };
-		FD2312102D6E26DDD8C2C1CA500CB47D /* Pods-NaturalHomeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D74064FE27F56BCA076A8F7D6F384F89 /* Pods-NaturalHomeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEB42C233633E5284095FBBDB9E26AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78499944B142B5C9B2DDC4DD45A9B97 /* Foundation.framework */; };
+		04D2C5DE346F41D9AF9526ECFA2C84B2 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A1A7264FD2702DA1D83E6D80E57CB /* MaterialCard.swift */; };
+		0C5EF156F4970A2437337CE62B101E39 /* BaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDC8CE3885D334B60D76F9645FCC408 /* BaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10363EA9DD2F2FD1C2AC1AC455F2123C /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FE512EB3552BF3E6F1A582696EE69 /* HomeProtocol.swift */; };
+		16AC1A2E07F38FE1F4544D5BF640F8D5 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC83F026DAAA32741BE25DF36732D7 /* ParallaxHeaderMode.swift */; };
+		18A5F4E174624FD0AB4A87A424EBF24D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		18CFF9BF90A563E5F3E2A966CB32C3C7 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 7125518EDEEDD5C0D20B4EDE5894D802 /* UI */; };
+		1EF26F8E1EBB21A563DEB8897FCCA19D /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2560257CFE15736F85420D66BFF747C /* HeaderTableViewCell.swift */; };
+		208631979D724C84C67C721A0D700DA0 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D86BDA2DF6D536FF7BC1A455B66A3B /* HeaderCell.xib */; };
+		21C341C2C8041000D74E0D59EDF9DAD7 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720CC998989B2B7C47C7C6EB887F9C8 /* HomeInteractor.swift */; };
+		23F3358E85A7937E5D17A10A0676CE66 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958C7CD05A659ADFB620E7B11D207626 /* HexColors.framework */; };
+		2C5A655192346D93BA9834E5A26F87AB /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E5856D11FD51CB497248FB2DB726B4 /* HexColors-dummy.m */; };
+		2CE10F00142EC99905AF386A963C2BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7CA3348F87414F6950E3E0A0A5B069 /* Assets.xcassets */; };
+		2E3BA58CA724576ECB04A280E840447B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA3750BE519EA1FAA6A8A9362F9892 /* HomeViewController.swift */; };
+		3005C508ED0A1366181EDF83A8832407 /* Pods-NaturalHomeAppsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4387400DE5D09719E90233317BC664 /* Pods-NaturalHomeAppsTests-dummy.m */; };
+		3393EFCD053E07B3BCF9DB7F83BA2ED5 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62D3C00E269CA8C01A3C1C157D05242 /* HomeRoute.swift */; };
+		3B112E5EE724E07FE532A90B56A89FB1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AD39CC395CB2528E7F4F9413B715F /* Home.storyboard */; };
+		4320B88E0337DB51E6ADB4194879C8DB /* ParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D432D53961F93428A89CBBAADD0BFB /* ParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44BF34D00C1A4515C6890E09B62644DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D395933550CEF0911C8CB742E5C59724 /* Assets.xcassets */; };
+		44DEEDF13999573BFA76333779E0F067 /* Pods-NaturalHomeApps-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED93DE5D418F94FFD5489FE5CF443FA6 /* Pods-NaturalHomeApps-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A7EDD53040FC9F2C02364E544DAB4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D395933550CEF0911C8CB742E5C59724 /* Assets.xcassets */; };
+		4F76F8B84FC6BCABB54C882795EF8701 /* Pods-NaturalHomeApps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C739EAA71499A4FB93326AE3BA9219CA /* Pods-NaturalHomeApps-dummy.m */; };
+		504A063A065C4BF77611D17D8B6E60EF /* NaturalHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97483DF0901D2D614B6E7DB2879124AA /* NaturalHome-dummy.m */; };
+		5535A6ED0AC134D0D7A065549729B15E /* nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E39A00908FFB2E452E144A35B4668 /* nib */; };
+		6055D227B847FA1DC58905CCEB9B2E58 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958C7CD05A659ADFB620E7B11D207626 /* HexColors.framework */; };
+		6A8BC56C090D6AEEA40F5E6EE04B9B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		7311FDC9D7A2CE4A6C73AB1E9BED4442 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF6AA033942AD8FC62BA8B0020207D /* BaseViewController.swift */; };
+		7959F33917C522D553F021801EFBC0E8 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82D07B8FBAF9FCB84940EBCE750C74 /* BundleHelper.swift */; };
+		7F4F5E6622D3EC8F65387BB75BE29E76 /* ParallaxHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705CDBE1E0C08C9AC12368ADB29FC2A2 /* ParallaxHeader.framework */; };
+		8C6C4E217F1F3FEE64520230D3F23D5C /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D86BDA2DF6D536FF7BC1A455B66A3B /* HeaderCell.xib */; };
+		8D4C73FFCC12E37A2CDCC4A8F135CC04 /* Pods-NaturalHomeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C66EBF916EACB1DFD820FE0D29F9B2D /* Pods-NaturalHomeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91704596A9D5358017B3703341EB49F5 /* ParralaxHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143806B2F6D8157ED67BDDA964AA0904 /* ParralaxHeaderView.xib */; };
+		924127CC8A294A5F18F016E886EA8A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		93A5A62F5AF4BF314A773B14C64E9735 /* Pods-NaturalHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E513BC0B55A83CDB2CE0D9CB81948FE5 /* Pods-NaturalHome-dummy.m */; };
+		9A1D7061558D7F893976C9466B285C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		9A3B5F40A1E80653283E8B3AF32972FE /* NaturalHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A71AF5E8A26BEB0F8A3C1E8A50FC5D1 /* NaturalHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A00A80235C5065C0E5DEF31B3082D0A1 /* ParralaxHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143806B2F6D8157ED67BDDA964AA0904 /* ParralaxHeaderView.xib */; };
+		A38DD147C8D8E0F10B68CAD53AF68DAC /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC4DD0052A47F60B17E510F28A38FBD /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A694F3CB778145AB3A742EFA7F1103FE /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC7CCB1E05F651737F75D970CDF017 /* ParallaxHeader.swift */; };
+		A6DE7B586B6F39C516CD27367821FA14 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AD39CC395CB2528E7F4F9413B715F /* Home.storyboard */; };
+		A7C3FE64A49D206D8F35D3CF38C61027 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282EC1E212DA7E28DC512B563BD0DF5E /* HexColors.swift */; };
+		A9654EAF5238678A96EEE8678D3E3CBA /* Pods-NaturalHomeAppsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6F2581796E893453F3E4AD9648DE68 /* Pods-NaturalHomeAppsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC57B5617427326B97FCE82966EB9242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7CA3348F87414F6950E3E0A0A5B069 /* Assets.xcassets */; };
+		B54D8503FBE5475919C8A026BBB10DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		BE52F30E5056C7F36D276962FE4C5572 /* Pods-NaturalHomeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80408AF3628CADA453D7694E1B82B2F3 /* Pods-NaturalHomeTests-dummy.m */; };
+		BEFD2C6B23312F4770864154054DBC4E /* BaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4C8AC6229B9CD5B16C7152F56930D /* BaseFramework.framework */; };
+		C64E1D9662DE0DB566E3BFC5D49F7125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		D2D3C65783D0A9B3CAE8FA55A1233B3D /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5480BEC888CDA3861A6D89E36763F /* HomeEntity.swift */; };
+		D465970C78B928BD206387D4059B78F1 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41090C519AFC84A81E468144EE862504 /* UIScrollView+ParallaxHeader.swift */; };
+		D6B000B45C845892C6279107E111ACCD /* Pods-NaturalHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 008DF34AEDB90EAF7E1BEFC8BD5CE8BC /* Pods-NaturalHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B89C803739AE4B4EBD7B34FF1E2FD7 /* BaseFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5499A25634B341D7B25688E6323A0C33 /* BaseFramework.bundle */; };
+		E0B567BF94D729BEE54B8D38E88ED76A /* ParralaxHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA8E25282D49973B0B3CA6AF5E843C /* ParralaxHeaderView.swift */; };
+		E17EAEB661E13097D0BF1396AFA9812E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CE81B1D00F009071E74D660E5EE73713 /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4803303AC7764CD012C54D3FA681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		EDC34C79C6102B759A18D5BE5B536DB0 /* ParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A111C1E8A58849EF4CB2630D9E4EC1CD /* ParallaxHeader-dummy.m */; };
+		EDE08A46B42DA194DAD78333AAD4B186 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818D6137BC1D486AE1F0A514B2AEE675 /* ColorHelper.swift */; };
+		EEF144EFFD344D8D6627D52ABD6FA7F4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38501D7DCCF3530AA7BD369A03C1E801 /* Helper.swift */; };
+		F09F644FFD72A0F7133013300CA65386 /* NaturalHome.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17630B4BF15AD5830026BC96183B8621 /* NaturalHome.bundle */; };
+		F36D3F81022C03FF3AFC48AC0DD6065D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7D43227422FC1927C0B615B8AD6B2 /* DateHelper.swift */; };
+		F453A251AFEBAE0FC8BB73DDC8525021 /* BaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E120A3A87E8FCB1ED85296A4F5D287F4 /* BaseFramework-dummy.m */; };
+		F5F11B86B779702886D24D55DA991C10 /* PrefHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15A228090BF5D4EDD0F941595AEADB /* PrefHelper.swift */; };
+		F627041558B2B552A3E945AE5B66B1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */; };
+		F7EFF485793D169BC11370D5EEF128B6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ACFB1015A70F9D82375473E9D8494 /* HomePresenter.swift */; };
+		FFF2D1FB92B44C7EC9480F95459B948C /* NaturalHome.h in Headers */ = {isa = PBXBuildFile; fileRef = F84FD50044F4C6E5AE5AB07E044AAE10 /* NaturalHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		094CBFDC30900797F61108DEE2738C00 /* PBXContainerItemProxy */ = {
+		085683074696D72EE006F5C859E2EFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
+			remoteInfo = HexColors;
+		};
+		0DFD6C35936768279BE4269F807B62E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
+			remoteInfo = HexColors;
+		};
+		1F90BB8830F54A873D1D088DAF9420DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B09654A7C2E2AAEB28E0ABB97D8E8FE2;
 			remoteInfo = BaseFramework;
 		};
-		1A7F231B0E91436D13BFFA51B3E6A1A3 /* PBXContainerItemProxy */ = {
+		36ADBA2B4704C6FCE9261F1B03FBC05B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CCCEBDC98143FD65E0D674467D9843E;
-			remoteInfo = "Pods-NaturalHome";
+			remoteGlobalIDString = 5E9171F83C9C938149F85D02B2705439;
+			remoteInfo = "Pods-NaturalHomeApps";
 		};
-		360A1DBA242812C861BF189DE29B989C /* PBXContainerItemProxy */ = {
+		47108082EC459A3EA79075297CBA0BD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
-			remoteInfo = HexColors;
+			remoteGlobalIDString = 3250FF26FF3F97EE083120A3A6A1CB49;
+			remoteInfo = "NaturalHome-NaturalHome";
+		};
+		5380615C5BCAD60DDE787FBDDA2BC5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C19C31FCC70F633027774B1A2C7F37;
+			remoteInfo = ParallaxHeader;
 		};
 		54989C19D957F33138F9913B5775FE7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -69,76 +129,200 @@
 			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
 			remoteInfo = HexColors;
 		};
-		C336E024BA618680637B2303FDB0E091 /* PBXContainerItemProxy */ = {
+		98DCAFFB69D8A9683932CED04E7439EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
-			remoteInfo = HexColors;
+			remoteGlobalIDString = A1C19C31FCC70F633027774B1A2C7F37;
+			remoteInfo = ParallaxHeader;
 		};
-		D707F76852CDF6505644798E00F5C6BB /* PBXContainerItemProxy */ = {
+		A9FE1FE7487D73D742637C747B32C71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C19C31FCC70F633027774B1A2C7F37;
+			remoteInfo = ParallaxHeader;
+		};
+		AB703FD96BDA44C4BEC4F5410733A695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCFC591CCCE66194FF935D800360F9E;
+			remoteInfo = "Pods-NaturalHome";
+		};
+		B11BA620D08532F37093D0F016D8B43E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B09654A7C2E2AAEB28E0ABB97D8E8FE2;
 			remoteInfo = BaseFramework;
 		};
+		B9989419F47950F444CB95DDCE5C52E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C19C31FCC70F633027774B1A2C7F37;
+			remoteInfo = ParallaxHeader;
+		};
+		C4A70082179103B8EB3A150C4298EBF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09654A7C2E2AAEB28E0ABB97D8E8FE2;
+			remoteInfo = BaseFramework;
+		};
+		C84826D9E65F212CD82E653636F2E046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
+			remoteInfo = HexColors;
+		};
+		D4FDB583A5213684659EE8A5E604E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
+			remoteInfo = HexColors;
+		};
+		E16D0F24B21F5CC201FD11177F8C0F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09654A7C2E2AAEB28E0ABB97D8E8FE2;
+			remoteInfo = BaseFramework;
+		};
+		EF7DBFA11477C59F79DCA285371F2394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC4F91D338123E856588206D12AB3F4;
+			remoteInfo = NaturalHome;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BCE3384B374D40E9E9311D9613F4E6B /* Pods-NaturalHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalHome-acknowledgements.plist"; sourceTree = "<group>"; };
-		0FBCB68A2BD039EBB06B8D1841A8F581 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HexColors.framework; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1344FD5794C47A5378474FAAEEDCE3D1 /* BaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseFramework-umbrella.h"; sourceTree = "<group>"; };
-		1BC52E061C2FD9F351333C78D7CC931C /* Pods-NaturalHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeTests.release.xcconfig"; sourceTree = "<group>"; };
-		2BAA594F955EC47128566D42D6ED3EEB /* Pods-NaturalHomeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalHomeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CAF770C2BEE0CEA8D49CB9FE4370FD4 /* Pods-NaturalHome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHome-resources.sh"; sourceTree = "<group>"; };
-		2FB8E416D7023A5BC36CB97A1B14695C /* BaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseFramework.framework; path = BaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3648793E9F34B65A3E0833172F6589CE /* BaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseFramework.xcconfig; sourceTree = "<group>"; };
-		419B039EB147E44E70D54732EEAD1849 /* DateHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
-		476CEB86E282F40B955938C19AC6607E /* ResourceBundle-BaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BaseFramework-Info.plist"; sourceTree = "<group>"; };
-		506BD6274D10DF0507F0FF7B355D5164 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		508DCF6FC5186B17834A7EE4BCD46E07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BF7D7EB1E2E290552827B4954917031 /* BaseFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseFramework.h; path = BaseFramework/BaseFramework.h; sourceTree = "<group>"; };
-		6069A298832BE0C997DA65220A0A1DF0 /* Pods-NaturalHomeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalHomeTests.modulemap"; sourceTree = "<group>"; };
-		645303DD9A2D548B70B7602ACB73A189 /* Pods-NaturalHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalHome.modulemap"; sourceTree = "<group>"; };
-		678D88BC4E002C0E133A0E9A1C7AA9EB /* Pods-NaturalHomeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalHomeTests-dummy.m"; sourceTree = "<group>"; };
-		6D19CCEEF16DF75266CB9F9B85310DB5 /* ColorHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
-		7BC9A98899C0239E1018B2A57A4E5E31 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
-		7DA969DDB5FFE55FFFE14CCF38B57AA4 /* Pods_NaturalHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalHomeTests.framework; path = "Pods-NaturalHomeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8586BD73D5AA2AC741C752EB8463BE88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86AA2100905F77D8EF2546ADB65626DC /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
-		8AD10C7C3795860EF024A950C2277DBE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BaseFramework/Assets/Assets.xcassets; sourceTree = "<group>"; };
-		9088B33627F0A7647842679D3672F06F /* Pods-NaturalHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalHome-acknowledgements.markdown"; sourceTree = "<group>"; };
+		008DF34AEDB90EAF7E1BEFC8BD5CE8BC /* Pods-NaturalHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalHome-umbrella.h"; sourceTree = "<group>"; };
+		02294DC104CC288D9DEB38C142183F62 /* Pods_NaturalHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalHome.framework; path = "Pods-NaturalHome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FE8520BC966FFF01336D413A478B5F /* Pods-NaturalHomeAppsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeAppsTests-resources.sh"; sourceTree = "<group>"; };
+		0CE0BE2BD3DFBF526ADE6456AA4C05B4 /* NaturalHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaturalHome-prefix.pch"; sourceTree = "<group>"; };
+		0E4387400DE5D09719E90233317BC664 /* Pods-NaturalHomeAppsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalHomeAppsTests-dummy.m"; sourceTree = "<group>"; };
+		0EE6136D23ABA6ABE891973D3305432A /* Pods-NaturalHomeApps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalHomeApps-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EFA8E25282D49973B0B3CA6AF5E843C /* ParralaxHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParralaxHeaderView.swift; sourceTree = "<group>"; };
+		143806B2F6D8157ED67BDDA964AA0904 /* ParralaxHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ParralaxHeaderView.xib; sourceTree = "<group>"; };
+		17630B4BF15AD5830026BC96183B8621 /* NaturalHome.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NaturalHome.bundle; path = "NaturalHome-NaturalHome.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CA3750BE519EA1FAA6A8A9362F9892 /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		282EC1E212DA7E28DC512B563BD0DF5E /* HexColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors.swift; sourceTree = "<group>"; };
+		2A2790B70DCA8AA3A2D172D5118F34AA /* Pods-NaturalHomeApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeApps.debug.xcconfig"; sourceTree = "<group>"; };
+		2B06050B45C79CB74390FB40B176F378 /* Pods-NaturalHomeApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeApps.release.xcconfig"; sourceTree = "<group>"; };
+		2E8E39A00908FFB2E452E144A35B4668 /* nib */ = {isa = PBXFileReference; includeInIndex = 1; name = nib; path = NaturalHome/Assets/nib; sourceTree = "<group>"; };
+		342AB7777F6937E105E45F213663A919 /* Pods-NaturalHomeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalHomeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38501D7DCCF3530AA7BD369A03C1E801 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3A71AF5E8A26BEB0F8A3C1E8A50FC5D1 /* NaturalHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaturalHome-umbrella.h"; sourceTree = "<group>"; };
+		3CDC8CE3885D334B60D76F9645FCC408 /* BaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseFramework-umbrella.h"; sourceTree = "<group>"; };
+		3D82D07B8FBAF9FCB84940EBCE750C74 /* BundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
+		3DF837F50CFD08BFDC85E6A5FF819E4F /* Pods-NaturalHomeApps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalHomeApps-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F15A228090BF5D4EDD0F941595AEADB /* PrefHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrefHelper.swift; sourceTree = "<group>"; };
+		3F45DAEBB76D2C27D4F532B5B4B7FB13 /* NaturalHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NaturalHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41090C519AFC84A81E468144EE862504 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ParallaxHeader.swift"; path = "ParallaxHeader/UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		42F8E296603D2044F703FCDF22AE9B88 /* Pods-NaturalHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalHome.modulemap"; sourceTree = "<group>"; };
+		440CC3CA53CDCAEBCC24DCE82861FBAF /* BaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseFramework.modulemap; sourceTree = "<group>"; };
+		4F35927D1F31ECF3349E7FFC24FF0324 /* Pods-NaturalHomeApps.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalHomeApps.modulemap"; sourceTree = "<group>"; };
+		524D2BBB8386A6FF6A94FFFB9D05E072 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536ACFB1015A70F9D82375473E9D8494 /* HomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		542DCAED6D657B66531DE8E860BFF3BF /* Pods-NaturalHome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHome-resources.sh"; sourceTree = "<group>"; };
+		5499A25634B341D7B25688E6323A0C33 /* BaseFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BaseFramework.bundle; path = "BaseFramework-BaseFramework.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BF6AA033942AD8FC62BA8B0020207D /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5C66EBF916EACB1DFD820FE0D29F9B2D /* Pods-NaturalHomeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalHomeTests-umbrella.h"; sourceTree = "<group>"; };
+		5C6E5912B9EA051E7FC50597ECEB7BBC /* Pods-NaturalHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CF4773C8EFDAF8E55A19FF765556F12 /* ResourceBundle-NaturalHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NaturalHome-Info.plist"; sourceTree = "<group>"; };
+		5E8C43CC3EB9379B24DC4C4E080C07FC /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HexColors.modulemap; sourceTree = "<group>"; };
+		6066EC9670464338BB71756DD5F52E0B /* Pods-NaturalHomeAppsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalHomeAppsTests.modulemap"; sourceTree = "<group>"; };
+		616E6421BC32055CB215ECEB29B58F07 /* NaturalHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NaturalHome.modulemap; sourceTree = "<group>"; };
+		62832013617BDB85DD1E9E925F0CFBEB /* Pods-NaturalHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHome.release.xcconfig"; sourceTree = "<group>"; };
+		66C7A67CC81110DCD83FA50F8D5FCFE9 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		6B0EDE42ED8AA678A4482B789A60B78D /* Pods-NaturalHomeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeTests-frameworks.sh"; sourceTree = "<group>"; };
+		6CD3575992BC1D9ADFD0685B7BB38631 /* Pods-NaturalHomeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalHomeTests.modulemap"; sourceTree = "<group>"; };
+		6CEC83F026DAAA32741BE25DF36732D7 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeaderMode.swift; path = ParallaxHeader/ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		705CDBE1E0C08C9AC12368ADB29FC2A2 /* ParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C24862CAB59B07FFFF9C06F2EABBA1 /* Pods-NaturalHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalHome-acknowledgements.plist"; sourceTree = "<group>"; };
+		7125518EDEEDD5C0D20B4EDE5894D802 /* UI */ = {isa = PBXFileReference; includeInIndex = 1; name = UI; path = NaturalHome/Assets/UI; sourceTree = "<group>"; };
+		73502A1D7B1F16335D8DFF2FC59C23B3 /* Pods-NaturalHomeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeTests-resources.sh"; sourceTree = "<group>"; };
+		735A1A7264FD2702DA1D83E6D80E57CB /* MaterialCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
+		74776752AF0F7C47C8F6A9A191EC2B06 /* BaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BaseFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E5AD39CC395CB2528E7F4F9413B715F /* Home.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		80408AF3628CADA453D7694E1B82B2F3 /* Pods-NaturalHomeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalHomeTests-dummy.m"; sourceTree = "<group>"; };
+		818D6137BC1D486AE1F0A514B2AEE675 /* ColorHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		835F9227A63917BDC9212297F440C09A /* Pods-NaturalHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BC4DD0052A47F60B17E510F28A38FBD /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-umbrella.h"; sourceTree = "<group>"; };
+		8BD0B237EDE8905BC33853A7E7E1D170 /* Pods-NaturalHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalHome-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D4EF2F4B6F97308B4CDB40182B2AD26 /* Pods_NaturalHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalHomeTests.framework; path = "Pods-NaturalHomeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E92030FD388758ED5ACD2924015C357 /* Pods-NaturalHomeAppsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalHomeAppsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		961F4EB9AE8E483F5F36C5001E9932DA /* HexColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors.swift; sourceTree = "<group>"; };
-		981C30F7B3B7F46CAFA8634D15879329 /* Pods-NaturalHomeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeTests-frameworks.sh"; sourceTree = "<group>"; };
-		986DE6110BA248A4A65558EAFA281CF5 /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HexColors.modulemap; sourceTree = "<group>"; };
-		9FE23F4582A9772479354B0C6A3BCC61 /* BaseFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BaseFramework.bundle; path = "BaseFramework-BaseFramework.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4FDF1A881BA89EED72700AC31844DA5 /* BaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseFramework-dummy.m"; sourceTree = "<group>"; };
-		A78499944B142B5C9B2DDC4DD45A9B97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AB8ADAA0DA985B63928B60E08836E2DB /* Pods-NaturalHomeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeTests-resources.sh"; sourceTree = "<group>"; };
-		AF40291B1735F40776731134F70A4D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B10FAFD112070369557448ACAB84A239 /* BaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseFramework.modulemap; sourceTree = "<group>"; };
-		B408CF756068A50E090F14E1FF531AF2 /* PrefHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrefHelper.swift; sourceTree = "<group>"; };
-		B7DCE89FA700EFB7512D052588970739 /* Pods-NaturalHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHome.debug.xcconfig"; sourceTree = "<group>"; };
-		BEAEA11D9767DA2899D8920A2E0EB006 /* Pods-NaturalHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF372F61872309A04AF37358E556F106 /* Pods-NaturalHomeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalHomeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF6B9F36819A9DCC3ACEAF9E755F8C56 /* MaterialCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
-		C900804FA4D22EB9402D99DCBFE1CEDD /* Pods-NaturalHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalHome-dummy.m"; sourceTree = "<group>"; };
-		C9F20B631E37F000140BF9D03C5007DB /* BaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BaseFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB989FE6F6DF587A9AB6897A2983B7EC /* BundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
-		CECBA6618B5FF4EB2DF83D092FD8FCA0 /* Pods-NaturalHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHome.release.xcconfig"; sourceTree = "<group>"; };
-		D74064FE27F56BCA076A8F7D6F384F89 /* Pods-NaturalHomeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalHomeTests-umbrella.h"; sourceTree = "<group>"; };
-		DAD01402785847C356AE411C3438F8E1 /* BaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseFramework-prefix.pch"; sourceTree = "<group>"; };
-		E611E7555B8FD20EC629A84BD80E0C83 /* Pods-NaturalHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalHome-umbrella.h"; sourceTree = "<group>"; };
-		E86F5B76944CAE1B0D147D822F00191B /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
-		ED95C9854C5A1E9D1863834AA6302259 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F12C204FD2B66335DA26A2100DF63BAE /* Pods_NaturalHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalHome.framework; path = "Pods-NaturalHome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8FCF95563EE2912C9E5FD0D613309DE /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		FA30B4023520E4FB3A0E8CCD2BD6E2F9 /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-umbrella.h"; sourceTree = "<group>"; };
+		94AC7CCB1E05F651737F75D970CDF017 /* ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeader.swift; path = ParallaxHeader/ParallaxHeader.swift; sourceTree = "<group>"; };
+		958C7CD05A659ADFB620E7B11D207626 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97483DF0901D2D614B6E7DB2879124AA /* NaturalHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NaturalHome-dummy.m"; sourceTree = "<group>"; };
+		974FE512EB3552BF3E6F1A582696EE69 /* HomeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		9A005F69DC222F08CE529A91074A1E6E /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		9C874E59F367EFF6E16A97AF90E45057 /* NaturalHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NaturalHome.xcconfig; sourceTree = "<group>"; };
+		9D8D523FC5B9CC2DB027804FF5306C26 /* Pods-NaturalHomeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalHomeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A111C1E8A58849EF4CB2630D9E4EC1CD /* ParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		A6C4C8AC6229B9CD5B16C7152F56930D /* BaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970B1BD3D61D7739953EB902AD33393 /* Pods-NaturalHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHome.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C6AA24B5773D4B93710DF5725C0081 /* NaturalHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NaturalHome.framework; path = NaturalHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42E887F6E0E71DDED0353E59C23CA32 /* Pods-NaturalHomeApps-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeApps-resources.sh"; sourceTree = "<group>"; };
+		B62D3C00E269CA8C01A3C1C157D05242 /* HomeRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		BF229F3819006C656CC3E7867FC4B8BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C067C94F8B02F8E1B704D9866B6A5162 /* BaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseFramework.xcconfig; sourceTree = "<group>"; };
+		C1B5480BEC888CDA3861A6D89E36763F /* HomeEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		C28D445726F59D5BE43610C7814B3944 /* Pods-NaturalHomeAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C34F08A245D1F308670C59413C0D6DBF /* Pods-NaturalHomeApps-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeApps-frameworks.sh"; sourceTree = "<group>"; };
+		C48097E30B5FB5FE8C75420534FF4266 /* Pods-NaturalHomeAppsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalHomeAppsTests-frameworks.sh"; sourceTree = "<group>"; };
+		C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C739EAA71499A4FB93326AE3BA9219CA /* Pods-NaturalHomeApps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalHomeApps-dummy.m"; sourceTree = "<group>"; };
+		CA7CA3348F87414F6950E3E0A0A5B069 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NaturalHome/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		CCAE96880D3BFA89AFDACE7A2AD28063 /* ParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		CE81B1D00F009071E74D660E5EE73713 /* BaseFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseFramework.h; path = BaseFramework/BaseFramework.h; sourceTree = "<group>"; };
+		CF122FD286BCE0CF098F1B6982D31E15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B8CED30EA1B1EC935D07AC80A40D6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2560257CFE15736F85420D66BFF747C /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		D395933550CEF0911C8CB742E5C59724 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BaseFramework/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		D39D5F0DF512E15A3A6720C7F920FE2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D86BDA2DF6D536FF7BC1A455B66A3B /* HeaderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		D703AB046696ACF35C19A00D7CF3ADB4 /* Pods-NaturalHomeAppsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalHomeAppsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D720CC998989B2B7C47C7C6EB887F9C8 /* HomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D7E5856D11FD51CB497248FB2DB726B4 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		DC8A8B82F13FED642FA7B7ECA31FA671 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HexColors.framework; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8F6B98B0C2C35F80FDCEAC57DF8009 /* BaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseFramework.framework; path = BaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6F2581796E893453F3E4AD9648DE68 /* Pods-NaturalHomeAppsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalHomeAppsTests-umbrella.h"; sourceTree = "<group>"; };
+		DFFD1995A7F0EF35B9183F0EFBC908D2 /* ParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParallaxHeader.framework; path = ParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E120A3A87E8FCB1ED85296A4F5D287F4 /* BaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseFramework-dummy.m"; sourceTree = "<group>"; };
+		E1D432D53961F93428A89CBBAADD0BFB /* ParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
+		E501B20F9B190449896F22704ACA4002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E513BC0B55A83CDB2CE0D9CB81948FE5 /* Pods-NaturalHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalHome-dummy.m"; sourceTree = "<group>"; };
+		E7576C7A4F99339E240AF875A73E11BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33ABA5A45FC9FEF874F61EF52FFCD8 /* BaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseFramework-prefix.pch"; sourceTree = "<group>"; };
+		ED93DE5D418F94FFD5489FE5CF443FA6 /* Pods-NaturalHomeApps-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalHomeApps-umbrella.h"; sourceTree = "<group>"; };
+		EDAE298CE9AF02AFE90F6D77D798DB76 /* Pods_NaturalHomeApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalHomeApps.framework; path = "Pods-NaturalHomeApps.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05665F021776DC303F3F207A6D98242 /* ParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxHeader.xcconfig; sourceTree = "<group>"; };
+		F42065CEAAFF4B8335F6B33E4B44D5C7 /* ResourceBundle-BaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BaseFramework-Info.plist"; sourceTree = "<group>"; };
+		F7ED070C351A5D60EA59D0EA1322626A /* ParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ParallaxHeader.modulemap; sourceTree = "<group>"; };
+		F83293049D628B7A800E8F97079457D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84FD50044F4C6E5AE5AB07E044AAE10 /* NaturalHome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NaturalHome.h; path = NaturalHome/NaturalHome.h; sourceTree = "<group>"; };
+		F9DE0EE8CC40DADA4C4C1E1F52A84F98 /* Pods_NaturalHomeAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalHomeAppsTests.framework; path = "Pods-NaturalHomeAppsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC7D43227422FC1927C0B615B8AD6B2 /* DateHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		FC2A2FDA6E4C0C3CE03A5F36542DEFDA /* Pods-NaturalHomeAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalHomeAppsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B6B3F4F01790AFA1005115BE2AD5605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54D8503FBE5475919C8A026BBB10DC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F583333CAEC0A4344682BDCEC85F279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,19 +338,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B36285347570B65D68849A8BAC0C7418 /* Frameworks */ = {
+		61F2C5A3FC0E8FBCF0F61E5040E801E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95CF1100AD592309338966426318BA17 /* Foundation.framework in Frameworks */,
+				9A1D7061558D7F893976C9466B285C33 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3626E0099F651E32206715652C0C73A /* Frameworks */ = {
+		AC9428A9B31D4F79915F7BD898AEA8CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB42C233633E5284095FBBDB9E26AD0 /* Foundation.framework in Frameworks */,
+				F627041558B2B552A3E945AE5B66B1C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AA7F6A98E9FE6B5A8EE56C8654FBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86164F4B09BC53A1B114A3ADA91568B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD2C6B23312F4770864154054DBC4E /* BaseFramework.framework in Frameworks */,
+				6A8BC56C090D6AEEA40F5E6EE04B9B1A /* Foundation.framework in Frameworks */,
+				6055D227B847FA1DC58905CCEB9B2E58 /* HexColors.framework in Frameworks */,
+				7F4F5E6622D3EC8F65387BB75BE29E76 /* ParallaxHeader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A47F12555CB4DEFDB1689CE50193D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A5F4E174624FD0AB4A87A424EBF24D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,235 +389,480 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4AE77B7CBE6DD7B4F17D08376AEF998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924127CC8A294A5F18F016E886EA8A53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04DC935C3F51D0E46520DD78439CCA1B /* Frameworks */ = {
+		02A14906CC54E4FC5FD15B6A11869CB6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ED95C9854C5A1E9D1863834AA6302259 /* HexColors.framework */,
-				E22B9DC5A4CC7CB374E52701F7FD9D52 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		14C8B4010DFB8FBB060A40C6EE27387D /* Pods-NaturalHomeTests */ = {
-			isa = PBXGroup;
-			children = (
-				508DCF6FC5186B17834A7EE4BCD46E07 /* Info.plist */,
-				6069A298832BE0C997DA65220A0A1DF0 /* Pods-NaturalHomeTests.modulemap */,
-				2BAA594F955EC47128566D42D6ED3EEB /* Pods-NaturalHomeTests-acknowledgements.markdown */,
-				BF372F61872309A04AF37358E556F106 /* Pods-NaturalHomeTests-acknowledgements.plist */,
-				678D88BC4E002C0E133A0E9A1C7AA9EB /* Pods-NaturalHomeTests-dummy.m */,
-				981C30F7B3B7F46CAFA8634D15879329 /* Pods-NaturalHomeTests-frameworks.sh */,
-				AB8ADAA0DA985B63928B60E08836E2DB /* Pods-NaturalHomeTests-resources.sh */,
-				D74064FE27F56BCA076A8F7D6F384F89 /* Pods-NaturalHomeTests-umbrella.h */,
-				BEAEA11D9767DA2899D8920A2E0EB006 /* Pods-NaturalHomeTests.debug.xcconfig */,
-				1BC52E061C2FD9F351333C78D7CC931C /* Pods-NaturalHomeTests.release.xcconfig */,
-			);
-			name = "Pods-NaturalHomeTests";
-			path = "Target Support Files/Pods-NaturalHomeTests";
-			sourceTree = "<group>";
-		};
-		1A97D22F28CCB2F762B550B7A288E364 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BF6B9F36819A9DCC3ACEAF9E755F8C56 /* MaterialCard.swift */,
+				735A1A7264FD2702DA1D83E6D80E57CB /* MaterialCard.swift */,
 			);
 			name = View;
 			path = BaseFramework/View;
 			sourceTree = "<group>";
 		};
-		1C3542666077EBAAE07F7CFE397DC5D8 /* Controller */ = {
+		03E4A29C498E64ED267D2DEB53C9FEEC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F8FCF95563EE2912C9E5FD0D613309DE /* BaseViewController.swift */,
+				D395933550CEF0911C8CB742E5C59724 /* Assets.xcassets */,
 			);
-			name = Controller;
-			path = Controller;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		3EC956932F24B5DC0DFD19B67C32A0E3 /* Development Pods */ = {
+		08E224158F67C1B55080443A79E39946 /* nib */ = {
 			isa = PBXGroup;
 			children = (
-				682D16CEA0A6990C80409EA4C8FD5BBD /* BaseFramework */,
+				D2560257CFE15736F85420D66BFF747C /* HeaderTableViewCell.swift */,
+				0EFA8E25282D49973B0B3CA6AF5E843C /* ParralaxHeaderView.swift */,
 			);
-			name = "Development Pods";
+			name = nib;
+			path = nib;
 			sourceTree = "<group>";
 		};
-		682D16CEA0A6990C80409EA4C8FD5BBD /* BaseFramework */ = {
+		15DD6774B1786943929EAEFDC793410C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5BF7D7EB1E2E290552827B4954917031 /* BaseFramework.h */,
-				A7A37837A97CBF61CC2F9508A7D2C31E /* Helper */,
-				DF277F2B57F495476703C54C0DC825AB /* Module */,
-				F6CCDA85902CF233FAAEB3DB18E3837D /* Pod */,
-				FD623B50DA9ABD740F7487E207B1A3A1 /* Resources */,
-				E12B56BEC789F25E37CADB135216DBA5 /* Support Files */,
-				1A97D22F28CCB2F762B550B7A288E364 /* View */,
+				5E8C43CC3EB9379B24DC4C4E080C07FC /* HexColors.modulemap */,
+				9A005F69DC222F08CE529A91074A1E6E /* HexColors.xcconfig */,
+				D7E5856D11FD51CB497248FB2DB726B4 /* HexColors-dummy.m */,
+				66C7A67CC81110DCD83FA50F8D5FCFE9 /* HexColors-prefix.pch */,
+				8BC4DD0052A47F60B17E510F28A38FBD /* HexColors-umbrella.h */,
+				E7576C7A4F99339E240AF875A73E11BE /* Info.plist */,
 			);
-			name = BaseFramework;
-			path = ../../BaseFramework;
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
+			sourceTree = "<group>";
+		};
+		1F3C357271AEAEAFEF017AF64FD2D302 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF122FD286BCE0CF098F1B6982D31E15 /* Info.plist */,
+				616E6421BC32055CB215ECEB29B58F07 /* NaturalHome.modulemap */,
+				9C874E59F367EFF6E16A97AF90E45057 /* NaturalHome.xcconfig */,
+				97483DF0901D2D614B6E7DB2879124AA /* NaturalHome-dummy.m */,
+				0CE0BE2BD3DFBF526ADE6456AA4C05B4 /* NaturalHome-prefix.pch */,
+				3A71AF5E8A26BEB0F8A3C1E8A50FC5D1 /* NaturalHome-umbrella.h */,
+				5CF4773C8EFDAF8E55A19FF765556F12 /* ResourceBundle-NaturalHome-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/NaturalHome";
+			sourceTree = "<group>";
+		};
+		203001AF5EBEF251D4400852A2F6A104 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				282EC1E212DA7E28DC512B563BD0DF5E /* HexColors.swift */,
+				15DD6774B1786943929EAEFDC793410C /* Support Files */,
+			);
+			name = HexColors;
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		21ADA762FB5E63E5DE4F306F94D544C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				440CC3CA53CDCAEBCC24DCE82861FBAF /* BaseFramework.modulemap */,
+				C067C94F8B02F8E1B704D9866B6A5162 /* BaseFramework.xcconfig */,
+				E120A3A87E8FCB1ED85296A4F5D287F4 /* BaseFramework-dummy.m */,
+				EC33ABA5A45FC9FEF874F61EF52FFCD8 /* BaseFramework-prefix.pch */,
+				3CDC8CE3885D334B60D76F9645FCC408 /* BaseFramework-umbrella.h */,
+				BF229F3819006C656CC3E7867FC4B8BB /* Info.plist */,
+				F42065CEAAFF4B8335F6B33E4B44D5C7 /* ResourceBundle-BaseFramework-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../NaturalHome/Pods/Target Support Files/BaseFramework";
+			sourceTree = "<group>";
+		};
+		27170B181A267531F6CCDB105EED8FE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				203001AF5EBEF251D4400852A2F6A104 /* HexColors */,
+				506FF84B07F35034948813FF50F27930 /* ParallaxHeader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2934AC3307F9C313C471FCB3DB8EB612 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA7CA3348F87414F6950E3E0A0A5B069 /* Assets.xcassets */,
+				2E8E39A00908FFB2E452E144A35B4668 /* nib */,
+				7125518EDEEDD5C0D20B4EDE5894D802 /* UI */,
+				E47442EC7BCCDABA320F4038E77023B5 /* nib */,
+				AA6BB946E7315E75B232899C3B1C75D3 /* UI */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A9D9AE5513355C2896D037220543534 /* Pods-NaturalHomeApps */ = {
+			isa = PBXGroup;
+			children = (
+				D39D5F0DF512E15A3A6720C7F920FE2F /* Info.plist */,
+				4F35927D1F31ECF3349E7FFC24FF0324 /* Pods-NaturalHomeApps.modulemap */,
+				0EE6136D23ABA6ABE891973D3305432A /* Pods-NaturalHomeApps-acknowledgements.markdown */,
+				3DF837F50CFD08BFDC85E6A5FF819E4F /* Pods-NaturalHomeApps-acknowledgements.plist */,
+				C739EAA71499A4FB93326AE3BA9219CA /* Pods-NaturalHomeApps-dummy.m */,
+				C34F08A245D1F308670C59413C0D6DBF /* Pods-NaturalHomeApps-frameworks.sh */,
+				B42E887F6E0E71DDED0353E59C23CA32 /* Pods-NaturalHomeApps-resources.sh */,
+				ED93DE5D418F94FFD5489FE5CF443FA6 /* Pods-NaturalHomeApps-umbrella.h */,
+				2A2790B70DCA8AA3A2D172D5118F34AA /* Pods-NaturalHomeApps.debug.xcconfig */,
+				2B06050B45C79CB74390FB40B176F378 /* Pods-NaturalHomeApps.release.xcconfig */,
+			);
+			name = "Pods-NaturalHomeApps";
+			path = "Target Support Files/Pods-NaturalHomeApps";
+			sourceTree = "<group>";
+		};
+		322975404992BCA368635BE17036CE6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23CA3750BE519EA1FAA6A8A9362F9892 /* HomeViewController.swift */,
+				08E224158F67C1B55080443A79E39946 /* nib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		32DEBF0D8D4BB89404E52E8F0527D02A /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				B62D3C00E269CA8C01A3C1C157D05242 /* HomeRoute.swift */,
+			);
+			name = Route;
+			path = Route;
+			sourceTree = "<group>";
+		};
+		4562DD7B24F2DCB8F1EFD5687F2577AC /* Pods-NaturalHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E501B20F9B190449896F22704ACA4002 /* Info.plist */,
+				6CD3575992BC1D9ADFD0685B7BB38631 /* Pods-NaturalHomeTests.modulemap */,
+				342AB7777F6937E105E45F213663A919 /* Pods-NaturalHomeTests-acknowledgements.markdown */,
+				9D8D523FC5B9CC2DB027804FF5306C26 /* Pods-NaturalHomeTests-acknowledgements.plist */,
+				80408AF3628CADA453D7694E1B82B2F3 /* Pods-NaturalHomeTests-dummy.m */,
+				6B0EDE42ED8AA678A4482B789A60B78D /* Pods-NaturalHomeTests-frameworks.sh */,
+				73502A1D7B1F16335D8DFF2FC59C23B3 /* Pods-NaturalHomeTests-resources.sh */,
+				5C66EBF916EACB1DFD820FE0D29F9B2D /* Pods-NaturalHomeTests-umbrella.h */,
+				835F9227A63917BDC9212297F440C09A /* Pods-NaturalHomeTests.debug.xcconfig */,
+				5C6E5912B9EA051E7FC50597ECEB7BBC /* Pods-NaturalHomeTests.release.xcconfig */,
+			);
+			name = "Pods-NaturalHomeTests";
+			path = "Target Support Files/Pods-NaturalHomeTests";
+			sourceTree = "<group>";
+		};
+		475DEF1374936CFD5D0273633D6C70B7 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A18EDE893568E532C4E187578DB5516F /* Entity */,
+				F90E7AC74CCC80956C33F7B818640550 /* Interactor */,
+				B2F2848B3FC3CF47C25E405EEECE8748 /* Presenter */,
+				9B8B667AB4DD9990D9851DEA094CC0F1 /* Protocols */,
+				32DEBF0D8D4BB89404E52E8F0527D02A /* Route */,
+				322975404992BCA368635BE17036CE6C /* View */,
+			);
+			name = Module;
+			path = NaturalHome/Module;
+			sourceTree = "<group>";
+		};
+		4F16EA7019B9DFE0F27DA0D5F5F53875 /* NaturalHome */ = {
+			isa = PBXGroup;
+			children = (
+				F84FD50044F4C6E5AE5AB07E044AAE10 /* NaturalHome.h */,
+				B4CCC16B0A4723D7BAFBB4317DA76D3D /* Helper */,
+				475DEF1374936CFD5D0273633D6C70B7 /* Module */,
+				EB4CCC05B80C53982BF3036A9AA64FC3 /* Pod */,
+				2934AC3307F9C313C471FCB3DB8EB612 /* Resources */,
+				1F3C357271AEAEAFEF017AF64FD2D302 /* Support Files */,
+			);
+			name = NaturalHome;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		506FF84B07F35034948813FF50F27930 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				94AC7CCB1E05F651737F75D970CDF017 /* ParallaxHeader.swift */,
+				6CEC83F026DAAA32741BE25DF36732D7 /* ParallaxHeaderMode.swift */,
+				41090C519AFC84A81E468144EE862504 /* UIScrollView+ParallaxHeader.swift */,
+				8D0B9759495AC778EF2943ED71C64106 /* Support Files */,
+			);
+			name = ParallaxHeader;
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		59A3B1ED86661133FCDDB230987A5392 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				9F2A3B8AD16CAC1EAF6B6D74C79A829F /* Controller */,
+			);
+			name = Module;
+			path = BaseFramework/Module;
+			sourceTree = "<group>";
+		};
+		59CE811175312233C94662D5002CD678 /* Pods-NaturalHomeAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F83293049D628B7A800E8F97079457D8 /* Info.plist */,
+				6066EC9670464338BB71756DD5F52E0B /* Pods-NaturalHomeAppsTests.modulemap */,
+				D703AB046696ACF35C19A00D7CF3ADB4 /* Pods-NaturalHomeAppsTests-acknowledgements.markdown */,
+				8E92030FD388758ED5ACD2924015C357 /* Pods-NaturalHomeAppsTests-acknowledgements.plist */,
+				0E4387400DE5D09719E90233317BC664 /* Pods-NaturalHomeAppsTests-dummy.m */,
+				C48097E30B5FB5FE8C75420534FF4266 /* Pods-NaturalHomeAppsTests-frameworks.sh */,
+				06FE8520BC966FFF01336D413A478B5F /* Pods-NaturalHomeAppsTests-resources.sh */,
+				DE6F2581796E893453F3E4AD9648DE68 /* Pods-NaturalHomeAppsTests-umbrella.h */,
+				C28D445726F59D5BE43610C7814B3944 /* Pods-NaturalHomeAppsTests.debug.xcconfig */,
+				FC2A2FDA6E4C0C3CE03A5F36542DEFDA /* Pods-NaturalHomeAppsTests.release.xcconfig */,
+			);
+			name = "Pods-NaturalHomeAppsTests";
+			path = "Target Support Files/Pods-NaturalHomeAppsTests";
+			sourceTree = "<group>";
+		};
+		610E8B065C2AADCA4CFC7BF5E353AB52 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B7D037FFBE7B1465D4389181D415F8 /* Pods-NaturalHome */,
+				2A9D9AE5513355C2896D037220543534 /* Pods-NaturalHomeApps */,
+				59CE811175312233C94662D5002CD678 /* Pods-NaturalHomeAppsTests */,
+				4562DD7B24F2DCB8F1EFD5687F2577AC /* Pods-NaturalHomeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		70E642EFA78D7072868B91433801D22D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4C8AC6229B9CD5B16C7152F56930D /* BaseFramework.framework */,
+				958C7CD05A659ADFB620E7B11D207626 /* HexColors.framework */,
+				705CDBE1E0C08C9AC12368ADB29FC2A2 /* ParallaxHeader.framework */,
+				7160FFA0110DF55B93ABFF8A770323E9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7160FFA0110DF55B93ABFF8A770323E9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C735CAB47BF414C6E220939702BB4FD5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C7DA452E24AF2BE2D0249DF5CD9B865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5499A25634B341D7B25688E6323A0C33 /* BaseFramework.bundle */,
+				DD8F6B98B0C2C35F80FDCEAC57DF8009 /* BaseFramework.framework */,
+				DC8A8B82F13FED642FA7B7ECA31FA671 /* HexColors.framework */,
+				17630B4BF15AD5830026BC96183B8621 /* NaturalHome.bundle */,
+				B1C6AA24B5773D4B93710DF5725C0081 /* NaturalHome.framework */,
+				DFFD1995A7F0EF35B9183F0EFBC908D2 /* ParallaxHeader.framework */,
+				02294DC104CC288D9DEB38C142183F62 /* Pods_NaturalHome.framework */,
+				EDAE298CE9AF02AFE90F6D77D798DB76 /* Pods_NaturalHomeApps.framework */,
+				F9DE0EE8CC40DADA4C4C1E1F52A84F98 /* Pods_NaturalHomeAppsTests.framework */,
+				8D4EF2F4B6F97308B4CDB40182B2AD26 /* Pods_NaturalHomeTests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3EC956932F24B5DC0DFD19B67C32A0E3 /* Development Pods */,
-				04DC935C3F51D0E46520DD78439CCA1B /* Frameworks */,
-				BF99AA4E0E2F763718AA7A516C10FE53 /* Pods */,
-				98D4F0702AEF361C1612C241BB885009 /* Products */,
-				811FD1E9493478DFD254FE9D9D9BE90B /* Targets Support Files */,
+				F20D485BA1CB2E8062ABFBEF7BB84ED4 /* Development Pods */,
+				70E642EFA78D7072868B91433801D22D /* Frameworks */,
+				27170B181A267531F6CCDB105EED8FE4 /* Pods */,
+				7C7DA452E24AF2BE2D0249DF5CD9B865 /* Products */,
+				610E8B065C2AADCA4CFC7BF5E353AB52 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		811FD1E9493478DFD254FE9D9D9BE90B /* Targets Support Files */ = {
+		83B7D037FFBE7B1465D4389181D415F8 /* Pods-NaturalHome */ = {
 			isa = PBXGroup;
 			children = (
-				BD90F396F7B1919EB9E61EC3145C8C0D /* Pods-NaturalHome */,
-				14C8B4010DFB8FBB060A40C6EE27387D /* Pods-NaturalHomeTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		98D4F0702AEF361C1612C241BB885009 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9FE23F4582A9772479354B0C6A3BCC61 /* BaseFramework.bundle */,
-				2FB8E416D7023A5BC36CB97A1B14695C /* BaseFramework.framework */,
-				0FBCB68A2BD039EBB06B8D1841A8F581 /* HexColors.framework */,
-				F12C204FD2B66335DA26A2100DF63BAE /* Pods_NaturalHome.framework */,
-				7DA969DDB5FFE55FFFE14CCF38B57AA4 /* Pods_NaturalHomeTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A7A37837A97CBF61CC2F9508A7D2C31E /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				CB989FE6F6DF587A9AB6897A2983B7EC /* BundleHelper.swift */,
-				6D19CCEEF16DF75266CB9F9B85310DB5 /* ColorHelper.swift */,
-				419B039EB147E44E70D54732EEAD1849 /* DateHelper.swift */,
-				B408CF756068A50E090F14E1FF531AF2 /* PrefHelper.swift */,
-			);
-			name = Helper;
-			path = BaseFramework/Helper;
-			sourceTree = "<group>";
-		};
-		BD90F396F7B1919EB9E61EC3145C8C0D /* Pods-NaturalHome */ = {
-			isa = PBXGroup;
-			children = (
-				506BD6274D10DF0507F0FF7B355D5164 /* Info.plist */,
-				645303DD9A2D548B70B7602ACB73A189 /* Pods-NaturalHome.modulemap */,
-				9088B33627F0A7647842679D3672F06F /* Pods-NaturalHome-acknowledgements.markdown */,
-				0BCE3384B374D40E9E9311D9613F4E6B /* Pods-NaturalHome-acknowledgements.plist */,
-				C900804FA4D22EB9402D99DCBFE1CEDD /* Pods-NaturalHome-dummy.m */,
-				2CAF770C2BEE0CEA8D49CB9FE4370FD4 /* Pods-NaturalHome-resources.sh */,
-				E611E7555B8FD20EC629A84BD80E0C83 /* Pods-NaturalHome-umbrella.h */,
-				B7DCE89FA700EFB7512D052588970739 /* Pods-NaturalHome.debug.xcconfig */,
-				CECBA6618B5FF4EB2DF83D092FD8FCA0 /* Pods-NaturalHome.release.xcconfig */,
+				524D2BBB8386A6FF6A94FFFB9D05E072 /* Info.plist */,
+				42F8E296603D2044F703FCDF22AE9B88 /* Pods-NaturalHome.modulemap */,
+				8BD0B237EDE8905BC33853A7E7E1D170 /* Pods-NaturalHome-acknowledgements.markdown */,
+				70C24862CAB59B07FFFF9C06F2EABBA1 /* Pods-NaturalHome-acknowledgements.plist */,
+				E513BC0B55A83CDB2CE0D9CB81948FE5 /* Pods-NaturalHome-dummy.m */,
+				542DCAED6D657B66531DE8E860BFF3BF /* Pods-NaturalHome-resources.sh */,
+				008DF34AEDB90EAF7E1BEFC8BD5CE8BC /* Pods-NaturalHome-umbrella.h */,
+				A970B1BD3D61D7739953EB902AD33393 /* Pods-NaturalHome.debug.xcconfig */,
+				62832013617BDB85DD1E9E925F0CFBEB /* Pods-NaturalHome.release.xcconfig */,
 			);
 			name = "Pods-NaturalHome";
 			path = "Target Support Files/Pods-NaturalHome";
 			sourceTree = "<group>";
 		};
-		BF99AA4E0E2F763718AA7A516C10FE53 /* Pods */ = {
+		85CE7916CF32BB30CD6A06CCDE4C712B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E249A52F492124C79F9590364B717F6D /* HexColors */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DF277F2B57F495476703C54C0DC825AB /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				1C3542666077EBAAE07F7CFE397DC5D8 /* Controller */,
-			);
-			name = Module;
-			path = BaseFramework/Module;
-			sourceTree = "<group>";
-		};
-		E12B56BEC789F25E37CADB135216DBA5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B10FAFD112070369557448ACAB84A239 /* BaseFramework.modulemap */,
-				3648793E9F34B65A3E0833172F6589CE /* BaseFramework.xcconfig */,
-				A4FDF1A881BA89EED72700AC31844DA5 /* BaseFramework-dummy.m */,
-				DAD01402785847C356AE411C3438F8E1 /* BaseFramework-prefix.pch */,
-				1344FD5794C47A5378474FAAEEDCE3D1 /* BaseFramework-umbrella.h */,
-				AF40291B1735F40776731134F70A4D0E /* Info.plist */,
-				476CEB86E282F40B955938C19AC6607E /* ResourceBundle-BaseFramework-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../NaturalHome/Pods/Target Support Files/BaseFramework";
-			sourceTree = "<group>";
-		};
-		E22B9DC5A4CC7CB374E52701F7FD9D52 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A78499944B142B5C9B2DDC4DD45A9B97 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E249A52F492124C79F9590364B717F6D /* HexColors */ = {
-			isa = PBXGroup;
-			children = (
-				961F4EB9AE8E483F5F36C5001E9932DA /* HexColors.swift */,
-				EB1A54A3DDAC76DB4594904DED2D92AC /* Support Files */,
-			);
-			name = HexColors;
-			path = HexColors;
-			sourceTree = "<group>";
-		};
-		EB1A54A3DDAC76DB4594904DED2D92AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				986DE6110BA248A4A65558EAFA281CF5 /* HexColors.modulemap */,
-				7BC9A98899C0239E1018B2A57A4E5E31 /* HexColors.xcconfig */,
-				86AA2100905F77D8EF2546ADB65626DC /* HexColors-dummy.m */,
-				E86F5B76944CAE1B0D147D822F00191B /* HexColors-prefix.pch */,
-				FA30B4023520E4FB3A0E8CCD2BD6E2F9 /* HexColors-umbrella.h */,
-				8586BD73D5AA2AC741C752EB8463BE88 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HexColors";
-			sourceTree = "<group>";
-		};
-		F6CCDA85902CF233FAAEB3DB18E3837D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C9F20B631E37F000140BF9D03C5007DB /* BaseFramework.podspec */,
+				74776752AF0F7C47C8F6A9A191EC2B06 /* BaseFramework.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FD623B50DA9ABD740F7487E207B1A3A1 /* Resources */ = {
+		8D0B9759495AC778EF2943ED71C64106 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AD10C7C3795860EF024A950C2277DBE /* Assets.xcassets */,
+				D1B8CED30EA1B1EC935D07AC80A40D6B /* Info.plist */,
+				F7ED070C351A5D60EA59D0EA1322626A /* ParallaxHeader.modulemap */,
+				F05665F021776DC303F3F207A6D98242 /* ParallaxHeader.xcconfig */,
+				A111C1E8A58849EF4CB2630D9E4EC1CD /* ParallaxHeader-dummy.m */,
+				CCAE96880D3BFA89AFDACE7A2AD28063 /* ParallaxHeader-prefix.pch */,
+				E1D432D53961F93428A89CBBAADD0BFB /* ParallaxHeader-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/ParallaxHeader";
+			sourceTree = "<group>";
+		};
+		9B8B667AB4DD9990D9851DEA094CC0F1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				974FE512EB3552BF3E6F1A582696EE69 /* HomeProtocol.swift */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9F2A3B8AD16CAC1EAF6B6D74C79A829F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54BF6AA033942AD8FC62BA8B0020207D /* BaseViewController.swift */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A18EDE893568E532C4E187578DB5516F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5480BEC888CDA3861A6D89E36763F /* HomeEntity.swift */,
+			);
+			name = Entity;
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AA6BB946E7315E75B232899C3B1C75D3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD39CC395CB2528E7F4F9413B715F /* Home.storyboard */,
+			);
+			name = UI;
+			path = NaturalHome/Assets/UI;
+			sourceTree = "<group>";
+		};
+		B281495FBBF7465C65D672641393C644 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3D82D07B8FBAF9FCB84940EBCE750C74 /* BundleHelper.swift */,
+				818D6137BC1D486AE1F0A514B2AEE675 /* ColorHelper.swift */,
+				FAC7D43227422FC1927C0B615B8AD6B2 /* DateHelper.swift */,
+				3F15A228090BF5D4EDD0F941595AEADB /* PrefHelper.swift */,
+			);
+			name = Helper;
+			path = BaseFramework/Helper;
+			sourceTree = "<group>";
+		};
+		B2F2848B3FC3CF47C25E405EEECE8748 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				536ACFB1015A70F9D82375473E9D8494 /* HomePresenter.swift */,
+			);
+			name = Presenter;
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B4CCC16B0A4723D7BAFBB4317DA76D3D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				38501D7DCCF3530AA7BD369A03C1E801 /* Helper.swift */,
+			);
+			name = Helper;
+			path = NaturalHome/Helper;
+			sourceTree = "<group>";
+		};
+		CCF8553DD3176710EA4934AD47B4E339 /* BaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CE81B1D00F009071E74D660E5EE73713 /* BaseFramework.h */,
+				B281495FBBF7465C65D672641393C644 /* Helper */,
+				59A3B1ED86661133FCDDB230987A5392 /* Module */,
+				85CE7916CF32BB30CD6A06CCDE4C712B /* Pod */,
+				03E4A29C498E64ED267D2DEB53C9FEEC /* Resources */,
+				21ADA762FB5E63E5DE4F306F94D544C8 /* Support Files */,
+				02A14906CC54E4FC5FD15B6A11869CB6 /* View */,
+			);
+			name = BaseFramework;
+			path = ../../BaseFramework;
+			sourceTree = "<group>";
+		};
+		E47442EC7BCCDABA320F4038E77023B5 /* nib */ = {
+			isa = PBXGroup;
+			children = (
+				D3D86BDA2DF6D536FF7BC1A455B66A3B /* HeaderCell.xib */,
+				143806B2F6D8157ED67BDDA964AA0904 /* ParralaxHeaderView.xib */,
+			);
+			name = nib;
+			path = NaturalHome/Assets/nib;
+			sourceTree = "<group>";
+		};
+		EB4CCC05B80C53982BF3036A9AA64FC3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F45DAEBB76D2C27D4F532B5B4B7FB13 /* NaturalHome.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F20D485BA1CB2E8062ABFBEF7BB84ED4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF8553DD3176710EA4934AD47B4E339 /* BaseFramework */,
+				4F16EA7019B9DFE0F27DA0D5F5F53875 /* NaturalHome */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F90E7AC74CCC80956C33F7B818640550 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D720CC998989B2B7C47C7C6EB887F9C8 /* HomeInteractor.swift */,
+			);
+			name = Interactor;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DA6220E73B3B3DF9CD0F6085BC3CA65 /* Headers */ = {
+		3002E1AA6691165EC5B55A430F4EF241 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2312102D6E26DDD8C2C1CA500CB47D /* Pods-NaturalHomeTests-umbrella.h in Headers */,
+				4320B88E0337DB51E6ADB4194879C8DB /* ParallaxHeader-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50D3FEB1DD1160DD22E913475BEB0A54 /* Headers */ = {
+		4BA3D7CC7BA2BE19B9BCCBA5C40D2D13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6254CAA5C677D2CAEF3474A599F839D2 /* Pods-NaturalHome-umbrella.h in Headers */,
+				44DEEDF13999573BFA76333779E0F067 /* Pods-NaturalHomeApps-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE37390489448FA2830A8CD2AD97155 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B000B45C845892C6279107E111ACCD /* Pods-NaturalHome-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +872,31 @@
 			files = (
 				0C5EF156F4970A2437337CE62B101E39 /* BaseFramework-umbrella.h in Headers */,
 				E17EAEB661E13097D0BF1396AFA9812E /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDF1CB73872BAFFBF51EE242E8733E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4C73FFCC12E37A2CDCC4A8F135CC04 /* Pods-NaturalHomeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96813C59B357DC68D3A0857D93C6C8E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3B5F40A1E80653283E8B3AF32972FE /* NaturalHome-umbrella.h in Headers */,
+				FFF2D1FB92B44C7EC9480F95459B948C /* NaturalHome.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C098C68D1CA3AE0FE65DCEB758B21E21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9654EAF5238678A96EEE8678D3E3CBA /* Pods-NaturalHomeAppsTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,25 +911,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2FCBBAC51AFF296ACAF5B2A74EFCB255 /* Pods-NaturalHomeTests */ = {
+		3250FF26FF3F97EE083120A3A6A1CB49 /* NaturalHome-NaturalHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF04B74E0C5AACFFA3B38A6806E0C73A /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeTests" */;
+			buildConfigurationList = 53AB5A3E25E80616173500E66CACA0FA /* Build configuration list for PBXNativeTarget "NaturalHome-NaturalHome" */;
 			buildPhases = (
-				5B6A7BCA66131624288F7BFFBA8DF352 /* Sources */,
-				B36285347570B65D68849A8BAC0C7418 /* Frameworks */,
-				2DA6220E73B3B3DF9CD0F6085BC3CA65 /* Headers */,
+				A18A47AD9A680653C7F7C12A1B6D2995 /* Sources */,
+				B3AA7F6A98E9FE6B5A8EE56C8654FBF5 /* Frameworks */,
+				741D96056DF1CE49F34C277899CEC0BF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADEF303355B21C3EEE4E7A9EB4099E36 /* PBXTargetDependency */,
-				01B2FE151F543BF939938FF3DA5A089E /* PBXTargetDependency */,
-				39067C71D1FE2505EA76B9428E52942A /* PBXTargetDependency */,
 			);
-			name = "Pods-NaturalHomeTests";
-			productName = "Pods-NaturalHomeTests";
-			productReference = 7DA969DDB5FFE55FFFE14CCF38B57AA4 /* Pods_NaturalHomeTests.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "NaturalHome-NaturalHome";
+			productName = "NaturalHome-NaturalHome";
+			productReference = 17630B4BF15AD5830026BC96183B8621 /* NaturalHome.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */ = {
 			isa = PBXNativeTarget;
@@ -465,7 +942,46 @@
 			);
 			name = HexColors;
 			productName = HexColors;
-			productReference = 0FBCB68A2BD039EBB06B8D1841A8F581 /* HexColors.framework */;
+			productReference = DC8A8B82F13FED642FA7B7ECA31FA671 /* HexColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E5B26107422A2DC2772D9669F33A9A7 /* Pods-NaturalHomeAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFBC8966883D67B07D165008704A338 /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeAppsTests" */;
+			buildPhases = (
+				0E9490037C3916CA9288D77167B7D494 /* Sources */,
+				61F2C5A3FC0E8FBCF0F61E5040E801E5 /* Frameworks */,
+				C098C68D1CA3AE0FE65DCEB758B21E21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9631F34C9BAE0F89DB1F7CDEE4AA360 /* PBXTargetDependency */,
+			);
+			name = "Pods-NaturalHomeAppsTests";
+			productName = "Pods-NaturalHomeAppsTests";
+			productReference = F9DE0EE8CC40DADA4C4C1E1F52A84F98 /* Pods_NaturalHomeAppsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E9171F83C9C938149F85D02B2705439 /* Pods-NaturalHomeApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B8C85B6E4736BB69F99F38896F95E2 /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeApps" */;
+			buildPhases = (
+				E475439BD977A0FB8DEB7AE0C8184E9A /* Sources */,
+				0B6B3F4F01790AFA1005115BE2AD5605 /* Frameworks */,
+				4BA3D7CC7BA2BE19B9BCCBA5C40D2D13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EF8A62F0A4E06A77136EF584411FEA /* PBXTargetDependency */,
+				1DC145F1B4CB0ABEAC42C78213EB4E17 /* PBXTargetDependency */,
+				2EB65160891F90A5F7634F87EA92CD08 /* PBXTargetDependency */,
+				FE15F8D4D9E825ADD625431CD72E39DC /* PBXTargetDependency */,
+			);
+			name = "Pods-NaturalHomeApps";
+			productName = "Pods-NaturalHomeApps";
+			productReference = EDAE298CE9AF02AFE90F6D77D798DB76 /* Pods_NaturalHomeApps.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8E0FDFB33D147099C13CCB381F0C5347 /* BaseFramework-BaseFramework */ = {
@@ -482,26 +998,44 @@
 			);
 			name = "BaseFramework-BaseFramework";
 			productName = "BaseFramework-BaseFramework";
-			productReference = 9FE23F4582A9772479354B0C6A3BCC61 /* BaseFramework.bundle */;
+			productReference = 5499A25634B341D7B25688E6323A0C33 /* BaseFramework.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		9CCCEBDC98143FD65E0D674467D9843E /* Pods-NaturalHome */ = {
+		9BCFC591CCCE66194FF935D800360F9E /* Pods-NaturalHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAB552F55E9EE594172391B7EDA42E7 /* Build configuration list for PBXNativeTarget "Pods-NaturalHome" */;
+			buildConfigurationList = CE64C15F2779F8FB615DC917B1B34A65 /* Build configuration list for PBXNativeTarget "Pods-NaturalHome" */;
 			buildPhases = (
-				1B9CFC50A492555B5CD30E844DB8A81F /* Sources */,
-				E3626E0099F651E32206715652C0C73A /* Frameworks */,
-				50D3FEB1DD1160DD22E913475BEB0A54 /* Headers */,
+				E00FE9BF25DBE2FB4DC7AA1D06B70D6C /* Sources */,
+				F4AE77B7CBE6DD7B4F17D08376AEF998 /* Frameworks */,
+				5CE37390489448FA2830A8CD2AD97155 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				342A05294AA1F86F92593A0BA6571575 /* PBXTargetDependency */,
-				407388E2536CCA53FB00A39ABFD10936 /* PBXTargetDependency */,
+				85DF579E3EA4B3199ADE9EE12DAD1C90 /* PBXTargetDependency */,
+				698000E3AF6AB458B1996DB79C96D9C7 /* PBXTargetDependency */,
+				ABC452C3FEFA23415456BAA312BF23F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-NaturalHome";
 			productName = "Pods-NaturalHome";
-			productReference = F12C204FD2B66335DA26A2100DF63BAE /* Pods_NaturalHome.framework */;
+			productReference = 02294DC104CC288D9DEB38C142183F62 /* Pods_NaturalHome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1C19C31FCC70F633027774B1A2C7F37 /* ParallaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8664D7678DACC714B88C7060516CD3CB /* Build configuration list for PBXNativeTarget "ParallaxHeader" */;
+			buildPhases = (
+				04199CEC2BF000B015465C8AC59AB9EE /* Sources */,
+				E28A47F12555CB4DEFDB1689CE50193D /* Frameworks */,
+				3002E1AA6691165EC5B55A430F4EF241 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxHeader;
+			productName = ParallaxHeader;
+			productReference = DFFD1995A7F0EF35B9183F0EFBC908D2 /* ParallaxHeader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */ = {
@@ -521,7 +1055,50 @@
 			);
 			name = BaseFramework;
 			productName = BaseFramework;
-			productReference = 2FB8E416D7023A5BC36CB97A1B14695C /* BaseFramework.framework */;
+			productReference = DD8F6B98B0C2C35F80FDCEAC57DF8009 /* BaseFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C447287EC9331E4B317530FD70105725 /* Pods-NaturalHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579835C7793A20944E8666187B16D86E /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeTests" */;
+			buildPhases = (
+				5E9FDFC9187C584877907841CE79B436 /* Sources */,
+				AC9428A9B31D4F79915F7BD898AEA8CE /* Frameworks */,
+				7FDF1CB73872BAFFBF51EE242E8733E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0147B4F5BD70AB112C10F134A750DA13 /* PBXTargetDependency */,
+				CAFE6BD0772E693E0D5B168ECAEEBEBD /* PBXTargetDependency */,
+				79BEC1673B5BA31F3D25BD8559806D09 /* PBXTargetDependency */,
+				EA40E01F448AAEFD3568657E790015DD /* PBXTargetDependency */,
+			);
+			name = "Pods-NaturalHomeTests";
+			productName = "Pods-NaturalHomeTests";
+			productReference = 8D4EF2F4B6F97308B4CDB40182B2AD26 /* Pods_NaturalHomeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBC4F91D338123E856588206D12AB3F4 /* NaturalHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9521FC20AF86A99A93CB8AC81E1B5625 /* Build configuration list for PBXNativeTarget "NaturalHome" */;
+			buildPhases = (
+				FCCB0285BCF123AF43E0FE49EFA5579F /* Sources */,
+				C86164F4B09BC53A1B114A3ADA91568B /* Frameworks */,
+				8F88412FC4AFA05F2AE6213422EF8D90 /* Resources */,
+				96813C59B357DC68D3A0857D93C6C8E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A09881EE174A3A770DDBD94385DFF84 /* PBXTargetDependency */,
+				218B9EFBB6482434A0B5491E22E2FA9B /* PBXTargetDependency */,
+				A3338782E4F684A4FBE82A5062BFD605 /* PBXTargetDependency */,
+				CC69621E290442949EA0F888C8CF974D /* PBXTargetDependency */,
+			);
+			name = NaturalHome;
+			productName = NaturalHome;
+			productReference = B1C6AA24B5773D4B93710DF5725C0081 /* NaturalHome.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -541,20 +1118,50 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 98D4F0702AEF361C1612C241BB885009 /* Products */;
+			productRefGroup = 7C7DA452E24AF2BE2D0249DF5CD9B865 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */,
 				8E0FDFB33D147099C13CCB381F0C5347 /* BaseFramework-BaseFramework */,
 				378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */,
-				9CCCEBDC98143FD65E0D674467D9843E /* Pods-NaturalHome */,
-				2FCBBAC51AFF296ACAF5B2A74EFCB255 /* Pods-NaturalHomeTests */,
+				FBC4F91D338123E856588206D12AB3F4 /* NaturalHome */,
+				3250FF26FF3F97EE083120A3A6A1CB49 /* NaturalHome-NaturalHome */,
+				A1C19C31FCC70F633027774B1A2C7F37 /* ParallaxHeader */,
+				9BCFC591CCCE66194FF935D800360F9E /* Pods-NaturalHome */,
+				5E9171F83C9C938149F85D02B2705439 /* Pods-NaturalHomeApps */,
+				5E5B26107422A2DC2772D9669F33A9A7 /* Pods-NaturalHomeAppsTests */,
+				C447287EC9331E4B317530FD70105725 /* Pods-NaturalHomeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		741D96056DF1CE49F34C277899CEC0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE10F00142EC99905AF386A963C2BFA /* Assets.xcassets in Resources */,
+				208631979D724C84C67C721A0D700DA0 /* HeaderCell.xib in Resources */,
+				A6DE7B586B6F39C516CD27367821FA14 /* Home.storyboard in Resources */,
+				A00A80235C5065C0E5DEF31B3082D0A1 /* ParralaxHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F88412FC4AFA05F2AE6213422EF8D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC57B5617427326B97FCE82966EB9242 /* Assets.xcassets in Resources */,
+				8C6C4E217F1F3FEE64520230D3F23D5C /* HeaderCell.xib in Resources */,
+				3B112E5EE724E07FE532A90B56A89FB1 /* Home.storyboard in Resources */,
+				F09F644FFD72A0F7133013300CA65386 /* NaturalHome.bundle in Resources */,
+				5535A6ED0AC134D0D7A065549729B15E /* nib in Resources */,
+				91704596A9D5358017B3703341EB49F5 /* ParralaxHeaderView.xib in Resources */,
+				18CFF9BF90A563E5F3E2A966CB32C3C7 /* UI in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99ED65E025CB5D9D7D7DBE6CD79C6C32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,6 +1182,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04199CEC2BF000B015465C8AC59AB9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC34C79C6102B759A18D5BE5B536DB0 /* ParallaxHeader-dummy.m in Sources */,
+				A694F3CB778145AB3A742EFA7F1103FE /* ParallaxHeader.swift in Sources */,
+				16AC1A2E07F38FE1F4544D5BF640F8D5 /* ParallaxHeaderMode.swift in Sources */,
+				D465970C78B928BD206387D4059B78F1 /* UIScrollView+ParallaxHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E9490037C3916CA9288D77167B7D494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3005C508ED0A1366181EDF83A8832407 /* Pods-NaturalHomeAppsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		113746A6176F416FF2937B9C8D97B9CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,19 +1208,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B9CFC50A492555B5CD30E844DB8A81F /* Sources */ = {
+		5E9FDFC9187C584877907841CE79B436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E07207E922DEE4FA5EA07DCEE7E912F9 /* Pods-NaturalHome-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B6A7BCA66131624288F7BFFBA8DF352 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE3CAEE2249FEA5944074581FE1C7339 /* Pods-NaturalHomeTests-dummy.m in Sources */,
+				BE52F30E5056C7F36D276962FE4C5572 /* Pods-NaturalHomeTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,32 +1239,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A18A47AD9A680653C7F7C12A1B6D2995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FE9BF25DBE2FB4DC7AA1D06B70D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A5A62F5AF4BF314A773B14C64E9735 /* Pods-NaturalHome-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E475439BD977A0FB8DEB7AE0C8184E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F76F8B84FC6BCABB54C882795EF8701 /* Pods-NaturalHomeApps-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB0285BCF123AF43E0FE49EFA5579F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF26F8E1EBB21A563DEB8897FCCA19D /* HeaderTableViewCell.swift in Sources */,
+				EEF144EFFD344D8D6627D52ABD6FA7F4 /* Helper.swift in Sources */,
+				D2D3C65783D0A9B3CAE8FA55A1233B3D /* HomeEntity.swift in Sources */,
+				21C341C2C8041000D74E0D59EDF9DAD7 /* HomeInteractor.swift in Sources */,
+				F7EFF485793D169BC11370D5EEF128B6 /* HomePresenter.swift in Sources */,
+				10363EA9DD2F2FD1C2AC1AC455F2123C /* HomeProtocol.swift in Sources */,
+				3393EFCD053E07B3BCF9DB7F83BA2ED5 /* HomeRoute.swift in Sources */,
+				2E3BA58CA724576ECB04A280E840447B /* HomeViewController.swift in Sources */,
+				504A063A065C4BF77611D17D8B6E60EF /* NaturalHome-dummy.m in Sources */,
+				E0B567BF94D729BEE54B8D38E88ED76A /* ParralaxHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01B2FE151F543BF939938FF3DA5A089E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HexColors;
-			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
-			targetProxy = 360A1DBA242812C861BF189DE29B989C /* PBXContainerItemProxy */;
-		};
-		342A05294AA1F86F92593A0BA6571575 /* PBXTargetDependency */ = {
+		0147B4F5BD70AB112C10F134A750DA13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BaseFramework;
 			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
-			targetProxy = 094CBFDC30900797F61108DEE2738C00 /* PBXContainerItemProxy */;
+			targetProxy = C4A70082179103B8EB3A150C4298EBF4 /* PBXContainerItemProxy */;
 		};
-		39067C71D1FE2505EA76B9428E52942A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NaturalHome";
-			target = 9CCCEBDC98143FD65E0D674467D9843E /* Pods-NaturalHome */;
-			targetProxy = 1A7F231B0E91436D13BFFA51B3E6A1A3 /* PBXContainerItemProxy */;
-		};
-		407388E2536CCA53FB00A39ABFD10936 /* PBXTargetDependency */ = {
+		1DC145F1B4CB0ABEAC42C78213EB4E17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HexColors;
 			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
-			targetProxy = C336E024BA618680637B2303FDB0E091 /* PBXContainerItemProxy */;
+			targetProxy = 0DFD6C35936768279BE4269F807B62E9 /* PBXContainerItemProxy */;
+		};
+		218B9EFBB6482434A0B5491E22E2FA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
+			targetProxy = C84826D9E65F212CD82E653636F2E046 /* PBXContainerItemProxy */;
+		};
+		2A09881EE174A3A770DDBD94385DFF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseFramework;
+			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
+			targetProxy = B11BA620D08532F37093D0F016D8B43E /* PBXContainerItemProxy */;
+		};
+		2EB65160891F90A5F7634F87EA92CD08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NaturalHome;
+			target = FBC4F91D338123E856588206D12AB3F4 /* NaturalHome */;
+			targetProxy = EF7DBFA11477C59F79DCA285371F2394 /* PBXContainerItemProxy */;
 		};
 		5B805C377F8AF65B1A3274EFA91A14F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -654,24 +1318,153 @@
 			target = 8E0FDFB33D147099C13CCB381F0C5347 /* BaseFramework-BaseFramework */;
 			targetProxy = 54989C19D957F33138F9913B5775FE7A /* PBXContainerItemProxy */;
 		};
+		698000E3AF6AB458B1996DB79C96D9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
+			targetProxy = 085683074696D72EE006F5C859E2EFF0 /* PBXContainerItemProxy */;
+		};
+		79BEC1673B5BA31F3D25BD8559806D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = A1C19C31FCC70F633027774B1A2C7F37 /* ParallaxHeader */;
+			targetProxy = 98DCAFFB69D8A9683932CED04E7439EC /* PBXContainerItemProxy */;
+		};
+		85DF579E3EA4B3199ADE9EE12DAD1C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseFramework;
+			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
+			targetProxy = E16D0F24B21F5CC201FD11177F8C0F6B /* PBXContainerItemProxy */;
+		};
 		96F8691C96BC6FA80B90006253568BF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HexColors;
 			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
 			targetProxy = 86611F986D78062AC3458781939412FC /* PBXContainerItemProxy */;
 		};
-		ADEF303355B21C3EEE4E7A9EB4099E36 /* PBXTargetDependency */ = {
+		97EF8A62F0A4E06A77136EF584411FEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BaseFramework;
 			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
-			targetProxy = D707F76852CDF6505644798E00F5C6BB /* PBXContainerItemProxy */;
+			targetProxy = 1F90BB8830F54A873D1D088DAF9420DC /* PBXContainerItemProxy */;
+		};
+		A3338782E4F684A4FBE82A5062BFD605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NaturalHome-NaturalHome";
+			target = 3250FF26FF3F97EE083120A3A6A1CB49 /* NaturalHome-NaturalHome */;
+			targetProxy = 47108082EC459A3EA79075297CBA0BD7 /* PBXContainerItemProxy */;
+		};
+		ABC452C3FEFA23415456BAA312BF23F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = A1C19C31FCC70F633027774B1A2C7F37 /* ParallaxHeader */;
+			targetProxy = 5380615C5BCAD60DDE787FBDDA2BC5DA /* PBXContainerItemProxy */;
+		};
+		B9631F34C9BAE0F89DB1F7CDEE4AA360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NaturalHomeApps";
+			target = 5E9171F83C9C938149F85D02B2705439 /* Pods-NaturalHomeApps */;
+			targetProxy = 36ADBA2B4704C6FCE9261F1B03FBC05B /* PBXContainerItemProxy */;
+		};
+		CAFE6BD0772E693E0D5B168ECAEEBEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
+			targetProxy = D4FDB583A5213684659EE8A5E604E118 /* PBXContainerItemProxy */;
+		};
+		CC69621E290442949EA0F888C8CF974D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = A1C19C31FCC70F633027774B1A2C7F37 /* ParallaxHeader */;
+			targetProxy = A9FE1FE7487D73D742637C747B32C71F /* PBXContainerItemProxy */;
+		};
+		EA40E01F448AAEFD3568657E790015DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NaturalHome";
+			target = 9BCFC591CCCE66194FF935D800360F9E /* Pods-NaturalHome */;
+			targetProxy = AB703FD96BDA44C4BEC4F5410733A695 /* PBXContainerItemProxy */;
+		};
+		FE15F8D4D9E825ADD625431CD72E39DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = A1C19C31FCC70F633027774B1A2C7F37 /* ParallaxHeader */;
+			targetProxy = B9989419F47950F444CB95DDCE5C52E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		04333F97DF2014F161EB899134076030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05665F021776DC303F3F207A6D98242 /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				PRODUCT_MODULE_NAME = ParallaxHeader;
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		053B76CCB6D2D950933C980F3B9DF98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2790B70DCA8AA3A2D172D5118F34AA /* Pods-NaturalHomeApps.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHomeApps/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHomeApps/Pods-NaturalHomeApps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		18C1F3A72F3E97AF3D0D475A18BD7B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BC9A98899C0239E1018B2A57A4E5E31 /* HexColors.xcconfig */;
+			baseConfigurationReference = 9A005F69DC222F08CE529A91074A1E6E /* HexColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -701,81 +1494,9 @@
 			};
 			name = Debug;
 		};
-		25BD98084B4C3916F18D92E8494A1DC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7DCE89FA700EFB7512D052588970739 /* Pods-NaturalHome.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHome/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHome/Pods-NaturalHome.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		342B2B2A06E4E661773D0141E7708BD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CECBA6618B5FF4EB2DF83D092FD8FCA0 /* Pods-NaturalHome.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHome/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHome/Pods-NaturalHome.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		430FBE93CD9327148B463254DCC28E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3648793E9F34B65A3E0833172F6589CE /* BaseFramework.xcconfig */;
+			baseConfigurationReference = C067C94F8B02F8E1B704D9866B6A5162 /* BaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BaseFramework";
@@ -852,9 +1573,76 @@
 			};
 			name = Debug;
 		};
+		5FDC96350AB90CE31CD5A0DB4730E40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C874E59F367EFF6E16A97AF90E45057 /* NaturalHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NaturalHome/NaturalHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NaturalHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NaturalHome/NaturalHome.modulemap";
+				PRODUCT_MODULE_NAME = NaturalHome;
+				PRODUCT_NAME = NaturalHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		611E02224BE7A1C0E93061B87E5B8282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28D445726F59D5BE43610C7814B3944 /* Pods-NaturalHomeAppsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHomeAppsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHomeAppsTests/Pods-NaturalHomeAppsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6746CB812EC733B79F90DA5F65446452 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3648793E9F34B65A3E0833172F6589CE /* BaseFramework.xcconfig */;
+			baseConfigurationReference = C067C94F8B02F8E1B704D9866B6A5162 /* BaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -884,9 +1672,45 @@
 			};
 			name = Debug;
 		};
-		766E780219C3571972413A4BD4ECFEF3 /* Debug */ = {
+		6DF8B7DD8DBFD9067B356C0F19ADEE83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEAEA11D9767DA2899D8920A2E0EB006 /* Pods-NaturalHomeTests.debug.xcconfig */;
+			baseConfigurationReference = 2B06050B45C79CB74390FB40B176F378 /* Pods-NaturalHomeApps.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHomeApps/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHomeApps/Pods-NaturalHomeApps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C05BD40FC139873B0A523E013BE6F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6E5912B9EA051E7FC50597ECEB7BBC /* Pods-NaturalHomeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -912,17 +1736,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7C8BFF186E7B33C4BF5DEEA0F4B50316 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BC9A98899C0239E1018B2A57A4E5E31 /* HexColors.xcconfig */;
+			baseConfigurationReference = 9A005F69DC222F08CE529A91074A1E6E /* HexColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -946,6 +1770,42 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96A5418F549509AE732620FDC54C5AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62832013617BDB85DD1E9E925F0CFBEB /* Pods-NaturalHome.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHome/Pods-NaturalHome.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1011,9 +1871,92 @@
 			};
 			name = Release;
 		};
-		D1AC3C39115B32A489DFB66FBE7EE9BB /* Release */ = {
+		BC19FE811290D462A89B44385BA7F60A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BC52E061C2FD9F351333C78D7CC931C /* Pods-NaturalHomeTests.release.xcconfig */;
+			baseConfigurationReference = FC2A2FDA6E4C0C3CE03A5F36542DEFDA /* Pods-NaturalHomeAppsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHomeAppsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHomeAppsTests/Pods-NaturalHomeAppsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF59E2F96AFB685ECF50A94265223E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C874E59F367EFF6E16A97AF90E45057 /* NaturalHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NaturalHome";
+				INFOPLIST_FILE = "Target Support Files/NaturalHome/ResourceBundle-NaturalHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NaturalHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C761F95D15B272937BF3B1A8EEC000C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05665F021776DC303F3F207A6D98242 /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				PRODUCT_MODULE_NAME = ParallaxHeader;
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC2163CBB722BE0669BA0F53621A0623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835F9227A63917BDC9212297F440C09A /* Pods-NaturalHomeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1039,17 +1982,101 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		DF114C4267C3A288C7CA578CFD698C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C874E59F367EFF6E16A97AF90E45057 /* NaturalHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NaturalHome/NaturalHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NaturalHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NaturalHome/NaturalHome.modulemap";
+				PRODUCT_MODULE_NAME = NaturalHome;
+				PRODUCT_NAME = NaturalHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7CEC675E95963CDD986609F32219415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C874E59F367EFF6E16A97AF90E45057 /* NaturalHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NaturalHome";
+				INFOPLIST_FILE = "Target Support Files/NaturalHome/ResourceBundle-NaturalHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NaturalHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EC97413CA111BFDA45ADFDC5252D875F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A970B1BD3D61D7739953EB902AD33393 /* Pods-NaturalHome.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaturalHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaturalHome/Pods-NaturalHome.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		EF7F1E2078F07AB6B359E37FFFA6112A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3648793E9F34B65A3E0833172F6589CE /* BaseFramework.xcconfig */;
+			baseConfigurationReference = C067C94F8B02F8E1B704D9866B6A5162 /* BaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BaseFramework";
@@ -1065,7 +2092,7 @@
 		};
 		F5C479D48CE1811BFD2C857138908402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3648793E9F34B65A3E0833172F6589CE /* BaseFramework.xcconfig */;
+			baseConfigurationReference = C067C94F8B02F8E1B704D9866B6A5162 /* BaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1126,20 +2153,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAB552F55E9EE594172391B7EDA42E7 /* Build configuration list for PBXNativeTarget "Pods-NaturalHome" */ = {
+		53AB5A3E25E80616173500E66CACA0FA /* Build configuration list for PBXNativeTarget "NaturalHome-NaturalHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25BD98084B4C3916F18D92E8494A1DC8 /* Debug */,
-				342B2B2A06E4E661773D0141E7708BD9 /* Release */,
+				E7CEC675E95963CDD986609F32219415 /* Debug */,
+				BF59E2F96AFB685ECF50A94265223E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF04B74E0C5AACFFA3B38A6806E0C73A /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeTests" */ = {
+		579835C7793A20944E8666187B16D86E /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				766E780219C3571972413A4BD4ECFEF3 /* Debug */,
-				D1AC3C39115B32A489DFB66FBE7EE9BB /* Release */,
+				CC2163CBB722BE0669BA0F53621A0623 /* Debug */,
+				7C05BD40FC139873B0A523E013BE6F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8664D7678DACC714B88C7060516CD3CB /* Build configuration list for PBXNativeTarget "ParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C761F95D15B272937BF3B1A8EEC000C9 /* Debug */,
+				04333F97DF2014F161EB899134076030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9521FC20AF86A99A93CB8AC81E1B5625 /* Build configuration list for PBXNativeTarget "NaturalHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF114C4267C3A288C7CA578CFD698C2F /* Debug */,
+				5FDC96350AB90CE31CD5A0DB4730E40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFBC8966883D67B07D165008704A338 /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611E02224BE7A1C0E93061B87E5B8282 /* Debug */,
+				BC19FE811290D462A89B44385BA7F60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE64C15F2779F8FB615DC917B1B34A65 /* Build configuration list for PBXNativeTarget "Pods-NaturalHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC97413CA111BFDA45ADFDC5252D875F /* Debug */,
+				96A5418F549509AE732620FDC54C5AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B8C85B6E4736BB69F99F38896F95E2 /* Build configuration list for PBXNativeTarget "Pods-NaturalHomeApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053B76CCB6D2D950933C980F3B9DF98D /* Debug */,
+				6DF8B7DD8DBFD9067B356C0F19ADEE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -28,3 +28,16 @@ public struct PrefHelper {
         pref.synchronize()
     }
 }
+
+public extension UIView {
+    
+    public class func instantiateFromNib<T: UIView>(viewType: T.Type, bundle: Bundle) -> T {
+        print("test \(self)")
+        return (UINib(nibName: "\(self)", bundle: bundle).instantiate(withOwner: nil, options: nil).first as? T)!
+
+    }
+    
+    public class func instantiateFromNib(bundle: Bundle) -> Self {
+        return instantiateFromNib(viewType: self, bundle: bundle)
+    }
+}

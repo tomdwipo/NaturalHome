@@ -7,48 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E1A7700C3C378AAA1422892421A515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
+		00E38E99C59000889A9DB3A4A3E05076 /* NaturalDashboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A83DEF98029B46248CA3B44168B7898C /* NaturalDashboard.bundle */; };
 		04D2C5DE346F41D9AF9526ECFA2C84B2 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5237A6C6B08CEE36C43CD13AD4C8702 /* MaterialCard.swift */; };
-		0973F522392D69F3A467D567C68B37D5 /* DashboardRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1739F74DDA81C8F2EED9A3025E6BF11 /* DashboardRoute.swift */; };
+		07B37B52A7F024C5AF6FBCEEDA4A711D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
 		0C5EF156F4970A2437337CE62B101E39 /* BaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DFAE86D41F9352DE65AF987E56128F /* BaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EEAF8C2A85B586CA4285DCACEEE5BA9 /* Pods-NaturalDashboardApps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 288DA64075C87F8EDDE78829D782024F /* Pods-NaturalDashboardApps-dummy.m */; };
 		23F3358E85A7937E5D17A10A0676CE66 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73815F7CBEBB84D7E23E0E6B15A4C8AF /* HexColors.framework */; };
-		27ACE7473E2905EAFC3E1118F0377EA0 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CE4E7BCD64FB6C397A769F9F6A6F1A /* Dashboard.storyboard */; };
+		25476A89C1BF1FDF915D20D2A6871097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638CCE5189E30A99F7E7AE54BBCB5624 /* Assets.xcassets */; };
 		2C5A655192346D93BA9834E5A26F87AB /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA2100905F77D8EF2546ADB65626DC /* HexColors-dummy.m */; };
-		31D7387EAA34F36A721E9627793C2F3C /* ShopcartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FBBF643F868628274C2D9B5D062FD /* ShopcartViewController.swift */; };
-		323AFF14651C105F2DE961B23E9C6321 /* NaturalDashboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A83DEF98029B46248CA3B44168B7898C /* NaturalDashboard.bundle */; };
 		3FC05017A043957A9CFE6AC0242424E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
+		403D26189C4859410CFA0AD5162BA605 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 5F7708374B6649DF104B90F4BF638154 /* UI */; };
 		44BF34D00C1A4515C6890E09B62644DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796EDA6F543541D1B56BB90AC109640E /* Assets.xcassets */; };
 		4A7EDD53040FC9F2C02364E544DAB4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796EDA6F543541D1B56BB90AC109640E /* Assets.xcassets */; };
 		4EF51F09B91EC58567D098495AA43F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
-		57822BC2D686F780BA73524AAD9371D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E4B46930B1E7523840986DD11DEDB2 /* Assets.xcassets */; };
-		5F5CDBCE535369A25AFC894C2CD232B8 /* BaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52AAE8BDEAAD90503EABFF909B8BA09 /* BaseFramework.framework */; };
+		556644A1EC7471FB3009378291AE4A0B /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73815F7CBEBB84D7E23E0E6B15A4C8AF /* HexColors.framework */; };
+		588FBB4D63FBAEEBC2A66464A2A36509 /* ShopcartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643AD2F76C297CC2FF519EF01A5B5E7 /* ShopcartViewController.swift */; };
 		680FC143BF3FC14B0ED8894BF23D9FBE /* Pods-NaturalDashboardAppsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C530B934979A398BBF85AF46BF392026 /* Pods-NaturalDashboardAppsTests-dummy.m */; };
 		6882DAFA35D95D45A29E0953CCC7CCA1 /* Pods-NaturalDashboardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC911CAA84B2AC246D93421B84ED6B2 /* Pods-NaturalDashboardTests-dummy.m */; };
-		6B943202B301C0BC5932A3095AEB6C63 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73815F7CBEBB84D7E23E0E6B15A4C8AF /* HexColors.framework */; };
 		6BDD96D333472AD666E0AA36BB5D4D1E /* Pods-NaturalDashboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D43F13E5108EFF2C7B348CCA21863EE /* Pods-NaturalDashboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CC2766AE0EB58AE23EACAAF410A4FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
-		70E4032D7D67ADE8C5CD7FB1A76EB7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E4B46930B1E7523840986DD11DEDB2 /* Assets.xcassets */; };
 		7311FDC9D7A2CE4A6C73AB1E9BED4442 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B2E737D5B20EC8EAE66E8E4AD1BAF /* BaseViewController.swift */; };
 		7959F33917C522D553F021801EFBC0E8 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF4B9D893CEF6A60A922E91FD2A73 /* BundleHelper.swift */; };
-		7BAB70A3ACDC38EE88140B7275B14950 /* NaturalDashboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D16E493DE32E2C7614309E47F38FCD2 /* NaturalDashboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82F65D6085B4C55D5F143BB6BEF58883 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 0C03C045673866F5188D25207DD5FAC9 /* UI */; };
-		97A99FF4A0FD55ADD43483F64AA1C964 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CE4E7BCD64FB6C397A769F9F6A6F1A /* Dashboard.storyboard */; };
+		92B08D3090BA84BE178E8EBB1D1F5230 /* DashboardRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B66D9F565BE3E3E165116B4DBEECC /* DashboardRoute.swift */; };
 		A38DD147C8D8E0F10B68CAD53AF68DAC /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA30B4023520E4FB3A0E8CCD2BD6E2F9 /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73B57733CA0B586FB2EACE53A844EEF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE83E2C7183CD28355BFF3B8F978375 /* HomeViewController.swift */; };
 		A7C3FE64A49D206D8F35D3CF38C61027 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F4EB9AE8E483F5F36C5001E9932DA /* HexColors.swift */; };
-		A9165A3ADF5AB056C76448EF96DB723B /* NaturalDashboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27DFD8CE2781F4F0182B2F027C0433 /* NaturalDashboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD949C47570EB13BD6DB603E7DCB1AA4 /* NaturalDashboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56FA9E0187D14A8111A77236BEA6EB /* NaturalDashboard-dummy.m */; };
+		B96B5E479F6CF8424A4A38A0888EB1A0 /* NaturalDashboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482DDBC08AFF2D29AD89DEBAA0412B1 /* NaturalDashboard-dummy.m */; };
 		C16EDC97FEE92284B1877660F4C7D94C /* Pods-NaturalDashboardAppsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8ED7242057EECAC297ADFA53929D3D /* Pods-NaturalDashboardAppsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C183F79CF0F5383B49E58D400BC2F6E8 /* Pods-NaturalDashboardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28981F943B37CA190919F27756FD6BA /* Pods-NaturalDashboardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C34AE36AF372AB2EDBE3BE1F8518190C /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458CB912AF6E17C4D81194371C7A3359 /* MyViewController.swift */; };
 		C64E1D9662DE0DB566E3BFC5D49F7125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
 		C685896179278486AA8D48F230B27065 /* Pods-NaturalDashboardApps-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88219284B3282D7CCAF493CBA4DA6C94 /* Pods-NaturalDashboardApps-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C80A0B597E59288DAD700FB56B7AE496 /* Pods-NaturalDashboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E399219126246BF7D7D5782F0AC908 /* Pods-NaturalDashboard-dummy.m */; };
-		D48CB31984336B897B9ED57A71B9FDFE /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210F68EEBE262E5A8138027982CD801 /* StoreViewController.swift */; };
+		CE29C1BCBFBA689BD820476793B8DCAF /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3DCD54EC1E1704AB8AB42F6FBA6202 /* Dashboard.storyboard */; };
+		CE33117CD2B1A25A0C1B67FE3C3489B7 /* NaturalDashboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E0756701676D6C207FE1765E61D2C3 /* NaturalDashboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6BD5645B0BFBA4A41F85179BAAABED /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3DCD54EC1E1704AB8AB42F6FBA6202 /* Dashboard.storyboard */; };
+		D0307CB88CAAEC1ED454097FBC2215C5 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D336779EDECDB7895C7E8C22054C826 /* MyViewController.swift */; };
+		D1EC190580547089750E1B8C345063F0 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD5B6C9FB7D39F4589B0E5E4C8C20A /* StoreViewController.swift */; };
+		D51AC490136555EC83D6C2D2F3B8B7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638CCE5189E30A99F7E7AE54BBCB5624 /* Assets.xcassets */; };
 		D9B89C803739AE4B4EBD7B34FF1E2FD7 /* BaseFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93D7C6E089F46C6A59C14F31308718C8 /* BaseFramework.bundle */; };
 		E17EAEB661E13097D0BF1396AFA9812E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 797ABFB6336B436203625280F89926B6 /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA9C4803303AC7764CD012C54D3FA681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */; };
-		EB07E2B10DD25DB2AD6FC1336EAE6AD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D249518FC795D44F96C4EA7023906A /* HomeViewController.swift */; };
+		EBF8B63C9A0AE23FC3A5CA6854E93F5C /* BaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52AAE8BDEAAD90503EABFF909B8BA09 /* BaseFramework.framework */; };
 		EDE08A46B42DA194DAD78333AAD4B186 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC49D2D95CC4782CD96A211C3F5AEB /* ColorHelper.swift */; };
 		F36D3F81022C03FF3AFC48AC0DD6065D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B5B5E9B760A2F402B67C91F6A8E0A3 /* DateHelper.swift */; };
 		F453A251AFEBAE0FC8BB73DDC8525021 /* BaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F615B0181150EA365C3136DC1F1A025 /* BaseFramework-dummy.m */; };
@@ -75,7 +74,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 943E08FE5769158BFD3FDFC655312AC9;
+			remoteGlobalIDString = BD6C563DA82FBED4B377C36A686ED207;
 			remoteInfo = NaturalDashboard;
 		};
 		438876BC4979A39EB46E7EB54B12102A /* PBXContainerItemProxy */ = {
@@ -92,19 +91,12 @@
 			remoteGlobalIDString = 8E0FDFB33D147099C13CCB381F0C5347;
 			remoteInfo = "BaseFramework-BaseFramework";
 		};
-		6F36525CF1F3EC3C1F4D7A79C2131E16 /* PBXContainerItemProxy */ = {
+		81286A54A9E228144389C59450CB2E61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66E5BC3158913469FD9A96736C372CAA;
-			remoteInfo = "NaturalDashboard-NaturalDashboard";
-		};
-		7CACACE22C119680AC293581FEF5163A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B09654A7C2E2AAEB28E0ABB97D8E8FE2;
-			remoteInfo = BaseFramework;
+			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
+			remoteInfo = HexColors;
 		};
 		819226C354E020E0D25D196C035C3859 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -134,6 +126,13 @@
 			remoteGlobalIDString = 400AAFC31220CD9EE0751DF66B913205;
 			remoteInfo = "Pods-NaturalDashboard";
 		};
+		BED2B0BB4F776810592FCEC540032F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0135D8C3CE645028721E8F26D4D67C6;
+			remoteInfo = "NaturalDashboard-NaturalDashboard";
+		};
 		C0009922AFC07A00F6AE2D0FF3DBDC6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -141,14 +140,14 @@
 			remoteGlobalIDString = F780E73CB4089262D9A9B5792DFEBA32;
 			remoteInfo = "Pods-NaturalDashboardApps";
 		};
-		DD302FE762AFF15E5B8ACE887638A9B4 /* PBXContainerItemProxy */ = {
+		E7F46847C45622C6B973BDCE786A934F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 378D90D9F77BE6F035C616EB417BE1B5;
-			remoteInfo = HexColors;
+			remoteGlobalIDString = B09654A7C2E2AAEB28E0ABB97D8E8FE2;
+			remoteInfo = BaseFramework;
 		};
-		E7F46847C45622C6B973BDCE786A934F /* PBXContainerItemProxy */ = {
+		F1A33687495C5B3655F881F4E5FC640D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -158,39 +157,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03E7FE537291EAC51EA39EEF14ACF4CB /* ResourceBundle-NaturalDashboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NaturalDashboard-Info.plist"; sourceTree = "<group>"; };
-		0C03C045673866F5188D25207DD5FAC9 /* UI */ = {isa = PBXFileReference; includeInIndex = 1; name = UI; path = NaturalDashboard/Assets/UI; sourceTree = "<group>"; };
+		0643AD2F76C297CC2FF519EF01A5B5E7 /* ShopcartViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShopcartViewController.swift; sourceTree = "<group>"; };
 		0C48986E69F148EAE08094E1800B220F /* Pods-NaturalDashboardApps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalDashboardApps-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D16E493DE32E2C7614309E47F38FCD2 /* NaturalDashboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaturalDashboard-umbrella.h"; sourceTree = "<group>"; };
 		10EAB72FB05B81607C8E203F6DC5F850 /* Pods-NaturalDashboardApps-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalDashboardApps-resources.sh"; sourceTree = "<group>"; };
-		1210F68EEBE262E5A8138027982CD801 /* StoreViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		15630E8294030B315E3A5B57D68B3101 /* Pods-NaturalDashboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalDashboard.modulemap"; sourceTree = "<group>"; };
 		18A75D7C604552EE022F393553926F2D /* BaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseFramework.modulemap; sourceTree = "<group>"; };
 		18E399219126246BF7D7D5782F0AC908 /* Pods-NaturalDashboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalDashboard-dummy.m"; sourceTree = "<group>"; };
-		19772436D00329D76B3139A26F297AAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AEC49D2D95CC4782CD96A211C3F5AEB /* ColorHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		1B6F2A319A07E28B0DC1E8F746CFA6C7 /* Pods-NaturalDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboard.release.xcconfig"; sourceTree = "<group>"; };
-		24D249518FC795D44F96C4EA7023906A /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C90B21B04216A9AF9E20504CC9750B1 /* NaturalDashboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NaturalDashboard.xcconfig; sourceTree = "<group>"; };
+		1DE83E2C7183CD28355BFF3B8F978375 /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		267C67421930E5A95205FE523FE47D52 /* BaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseFramework.framework; path = BaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281B76D8B283E5F6F7C0C5F563E15350 /* Pods_NaturalDashboardAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalDashboardAppsTests.framework; path = "Pods-NaturalDashboardAppsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282B2E737D5B20EC8EAE66E8E4AD1BAF /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		284C27EEF2680113659B1E02601FC890 /* Pods-NaturalDashboardAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboardAppsTests.release.xcconfig"; sourceTree = "<group>"; };
 		288DA64075C87F8EDDE78829D782024F /* Pods-NaturalDashboardApps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalDashboardApps-dummy.m"; sourceTree = "<group>"; };
-		2F3FBBF643F868628274C2D9B5D062FD /* ShopcartViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShopcartViewController.swift; sourceTree = "<group>"; };
-		32E4B46930B1E7523840986DD11DEDB2 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NaturalDashboard/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		34584BC5BDD50306DE683CE4FBD50515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A27DFD8CE2781F4F0182B2F027C0433 /* NaturalDashboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NaturalDashboard.h; path = NaturalDashboard/NaturalDashboard.h; sourceTree = "<group>"; };
 		3B0C74DDCFA86EAF9602FEDCC699854A /* Pods-NaturalDashboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalDashboard-resources.sh"; sourceTree = "<group>"; };
-		458CB912AF6E17C4D81194371C7A3359 /* MyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		3D3DCD54EC1E1704AB8AB42F6FBA6202 /* Dashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		4482DDBC08AFF2D29AD89DEBAA0412B1 /* NaturalDashboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NaturalDashboard-dummy.m"; sourceTree = "<group>"; };
 		466EC28DE5DBC9A675656502745D57A2 /* BaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseFramework.xcconfig; sourceTree = "<group>"; };
-		4AC30B86156E1FB7D7DA49E66D4AB1A9 /* NaturalDashboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NaturalDashboard.xcconfig; sourceTree = "<group>"; };
 		4D506A1E9E8CED553782D89B9AA96AD6 /* Pods-NaturalDashboardAppsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalDashboardAppsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5070622551017964485C8E29929DDB46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DFAE86D41F9352DE65AF987E56128F /* BaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseFramework-umbrella.h"; sourceTree = "<group>"; };
 		5BC911CAA84B2AC246D93421B84ED6B2 /* Pods-NaturalDashboardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalDashboardTests-dummy.m"; sourceTree = "<group>"; };
-		64B5EF60CF30BF4C7EC3367A131017DA /* NaturalDashboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaturalDashboard-prefix.pch"; sourceTree = "<group>"; };
-		6D56FA9E0187D14A8111A77236BEA6EB /* NaturalDashboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NaturalDashboard-dummy.m"; sourceTree = "<group>"; };
+		5F7708374B6649DF104B90F4BF638154 /* UI */ = {isa = PBXFileReference; includeInIndex = 1; name = UI; path = NaturalDashboard/Assets/UI; sourceTree = "<group>"; };
+		638CCE5189E30A99F7E7AE54BBCB5624 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NaturalDashboard/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		66FD5B6C9FB7D39F4589B0E5E4C8C20A /* StoreViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		6D336779EDECDB7895C7E8C22054C826 /* MyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		6D64A338C0CB3F5A2FF2515B925C1122 /* Pods-NaturalDashboardApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboardApps.release.xcconfig"; sourceTree = "<group>"; };
 		6F3F39F45A007983139B3E919B107015 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HexColors.framework; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7033C85EFFDDDEA12F33BEAEF65DBBA8 /* Pods-NaturalDashboardAppsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaturalDashboardAppsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -199,6 +194,7 @@
 		797ABFB6336B436203625280F89926B6 /* BaseFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseFramework.h; path = BaseFramework/BaseFramework.h; sourceTree = "<group>"; };
 		7BC9A98899C0239E1018B2A57A4E5E31 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
 		7C132A28DD5DD4A5B138213999BEA650 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E590667A8FB555732E5A2E5325899D1 /* NaturalDashboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaturalDashboard-prefix.pch"; sourceTree = "<group>"; };
 		800BCF3E003288E14613F7C0CEAD083E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81E617819A9BA4D97FCB93D9DE5CC2DA /* ResourceBundle-BaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BaseFramework-Info.plist"; sourceTree = "<group>"; };
 		8586BD73D5AA2AC741C752EB8463BE88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -210,7 +206,6 @@
 		8A9BE099D658B5D9514325FB88B28E9F /* Pods-NaturalDashboardAppsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalDashboardAppsTests-resources.sh"; sourceTree = "<group>"; };
 		8AB546C3F79FFE73A25875FEEDEBFC3C /* Pods-NaturalDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboard.debug.xcconfig"; sourceTree = "<group>"; };
 		8D43F13E5108EFF2C7B348CCA21863EE /* Pods-NaturalDashboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalDashboard-umbrella.h"; sourceTree = "<group>"; };
-		92CE4E7BCD64FB6C397A769F9F6A6F1A /* Dashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		93709EEC67E5140F8B4FC1E0CD6943CF /* Pods-NaturalDashboardApps-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalDashboardApps-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D7C6E089F46C6A59C14F31308718C8 /* BaseFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BaseFramework.bundle; path = "BaseFramework-BaseFramework.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,9 +213,11 @@
 		961F4EB9AE8E483F5F36C5001E9932DA /* HexColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors.swift; sourceTree = "<group>"; };
 		986DE6110BA248A4A65558EAFA281CF5 /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HexColors.modulemap; sourceTree = "<group>"; };
 		989D654A029DDFE06D64D059256214D9 /* Pods-NaturalDashboardAppsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalDashboardAppsTests.modulemap"; sourceTree = "<group>"; };
+		9F4B66D9F565BE3E3E165116B4DBEECC /* DashboardRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardRoute.swift; sourceTree = "<group>"; };
 		9F615B0181150EA365C3136DC1F1A025 /* BaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseFramework-dummy.m"; sourceTree = "<group>"; };
 		A28981F943B37CA190919F27756FD6BA /* Pods-NaturalDashboardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaturalDashboardTests-umbrella.h"; sourceTree = "<group>"; };
 		A52AAE8BDEAAD90503EABFF909B8BA09 /* BaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BAE705123F6B18BFE532B24EB9B80A /* ResourceBundle-NaturalDashboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NaturalDashboard-Info.plist"; sourceTree = "<group>"; };
 		A83DEF98029B46248CA3B44168B7898C /* NaturalDashboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NaturalDashboard.bundle; path = "NaturalDashboard-NaturalDashboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA3C920A0DDED8A52B7C87FD6DF1169 /* Pods-NaturalDashboardAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboardAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1FC36BA31F89CEF692AC003CBFD4C0B /* Pods-NaturalDashboardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaturalDashboardTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -229,16 +226,17 @@
 		B8B13BE857001AFE3351361DC66CB879 /* Pods-NaturalDashboardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalDashboardTests.modulemap"; sourceTree = "<group>"; };
 		BD20D599EC304DAE46E07B3918DE516B /* Pods-NaturalDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDDDF4B9D893CEF6A60A922E91FD2A73 /* BundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
-		C1739F74DDA81C8F2EED9A3025E6BF11 /* DashboardRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardRoute.swift; sourceTree = "<group>"; };
 		C5237A6C6B08CEE36C43CD13AD4C8702 /* MaterialCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
 		C530B934979A398BBF85AF46BF392026 /* Pods-NaturalDashboardAppsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaturalDashboardAppsTests-dummy.m"; sourceTree = "<group>"; };
 		C579C3FA5A6A11E1ACD5464747B4A164 /* Pods-NaturalDashboardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalDashboardTests-resources.sh"; sourceTree = "<group>"; };
 		C7480FE39B462CBF7032CC47BFCF239A /* Pods_NaturalDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaturalDashboard.framework; path = "Pods-NaturalDashboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C97D9883EB023EAE55C998E11C7DA44F /* NaturalDashboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NaturalDashboard.modulemap; sourceTree = "<group>"; };
+		C7E0756701676D6C207FE1765E61D2C3 /* NaturalDashboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaturalDashboard-umbrella.h"; sourceTree = "<group>"; };
 		CA122368DC562FCA5C56A571234E68B0 /* Pods-NaturalDashboardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaturalDashboardTests-frameworks.sh"; sourceTree = "<group>"; };
-		CA3C6C9532E7DF5062843C085A10A08B /* NaturalDashboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NaturalDashboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D12AEB9469B5E65B8135065D0A047E79 /* Pods-NaturalDashboardApps.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaturalDashboardApps.modulemap"; sourceTree = "<group>"; };
 		D164A15F23EF30CDD7457542A0D48AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78F7D9E7BF2C1F0CC5D57F99CFFB021 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BB40728BCDC621CD6477C3C9C99764 /* NaturalDashboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NaturalDashboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1FE199DCD7C37F9552FD8770238C96D /* NaturalDashboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NaturalDashboard.modulemap; sourceTree = "<group>"; };
 		E23F2BC519CC90E7EFA0A0C7523C9473 /* Pods-NaturalDashboardApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaturalDashboardApps.debug.xcconfig"; sourceTree = "<group>"; };
 		E8193DA712226B0163FDFD3FD6D88D20 /* NaturalDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NaturalDashboard.framework; path = NaturalDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86F5B76944CAE1B0D147D822F00191B /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
@@ -292,20 +290,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9660BE64175BF7EDDC6EA121AB166DD1 /* Frameworks */ = {
+		8557A3A4DFF7ADB5765167A6286D1BC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF8B63C9A0AE23FC3A5CA6854E93F5C /* BaseFramework.framework in Frameworks */,
+				07B37B52A7F024C5AF6FBCEEDA4A711D /* Foundation.framework in Frameworks */,
+				556644A1EC7471FB3009378291AE4A0B /* HexColors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA38D34BE53C30AB9BF4061F063BD2A9 /* Frameworks */ = {
+		D5C8B8F65B6FD04E87C74501E57E48C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5CDBCE535369A25AFC894C2CD232B8 /* BaseFramework.framework in Frameworks */,
-				03E1A7700C3C378AAA1422892421A515 /* Foundation.framework in Frameworks */,
-				6B943202B301C0BC5932A3095AEB6C63 /* HexColors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,13 +327,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		185393B4C6934BEA8D23C43D8F3FE80F /* My */ = {
+		0E10178B429077921829805002983ED3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				458CB912AF6E17C4D81194371C7A3359 /* MyViewController.swift */,
+				D7BB40728BCDC621CD6477C3C9C99764 /* NaturalDashboard.podspec */,
 			);
-			name = My;
-			path = My;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1CE9C441A6D223F3C900B9FB57A8AEC1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3D3DCD54EC1E1704AB8AB42F6FBA6202 /* Dashboard.storyboard */,
+			);
+			name = UI;
+			path = NaturalDashboard/Assets/UI;
 			sourceTree = "<group>";
 		};
 		2C33B14DC110F9C100A3AE0194A99433 /* Pods-NaturalDashboardApps */ = {
@@ -360,18 +366,22 @@
 			isa = PBXGroup;
 			children = (
 				8DC27AF27F79F43264CAC5EF1F3BD6FD /* BaseFramework */,
-				3BBB00A77F3990127CFF72FE46B212E1 /* NaturalDashboard */,
+				37F346E05B374D929B5F951AD6F2BF9F /* NaturalDashboard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		301487C609FBDFF578BF0983D560F2B0 /* UI */ = {
+		37F346E05B374D929B5F951AD6F2BF9F /* NaturalDashboard */ = {
 			isa = PBXGroup;
 			children = (
-				92CE4E7BCD64FB6C397A769F9F6A6F1A /* Dashboard.storyboard */,
+				0E10178B429077921829805002983ED3 /* Pod */,
+				4F265EAC52723FFF89F2F2080EB66469 /* Resources */,
+				75F99DD3C4DDA83AC9A407D3FE3150CE /* Route */,
+				631AF88733E611E242CBAB3E15AA87D0 /* Support Files */,
+				FFB463073F4B50449D820B88A6BD6A1B /* View */,
 			);
-			name = UI;
-			path = NaturalDashboard/Assets/UI;
+			name = NaturalDashboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3A3DF7CDB7647F9F0E410DB3D781071F /* Pods-NaturalDashboardAppsTests */ = {
@@ -407,19 +417,6 @@
 			path = "../NaturalDashboard/Pods/Target Support Files/BaseFramework";
 			sourceTree = "<group>";
 		};
-		3BBB00A77F3990127CFF72FE46B212E1 /* NaturalDashboard */ = {
-			isa = PBXGroup;
-			children = (
-				3A27DFD8CE2781F4F0182B2F027C0433 /* NaturalDashboard.h */,
-				52A77AD1179B8578106BCAD64AB3E30C /* Module */,
-				631ACDEC8ABED5787B9096254DF80EF3 /* Pod */,
-				EAFDDD38F45C5561F42115FC34ED5632 /* Resources */,
-				D0DD0C48FDF5330C593589A9DDFF0B71 /* Support Files */,
-			);
-			name = NaturalDashboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		4D72E1A821FBB8840043A1759B784A49 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,14 +426,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		52A77AD1179B8578106BCAD64AB3E30C /* Module */ = {
+		4F265EAC52723FFF89F2F2080EB66469 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A7ED8B1EF5391BD4BE10A888D37812F3 /* Route */,
-				62CC84F59EBB9DF7AC5A01B5A322B03A /* View */,
+				638CCE5189E30A99F7E7AE54BBCB5624 /* Assets.xcassets */,
+				5F7708374B6649DF104B90F4BF638154 /* UI */,
+				1CE9C441A6D223F3C900B9FB57A8AEC1 /* UI */,
 			);
-			name = Module;
-			path = NaturalDashboard/Module;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E69295ED884A57885915B0C50E671E3 /* Products */ = {
@@ -455,33 +452,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62CC84F59EBB9DF7AC5A01B5A322B03A /* View */ = {
+		631AF88733E611E242CBAB3E15AA87D0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				84C3BBB2393CA74A8B8F9C3FEA90C89E /* Home */,
-				185393B4C6934BEA8D23C43D8F3FE80F /* My */,
-				69DF023A57F4A3D1766187B31C8B4314 /* Shopcart */,
-				BCF750BE1A24740BD4751D8AE7420BCA /* Store */,
+				D78F7D9E7BF2C1F0CC5D57F99CFFB021 /* Info.plist */,
+				E1FE199DCD7C37F9552FD8770238C96D /* NaturalDashboard.modulemap */,
+				1C90B21B04216A9AF9E20504CC9750B1 /* NaturalDashboard.xcconfig */,
+				4482DDBC08AFF2D29AD89DEBAA0412B1 /* NaturalDashboard-dummy.m */,
+				7E590667A8FB555732E5A2E5325899D1 /* NaturalDashboard-prefix.pch */,
+				C7E0756701676D6C207FE1765E61D2C3 /* NaturalDashboard-umbrella.h */,
+				A7BAE705123F6B18BFE532B24EB9B80A /* ResourceBundle-NaturalDashboard-Info.plist */,
 			);
-			name = View;
-			path = View;
+			name = "Support Files";
+			path = "Pods/Target Support Files/NaturalDashboard";
 			sourceTree = "<group>";
 		};
-		631ACDEC8ABED5787B9096254DF80EF3 /* Pod */ = {
+		75F99DD3C4DDA83AC9A407D3FE3150CE /* Route */ = {
 			isa = PBXGroup;
 			children = (
-				CA3C6C9532E7DF5062843C085A10A08B /* NaturalDashboard.podspec */,
+				9F4B66D9F565BE3E3E165116B4DBEECC /* DashboardRoute.swift */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		69DF023A57F4A3D1766187B31C8B4314 /* Shopcart */ = {
-			isa = PBXGroup;
-			children = (
-				2F3FBBF643F868628274C2D9B5D062FD /* ShopcartViewController.swift */,
-			);
-			name = Shopcart;
-			path = Shopcart;
+			name = Route;
+			path = NaturalDashboard/Module/Route;
 			sourceTree = "<group>";
 		};
 		781B8371DBC000CA59B2CD545463E7A2 /* Pods-NaturalDashboardTests */ = {
@@ -512,15 +504,6 @@
 				5E69295ED884A57885915B0C50E671E3 /* Products */,
 				F95164BD96A7FCACDFAB70CE6E7F0980 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		84C3BBB2393CA74A8B8F9C3FEA90C89E /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				24D249518FC795D44F96C4EA7023906A /* HomeViewController.swift */,
-			);
-			name = Home;
-			path = Home;
 			sourceTree = "<group>";
 		};
 		8DC27AF27F79F43264CAC5EF1F3BD6FD /* BaseFramework */ = {
@@ -554,13 +537,13 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A7ED8B1EF5391BD4BE10A888D37812F3 /* Route */ = {
+		B07388CA912B6DCF90AF6FD5A0B61D4D /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				C1739F74DDA81C8F2EED9A3025E6BF11 /* DashboardRoute.swift */,
+				66FD5B6C9FB7D39F4589B0E5E4C8C20A /* StoreViewController.swift */,
 			);
-			name = Route;
-			path = Route;
+			name = Store;
+			path = Store;
 			sourceTree = "<group>";
 		};
 		B28D3720C5D8FF768F97E1AA8174094A /* Pods-NaturalDashboard */ = {
@@ -590,21 +573,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BCF750BE1A24740BD4751D8AE7420BCA /* Store */ = {
-			isa = PBXGroup;
-			children = (
-				1210F68EEBE262E5A8138027982CD801 /* StoreViewController.swift */,
-			);
-			name = Store;
-			path = Store;
-			sourceTree = "<group>";
-		};
 		BF99AA4E0E2F763718AA7A516C10FE53 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E249A52F492124C79F9590364B717F6D /* HexColors */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2C17C6DB042BD8B5651EC849F276748 /* Shopcart */ = {
+			isa = PBXGroup;
+			children = (
+				0643AD2F76C297CC2FF519EF01A5B5E7 /* ShopcartViewController.swift */,
+			);
+			name = Shopcart;
+			path = Shopcart;
 			sourceTree = "<group>";
 		};
 		CA97F9E39A6271ADA6EFC1492E7F85B0 /* View */ = {
@@ -616,27 +599,21 @@
 			path = BaseFramework/View;
 			sourceTree = "<group>";
 		};
-		D0DD0C48FDF5330C593589A9DDFF0B71 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19772436D00329D76B3139A26F297AAA /* Info.plist */,
-				C97D9883EB023EAE55C998E11C7DA44F /* NaturalDashboard.modulemap */,
-				4AC30B86156E1FB7D7DA49E66D4AB1A9 /* NaturalDashboard.xcconfig */,
-				6D56FA9E0187D14A8111A77236BEA6EB /* NaturalDashboard-dummy.m */,
-				64B5EF60CF30BF4C7EC3367A131017DA /* NaturalDashboard-prefix.pch */,
-				0D16E493DE32E2C7614309E47F38FCD2 /* NaturalDashboard-umbrella.h */,
-				03E7FE537291EAC51EA39EEF14ACF4CB /* ResourceBundle-NaturalDashboard-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/NaturalDashboard";
-			sourceTree = "<group>";
-		};
 		D6D30C81DC64B0781BA5690FC67721DD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				26424F30F0EA3A4B509CE1851FFA7EA3 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC8F657A26346F20300B97C601E5A5DC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1DE83E2C7183CD28355BFF3B8F978375 /* HomeViewController.swift */,
+			);
+			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		E249A52F492124C79F9590364B717F6D /* HexColors */ = {
@@ -649,6 +626,15 @@
 			path = HexColors;
 			sourceTree = "<group>";
 		};
+		E5DCFFB34391BB061477F0C21944E58C /* My */ = {
+			isa = PBXGroup;
+			children = (
+				6D336779EDECDB7895C7E8C22054C826 /* MyViewController.swift */,
+			);
+			name = My;
+			path = My;
+			sourceTree = "<group>";
+		};
 		E6F9E8CE1CDEFA792DE964FA647DAA55 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,16 +645,6 @@
 			);
 			name = Helper;
 			path = BaseFramework/Helper;
-			sourceTree = "<group>";
-		};
-		EAFDDD38F45C5561F42115FC34ED5632 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				32E4B46930B1E7523840986DD11DEDB2 /* Assets.xcassets */,
-				0C03C045673866F5188D25207DD5FAC9 /* UI */,
-				301487C609FBDFF578BF0983D560F2B0 /* UI */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		EB1A54A3DDAC76DB4594904DED2D92AC /* Support Files */ = {
@@ -705,6 +681,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FFB463073F4B50449D820B88A6BD6A1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F657A26346F20300B97C601E5A5DC /* Home */,
+				E5DCFFB34391BB061477F0C21944E58C /* My */,
+				C2C17C6DB042BD8B5651EC849F276748 /* Shopcart */,
+				B07388CA912B6DCF90AF6FD5A0B61D4D /* Store */,
+			);
+			name = View;
+			path = NaturalDashboard/Module/View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -733,12 +721,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811DD333B291AE399F2787407F77E139 /* Headers */ = {
+		AD824C63741EF17B5337022332CA6236 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BAB70A3ACDC38EE88140B7275B14950 /* NaturalDashboard-umbrella.h in Headers */,
-				A9165A3ADF5AB056C76448EF96DB723B /* NaturalDashboard.h in Headers */,
+				CE33117CD2B1A25A0C1B67FE3C3489B7 /* NaturalDashboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,23 +812,6 @@
 			productReference = B83C38B102E9ACB1DE1B4D6FE8BC6A4C /* Pods_NaturalDashboardTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		66E5BC3158913469FD9A96736C372CAA /* NaturalDashboard-NaturalDashboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5E2DA8F24A7E634EECFA1D3CCE0BA7C /* Build configuration list for PBXNativeTarget "NaturalDashboard-NaturalDashboard" */;
-			buildPhases = (
-				7B784329CFEA2736DAFCFF8DABB36753 /* Sources */,
-				9660BE64175BF7EDDC6EA121AB166DD1 /* Frameworks */,
-				27986C1CD7856B284B3096BF944DB3AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "NaturalDashboard-NaturalDashboard";
-			productName = "NaturalDashboard-NaturalDashboard";
-			productReference = A83DEF98029B46248CA3B44168B7898C /* NaturalDashboard.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		8E0FDFB33D147099C13CCB381F0C5347 /* BaseFramework-BaseFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11CB5791CADCC8055ADD238ECB633467 /* Build configuration list for PBXNativeTarget "BaseFramework-BaseFramework" */;
@@ -859,26 +829,22 @@
 			productReference = 93D7C6E089F46C6A59C14F31308718C8 /* BaseFramework.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		943E08FE5769158BFD3FDFC655312AC9 /* NaturalDashboard */ = {
+		B0135D8C3CE645028721E8F26D4D67C6 /* NaturalDashboard-NaturalDashboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9901217350FA4D17DC19FE4743768B2E /* Build configuration list for PBXNativeTarget "NaturalDashboard" */;
+			buildConfigurationList = 26CD31E351494BA81837F558972F2A1F /* Build configuration list for PBXNativeTarget "NaturalDashboard-NaturalDashboard" */;
 			buildPhases = (
-				5E5E757A9703143F3AA985585482F6DA /* Sources */,
-				AA38D34BE53C30AB9BF4061F063BD2A9 /* Frameworks */,
-				722B0A3443F8CECCCB69D93804048F08 /* Resources */,
-				811DD333B291AE399F2787407F77E139 /* Headers */,
+				5412128A1192459736153259D6BBA3DD /* Sources */,
+				D5C8B8F65B6FD04E87C74501E57E48C3 /* Frameworks */,
+				5339905E1DD48771CD1CE8F5F66CA5B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7B1ED72E2B1A93C6856C608BB6D92BD1 /* PBXTargetDependency */,
-				C7A51C8D68F513D17F931AC3A481A690 /* PBXTargetDependency */,
-				0F1EA0C79BC83FDEA7C60EE9628B362F /* PBXTargetDependency */,
 			);
-			name = NaturalDashboard;
-			productName = NaturalDashboard;
-			productReference = E8193DA712226B0163FDFD3FD6D88D20 /* NaturalDashboard.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "NaturalDashboard-NaturalDashboard";
+			productName = "NaturalDashboard-NaturalDashboard";
+			productReference = A83DEF98029B46248CA3B44168B7898C /* NaturalDashboard.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */ = {
 			isa = PBXNativeTarget;
@@ -916,6 +882,27 @@
 			name = "Pods-NaturalDashboardAppsTests";
 			productName = "Pods-NaturalDashboardAppsTests";
 			productReference = 281B76D8B283E5F6F7C0C5F563E15350 /* Pods_NaturalDashboardAppsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD6C563DA82FBED4B377C36A686ED207 /* NaturalDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32298BD7AE0F961CC0ED74FAB515146A /* Build configuration list for PBXNativeTarget "NaturalDashboard" */;
+			buildPhases = (
+				A23DC45BA59DD01E497E0DDC9ECA0C97 /* Sources */,
+				8557A3A4DFF7ADB5765167A6286D1BC8 /* Frameworks */,
+				CA4EC459507ECB975A30AC8D8A418499 /* Resources */,
+				AD824C63741EF17B5337022332CA6236 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D052887FD64B878D9F8D09CD22ACAE /* PBXTargetDependency */,
+				6EB2CA9CCCA50F77D129E0B7AB0B19CD /* PBXTargetDependency */,
+				D44C2B8100B3AFA6CCDDCEA6163DC72E /* PBXTargetDependency */,
+			);
+			name = NaturalDashboard;
+			productName = NaturalDashboard;
+			productReference = E8193DA712226B0163FDFD3FD6D88D20 /* NaturalDashboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F780E73CB4089262D9A9B5792DFEBA32 /* Pods-NaturalDashboardApps */ = {
@@ -962,8 +949,8 @@
 				B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */,
 				8E0FDFB33D147099C13CCB381F0C5347 /* BaseFramework-BaseFramework */,
 				378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */,
-				943E08FE5769158BFD3FDFC655312AC9 /* NaturalDashboard */,
-				66E5BC3158913469FD9A96736C372CAA /* NaturalDashboard-NaturalDashboard */,
+				BD6C563DA82FBED4B377C36A686ED207 /* NaturalDashboard */,
+				B0135D8C3CE645028721E8F26D4D67C6 /* NaturalDashboard-NaturalDashboard */,
 				400AAFC31220CD9EE0751DF66B913205 /* Pods-NaturalDashboard */,
 				F780E73CB4089262D9A9B5792DFEBA32 /* Pods-NaturalDashboardApps */,
 				B86435A12C199461B61CB1777733370A /* Pods-NaturalDashboardAppsTests */,
@@ -973,23 +960,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27986C1CD7856B284B3096BF944DB3AC /* Resources */ = {
+		5339905E1DD48771CD1CE8F5F66CA5B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57822BC2D686F780BA73524AAD9371D7 /* Assets.xcassets in Resources */,
-				97A99FF4A0FD55ADD43483F64AA1C964 /* Dashboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		722B0A3443F8CECCCB69D93804048F08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70E4032D7D67ADE8C5CD7FB1A76EB7DA /* Assets.xcassets in Resources */,
-				27ACE7473E2905EAFC3E1118F0377EA0 /* Dashboard.storyboard in Resources */,
-				323AFF14651C105F2DE961B23E9C6321 /* NaturalDashboard.bundle in Resources */,
-				82F65D6085B4C55D5F143BB6BEF58883 /* UI in Resources */,
+				25476A89C1BF1FDF915D20D2A6871097 /* Assets.xcassets in Resources */,
+				CE6BD5645B0BFBA4A41F85179BAAABED /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,6 +983,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7EDD53040FC9F2C02364E544DAB4BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4EC459507ECB975A30AC8D8A418499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51AC490136555EC83D6C2D2F3B8B7F5 /* Assets.xcassets in Resources */,
+				CE29C1BCBFBA689BD820476793B8DCAF /* Dashboard.storyboard in Resources */,
+				00E38E99C59000889A9DB3A4A3E05076 /* NaturalDashboard.bundle in Resources */,
+				403D26189C4859410CFA0AD5162BA605 /* UI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1028,16 +1015,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5E757A9703143F3AA985585482F6DA /* Sources */ = {
+		5412128A1192459736153259D6BBA3DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0973F522392D69F3A467D567C68B37D5 /* DashboardRoute.swift in Sources */,
-				EB07E2B10DD25DB2AD6FC1336EAE6AD0 /* HomeViewController.swift in Sources */,
-				C34AE36AF372AB2EDBE3BE1F8518190C /* MyViewController.swift in Sources */,
-				BD949C47570EB13BD6DB603E7DCB1AA4 /* NaturalDashboard-dummy.m in Sources */,
-				31D7387EAA34F36A721E9627793C2F3C /* ShopcartViewController.swift in Sources */,
-				D48CB31984336B897B9ED57A71B9FDFE /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,13 +1028,6 @@
 			files = (
 				2C5A655192346D93BA9834E5A26F87AB /* HexColors-dummy.m in Sources */,
 				A7C3FE64A49D206D8F35D3CF38C61027 /* HexColors.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B784329CFEA2736DAFCFF8DABB36753 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1079,6 +1053,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A23DC45BA59DD01E497E0DDC9ECA0C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B08D3090BA84BE178E8EBB1D1F5230 /* DashboardRoute.swift in Sources */,
+				A73B57733CA0B586FB2EACE53A844EEF /* HomeViewController.swift in Sources */,
+				D0307CB88CAAEC1ED454097FBC2215C5 /* MyViewController.swift in Sources */,
+				B96B5E479F6CF8424A4A38A0888EB1A0 /* NaturalDashboard-dummy.m in Sources */,
+				588FBB4D63FBAEEBC2A66464A2A36509 /* ShopcartViewController.swift in Sources */,
+				D1EC190580547089750E1B8C345063F0 /* StoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B781D0537ABE8680A275A7D9CA51315F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1101,14 +1088,8 @@
 		05C2413A403B0F37E79C720CB3951BC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NaturalDashboard;
-			target = 943E08FE5769158BFD3FDFC655312AC9 /* NaturalDashboard */;
+			target = BD6C563DA82FBED4B377C36A686ED207 /* NaturalDashboard */;
 			targetProxy = 3827A9487B6AC1591393BAFD6BAF57AE /* PBXContainerItemProxy */;
-		};
-		0F1EA0C79BC83FDEA7C60EE9628B362F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NaturalDashboard-NaturalDashboard";
-			target = 66E5BC3158913469FD9A96736C372CAA /* NaturalDashboard-NaturalDashboard */;
-			targetProxy = 6F36525CF1F3EC3C1F4D7A79C2131E16 /* PBXContainerItemProxy */;
 		};
 		1454CFB0D2039443C534F0BC81428239 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1128,11 +1109,11 @@
 			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
 			targetProxy = A68B5474797735E914798E102C992A3C /* PBXContainerItemProxy */;
 		};
-		7B1ED72E2B1A93C6856C608BB6D92BD1 /* PBXTargetDependency */ = {
+		6EB2CA9CCCA50F77D129E0B7AB0B19CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BaseFramework;
-			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
-			targetProxy = 7CACACE22C119680AC293581FEF5163A /* PBXContainerItemProxy */;
+			name = HexColors;
+			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
+			targetProxy = 81286A54A9E228144389C59450CB2E61 /* PBXContainerItemProxy */;
 		};
 		96F8691C96BC6FA80B90006253568BF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1164,17 +1145,23 @@
 			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
 			targetProxy = 819226C354E020E0D25D196C035C3859 /* PBXContainerItemProxy */;
 		};
-		C7A51C8D68F513D17F931AC3A481A690 /* PBXTargetDependency */ = {
+		D44C2B8100B3AFA6CCDDCEA6163DC72E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HexColors;
-			target = 378D90D9F77BE6F035C616EB417BE1B5 /* HexColors */;
-			targetProxy = DD302FE762AFF15E5B8ACE887638A9B4 /* PBXContainerItemProxy */;
+			name = "NaturalDashboard-NaturalDashboard";
+			target = B0135D8C3CE645028721E8F26D4D67C6 /* NaturalDashboard-NaturalDashboard */;
+			targetProxy = BED2B0BB4F776810592FCEC540032F18 /* PBXContainerItemProxy */;
 		};
 		F462EB2AA6E6727A2D4E5F437337592D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BaseFramework;
 			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
 			targetProxy = E7F46847C45622C6B973BDCE786A934F /* PBXContainerItemProxy */;
+		};
+		F5D052887FD64B878D9F8D09CD22ACAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseFramework;
+			target = B09654A7C2E2AAEB28E0ABB97D8E8FE2 /* BaseFramework */;
+			targetProxy = F1A33687495C5B3655F881F4E5FC640D /* PBXContainerItemProxy */;
 		};
 		FBF6716E370543980C57DD0E8BB9BDA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1340,9 +1327,9 @@
 			};
 			name = Release;
 		};
-		58E08C4AB4B553C43F31FEAD6FE385D7 /* Release */ = {
+		5085116BC7ACB9520C33C5721C7F4B1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC30B86156E1FB7D7DA49E66D4AB1A9 /* NaturalDashboard.xcconfig */;
+			baseConfigurationReference = 1C90B21B04216A9AF9E20504CC9750B1 /* NaturalDashboard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NaturalDashboard";
@@ -1520,9 +1507,9 @@
 			};
 			name = Release;
 		};
-		9DCC05C995D29805B83A5FFE64A6A5D4 /* Debug */ = {
+		8B377C660861BF2BA50B649BA4D28FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC30B86156E1FB7D7DA49E66D4AB1A9 /* NaturalDashboard.xcconfig */;
+			baseConfigurationReference = 1C90B21B04216A9AF9E20504CC9750B1 /* NaturalDashboard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1551,6 +1538,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		953538C2AC6B052A12D4E9DC70E266A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C90B21B04216A9AF9E20504CC9750B1 /* NaturalDashboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NaturalDashboard/NaturalDashboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NaturalDashboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NaturalDashboard/NaturalDashboard.modulemap";
+				PRODUCT_MODULE_NAME = NaturalDashboard;
+				PRODUCT_NAME = NaturalDashboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A6111BEE9A50F1AAEE9355110351888A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1680,42 +1700,9 @@
 			};
 			name = Release;
 		};
-		B3CA803078A7B4200C025D8F5B177C97 /* Release */ = {
+		B87879D4E4725EF4AA34058FE2825DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC30B86156E1FB7D7DA49E66D4AB1A9 /* NaturalDashboard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NaturalDashboard/NaturalDashboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NaturalDashboard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NaturalDashboard/NaturalDashboard.modulemap";
-				PRODUCT_MODULE_NAME = NaturalDashboard;
-				PRODUCT_NAME = NaturalDashboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E89D91DF251FE17133F0DDED75C7C6C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC30B86156E1FB7D7DA49E66D4AB1A9 /* NaturalDashboard.xcconfig */;
+			baseConfigurationReference = 1C90B21B04216A9AF9E20504CC9750B1 /* NaturalDashboard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NaturalDashboard";
@@ -1871,11 +1858,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		26CD31E351494BA81837F558972F2A1F /* Build configuration list for PBXNativeTarget "NaturalDashboard-NaturalDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87879D4E4725EF4AA34058FE2825DF6 /* Debug */,
+				5085116BC7ACB9520C33C5721C7F4B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
 				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32298BD7AE0F961CC0ED74FAB515146A /* Build configuration list for PBXNativeTarget "NaturalDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B377C660861BF2BA50B649BA4D28FC3 /* Debug */,
+				953538C2AC6B052A12D4E9DC70E266A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1894,24 +1899,6 @@
 			buildConfigurations = (
 				FE9D1FF9E7BEEA1D6AC0BB04A72741AC /* Debug */,
 				6F460770496311988BB15148E666C026 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9901217350FA4D17DC19FE4743768B2E /* Build configuration list for PBXNativeTarget "NaturalDashboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DCC05C995D29805B83A5FFE64A6A5D4 /* Debug */,
-				B3CA803078A7B4200C025D8F5B177C97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5E2DA8F24A7E634EECFA1D3CCE0BA7C /* Build configuration list for PBXNativeTarget "NaturalDashboard-NaturalDashboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E89D91DF251FE17133F0DDED75C7C6C7 /* Debug */,
-				58E08C4AB4B553C43F31FEAD6FE385D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

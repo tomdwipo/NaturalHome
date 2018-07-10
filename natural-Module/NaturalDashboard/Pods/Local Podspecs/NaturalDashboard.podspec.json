@@ -12,7 +12,7 @@
     "git": "https://github.com/tommyputranto",
     "tag": "0.0.1"
   },
-  "source_files": "NaturalDashboard/**/*.{h,m,swift}",
+  "source_files": "NaturalDashboard/Module/**/*.{h,m,swift}",
   "resource_bundles": {
     "NaturalDashboard": [
       "NaturalDashboard/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}"

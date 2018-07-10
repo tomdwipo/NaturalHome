@@ -63,7 +63,7 @@
 		03AE8C1020F3588400E24D31 /* NaturalDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE8C1520F3588400E24D31 /* NaturalDashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalDashboardTests.swift; sourceTree = "<group>"; };
 		03AE8C1720F3588400E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03AE8C2720F4551A00E24D31 /* NaturalDashboard.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NaturalDashboard.podspec; sourceTree = "<group>"; };
+		03AE8C2720F4551A00E24D31 /* NaturalDashboard.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NaturalDashboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		03AE8C3220F455A900E24D31 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		03AE8C3420F455C300E24D31 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		03AE8C3A20F4563A00E24D31 /* NaturalDashboardApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalDashboardApps.app; sourceTree = BUILT_PRODUCTS_DIR; };

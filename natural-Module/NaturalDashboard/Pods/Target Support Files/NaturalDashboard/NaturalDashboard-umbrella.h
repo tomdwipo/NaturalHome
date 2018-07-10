@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "NaturalDashboard.h"
 
 FOUNDATION_EXPORT double NaturalDashboardVersionNumber;
 FOUNDATION_EXPORT const unsigned char NaturalDashboardVersionString[];

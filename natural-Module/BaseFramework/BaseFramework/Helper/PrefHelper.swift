@@ -41,3 +41,69 @@ public extension UIView {
         return instantiateFromNib(viewType: self, bundle: bundle)
     }
 }
+
+public extension UISearchBar {
+    public func setTextColor(color: UIColor) {
+        let svs = subviews.flatMap { $0.subviews }
+        guard let tf = (svs.filter { $0 is UITextField }).first as? UITextField else { return }
+        tf.textColor = color
+    }
+    
+    public func changeSearchBarColor(color : UIColor) {
+        for subView in self.subviews {
+            for subSubView in subView.subviews {
+                if subSubView.conforms(to: UITextInputTraits.self) {
+                    let textField = subSubView as! UITextField
+                    textField.backgroundColor = color
+                    break
+                }
+            }
+        }
+    }
+    
+     func getViewElement<T>(type: T.Type) -> T? {
+        let svs = subviews.flatMap { $0.subviews }
+        guard let element = (svs.filter { $0 is T }).first as? T else { return nil }
+        return element
+    }
+    
+    func getSearchBarTextField() -> UITextField? {
+        return getViewElement(type: UITextField.self)
+    }
+    
+    public func setPlaceholderTextColor(color: UIColor) {
+        if let textField = getSearchBarTextField() {
+            textField.attributedPlaceholder = NSAttributedString(string:  self.placeholder != nil ? self.placeholder! : "", attributes: [NSAttributedStringKey.foregroundColor : color])
+        }
+    }
+    
+    public func setMagnifyingGlassColorTo(color: UIColor){
+        let textFieldInsideSearchBar = self.value(forKey: "searchField") as? UITextField
+        let glassIconView = textFieldInsideSearchBar?.leftView as? UIImageView
+        glassIconView?.image = glassIconView?.image?.withRenderingMode(.alwaysTemplate)
+        glassIconView?.tintColor = color
+    }
+    
+    public func setclearImageColor(color: UIColor){
+        let searchBarTextField = self.value(forKey: "_searchField") as? UITextField
+        let clearButton = searchBarTextField?.value(forKey: "_clearButton") as? UIButton
+        let clearImage = clearButton?.imageView?.image?.withRenderingMode(.alwaysTemplate)
+        clearButton?.setImage(clearImage, for: .normal)
+        clearButton?.tintColor = color
+    }
+    
+    func tintImage(image: UIImage, color: UIColor) -> UIImage {
+        let size = image.size
+        UIGraphicsBeginImageContextWithOptions(size, false, image.scale)
+        let context = UIGraphicsGetCurrentContext()
+        image.draw(at: .zero, blendMode: .normal, alpha: 1.0)
+        context!.setFillColor(color.cgColor)
+        context!.setBlendMode(.sourceIn)
+        context!.setAlpha(1.0)
+        let rect = CGRect(x: CGPoint.zero.x, y: CGPoint.zero.y, width: image.size.width, height: image.size.height)
+        UIGraphicsGetCurrentContext()!.fill(rect)
+        let tintedImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return tintedImage!
+    }
+}

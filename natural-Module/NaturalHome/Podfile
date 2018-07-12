@@ -6,7 +6,6 @@ target 'NaturalHome' do
   use_frameworks!
   pod 'BaseFramework', :path => '../BaseFramework'
   pod 'ParallaxHeader', '~> 2.0.0'
-
   # Pods for NaturalHome
 
   target 'NaturalHomeTests' do

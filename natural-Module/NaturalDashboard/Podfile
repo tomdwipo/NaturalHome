@@ -5,6 +5,7 @@ target 'NaturalDashboard' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
  pod 'BaseFramework', :path => '../BaseFramework'
+    pod 'NaturalHome', :path => '../NaturalHome'
 
   # Pods for NaturalDashboard
 

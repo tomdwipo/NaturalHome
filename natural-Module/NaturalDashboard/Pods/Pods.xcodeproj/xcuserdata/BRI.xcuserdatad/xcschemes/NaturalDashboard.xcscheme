@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD6C563DA82FBED4B377C36A686ED207"
+               BlueprintIdentifier = "FC866ECEA8C10E10D03A9D70A7A568DF"
                BlueprintName = "NaturalDashboard"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "NaturalDashboard.framework">

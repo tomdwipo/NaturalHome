@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039153B620F734890019641B /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039153B520F734890019641B /* BaseCell.xib */; };
+		039153B820F7356E0019641B /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039153B720F7356E0019641B /* ProductCell.xib */; };
+		039153BA20F737970019641B /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039153B920F737970019641B /* BaseTableViewCell.swift */; };
+		039153BC20F7386E0019641B /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039153BB20F7386E0019641B /* ProductCollectionViewCell.swift */; };
 		03AE8C9220F46E4D00E24D31 /* NaturalHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AE8C8820F46E4D00E24D31 /* NaturalHome.framework */; };
 		03AE8C9720F46E4D00E24D31 /* NaturalHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C9620F46E4D00E24D31 /* NaturalHomeTests.swift */; };
 		03AE8C9920F46E4D00E24D31 /* NaturalHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AE8C8B20F46E4D00E24D31 /* NaturalHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039153B520F734890019641B /* BaseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		039153B720F7356E0019641B /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		039153B920F737970019641B /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		039153BB20F7386E0019641B /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		03AE8C8820F46E4D00E24D31 /* NaturalHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NaturalHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE8C8B20F46E4D00E24D31 /* NaturalHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaturalHome.h; sourceTree = "<group>"; };
 		03AE8C8C20F46E4D00E24D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -320,6 +328,8 @@
 			children = (
 				03AE8CF420F4926A00E24D31 /* HeaderCell.xib */,
 				03AE8CFC20F49D3A00E24D31 /* ParralaxHeaderView.xib */,
+				039153B520F734890019641B /* BaseCell.xib */,
+				039153B720F7356E0019641B /* ProductCell.xib */,
 			);
 			path = nib;
 			sourceTree = "<group>";
@@ -329,6 +339,8 @@
 			children = (
 				03AE8CF720F4929B00E24D31 /* HeaderTableViewCell.swift */,
 				03AE8CFE20F49E1900E24D31 /* ParralaxHeaderView.swift */,
+				039153B920F737970019641B /* BaseTableViewCell.swift */,
+				039153BB20F7386E0019641B /* ProductCollectionViewCell.swift */,
 			);
 			path = nib;
 			sourceTree = "<group>";
@@ -535,6 +547,8 @@
 			files = (
 				03AE8CF520F4926A00E24D31 /* HeaderCell.xib in Resources */,
 				03AE8CB120F46FDB00E24D31 /* Home.storyboard in Resources */,
+				039153B820F7356E0019641B /* ProductCell.xib in Resources */,
+				039153B620F734890019641B /* BaseCell.xib in Resources */,
 				03AE8CFD20F49D3A00E24D31 /* ParralaxHeaderView.xib in Resources */,
 				03AE8CA820F46F6F00E24D31 /* Assets.xcassets in Resources */,
 				03AE8CA320F46F3C00E24D31 /* NaturalHome.podspec in Resources */,
@@ -702,12 +716,14 @@
 			files = (
 				03AE8CBB20F4703500E24D31 /* HomeViewController.swift in Sources */,
 				03AE8CB720F4701D00E24D31 /* HomePresenter.swift in Sources */,
+				039153BC20F7386E0019641B /* ProductCollectionViewCell.swift in Sources */,
 				03AE8CB320F46FFD00E24D31 /* HomeRoute.swift in Sources */,
 				03AE8CFF20F49E1900E24D31 /* ParralaxHeaderView.swift in Sources */,
 				03AE8CF820F4929B00E24D31 /* HeaderTableViewCell.swift in Sources */,
 				03AE8CB520F4700900E24D31 /* HomeEntity.swift in Sources */,
 				03AE8CBD20F4704000E24D31 /* HomeProtocol.swift in Sources */,
 				03AE8CB920F4702B00E24D31 /* HomeInteractor.swift in Sources */,
+				039153BA20F737970019641B /* BaseTableViewCell.swift in Sources */,
 				03AE8CFB20F492F800E24D31 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

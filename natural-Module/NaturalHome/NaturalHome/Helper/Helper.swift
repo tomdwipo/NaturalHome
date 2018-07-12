@@ -10,4 +10,6 @@ import Foundation
 
 enum InitialView: String {
     case headerCell = "HeaderCell"
+    case baseCell = "BaseCell"
+    case productCell = "ProductCell"
 }

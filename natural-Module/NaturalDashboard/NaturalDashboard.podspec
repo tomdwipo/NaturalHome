@@ -12,5 +12,6 @@ s.resource_bundles = {'NaturalDashboard' => ['NaturalDashboard/Assets/**/*.{stor
 s.resource = 'NaturalDashboard/Assets/**/*'
 s.platform         = :ios, "9.0"
 s.dependency 'BaseFramework'
+s.dependency 'NaturalHome'
 
 end

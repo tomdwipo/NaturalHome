@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FBC4F91D338123E856588206D12AB3F4"
+               BlueprintIdentifier = "005F5E3B4EB8DE3B8FB0F166565863D7"
                BlueprintName = "NaturalHome"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "NaturalHome.framework">

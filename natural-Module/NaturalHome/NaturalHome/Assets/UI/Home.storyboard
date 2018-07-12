@@ -17,15 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xwk-pB-bk8">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xwk-pB-bk8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Xwk-pB-bk8" firstAttribute="top" secondItem="SF9-Gi-XFb" secondAttribute="top" id="3eb-Zv-V7q"/>
                             <constraint firstItem="qrx-LG-H8A" firstAttribute="trailing" secondItem="Xwk-pB-bk8" secondAttribute="trailing" id="W1x-26-xn0"/>
+                            <constraint firstItem="Xwk-pB-bk8" firstAttribute="top" secondItem="SF9-Gi-XFb" secondAttribute="top" id="bsZ-xP-XOd"/>
                             <constraint firstItem="Xwk-pB-bk8" firstAttribute="leading" secondItem="qrx-LG-H8A" secondAttribute="leading" id="hRH-qs-vAM"/>
                             <constraint firstItem="qrx-LG-H8A" firstAttribute="bottom" secondItem="Xwk-pB-bk8" secondAttribute="bottom" id="psf-LF-l4E"/>
                         </constraints>

@@ -13,5 +13,7 @@ class ParralaxHeaderView: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    
+    
 
 }

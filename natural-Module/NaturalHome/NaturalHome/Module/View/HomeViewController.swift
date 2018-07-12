@@ -11,6 +11,9 @@ import ParallaxHeader
 import BaseFramework
 class HomeViewController: UIViewController {
     var presenter: ViewToPresenterProtocol?
+    var totalCellRecommended = 10
+    let NAVBAR_CHANGE_POINT = -50
+    let SEARCHBAR_CHANGE_POINT = -25
 
     @IBOutlet weak var tableview: UITableView!
     override func viewDidLoad() {
@@ -25,6 +28,10 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController!.navigationBar.lt_reset()
+    }
    
 
 }
@@ -39,7 +46,7 @@ extension HomeViewController {
     }
     
     func registerTableViewFromNib() {
-        self.tableview.register(UINib(nibName: InitialView.headerCell.rawValue, bundle: self.nibBundle), forCellReuseIdentifier: InitialView.headerCell.rawValue)
+        self.tableview.register(UINib(nibName: InitialView.baseCell.rawValue, bundle: self.nibBundle), forCellReuseIdentifier: InitialView.baseCell.rawValue)
     }
     
     func setParalaxHeader() {
@@ -49,17 +56,13 @@ extension HomeViewController {
         self.tableview.parallaxHeader.mode = .topFill
     }
     
-    func setNavigation(transparent: Bool) {
-        if transparent {
-            self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)
-            self.navigationController!.navigationBar.shadowImage = UIImage()
-            self.navigationController!.navigationBar.isTranslucent = true
-        }else{
-            self.navigationController!.navigationBar.setBackgroundImage(nil, for: .default)
-            self.navigationController!.navigationBar.shadowImage = nil
-            self.navigationController!.navigationBar.isTranslucent = false
-        }
-       
+    func setNavigation() {
+        self.navigationController!.navigationBar.lt_setBackgroundColor(backgroundColor: UIColor.red)
+
+//            self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//            self.navigationController!.navigationBar.shadowImage = UIImage()
+//            self.navigationController!.navigationBar.isTranslucent = true
+
     }
     
     func setSearchBar(transparent: Bool){
@@ -99,7 +102,7 @@ extension HomeViewController {
 
 extension HomeViewController: PresenterToViewProtocol {
     func viewUpdate() {
-        setNavigation(transparent: true)
+        setNavigation()
         registerTableView()
         registerTableViewFromNib()
         setParalaxHeader()
@@ -116,30 +119,79 @@ extension HomeViewController: PresenterToViewProtocol {
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
-    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableview.dequeueReusableCell(withIdentifier: InitialView.headerCell.rawValue, for: indexPath) as! HeaderTableViewCell
+        let cell = tableview.dequeueReusableCell(withIdentifier: InitialView.baseCell.rawValue, for: indexPath) as! BaseTableViewCell
+        cell.registerCollectionView()
+        cell.registerCollectionFromNib()
+        cell.setLayout(index: indexPath.row,totalCell: self.totalCellRecommended)
         return cell
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if scrollView.contentOffset.y >= 0 {
-            setNavigation(transparent: false)
-            setSearchBar(transparent: false)
-            setChatImage(transparent: false)
-
-        }else{
-            setNavigation(transparent: true)
+        print(scrollView.contentOffset.y)
+        let color = UIColor.white
+        let offsetY: CGFloat = scrollView.contentOffset.y
+        if offsetY > CGFloat(NAVBAR_CHANGE_POINT) {
+           
+            let alpha = min(1, 1 - ((CGFloat(NAVBAR_CHANGE_POINT + 64) - offsetY) / 64))
+            self.navigationController!.navigationBar.lt_setBackgroundColor(backgroundColor: color.withAlphaComponent(alpha))
+            if offsetY > CGFloat(SEARCHBAR_CHANGE_POINT) {
+                setSearchBar(transparent: false)
+                setChatImage(transparent: false)
+            }
+        } else {
             setSearchBar(transparent: true)
             setChatImage(transparent: true)
-
+            self.navigationController!.navigationBar.lt_setBackgroundColor(backgroundColor: color.withAlphaComponent(0))
         }
     }
     
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        print(scrollView.contentOffset.y)
+//        let offsetY: CGFloat = scrollView.contentOffset.y
+//        if offsetY > 0 {
+//            if offsetY >= 44 {
+//                setNavigationBarTransformProgress(1)
+//            } else {
+//                setNavigationBarTransformProgress(offsetY / 44)
+//            }
+//        } else {
+//            setNavigationBarTransformProgress(0)
+//            self.navigationController!.navigationBar.backIndicatorImage = UIImage()
+//        }
+//
+//
+//    }
+
+    
+    func setNavigationBarTransformProgress(_ progress: CGFloat) {
+        self.navigationController!.navigationBar.lt_setTranslationY(translationY: (-44 * progress))
+        self.navigationController!.navigationBar.lt_setElementsAlpha(alpha: (1 - progress))
+    }
+
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch indexPath.row {
+        case 0:
+            let height : CGFloat
+            height =  self.view.frame.height / 5.5
+            return CGFloat(height)
+        default:
+            let totalCell: CGFloat = CGFloat(self.totalCellRecommended)
+            let height : CGFloat
+            height =  (self.view.frame.height / 4.5) * totalCell
+            return CGFloat(height)
+        }
+       
+        
+    }
     
 }

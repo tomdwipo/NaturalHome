@@ -12,11 +12,11 @@ import UIKit
 
 public class MaterialCard: UIView {
     
-    open var cornerRadius: CGFloat = 2
+    open var cornerRadius: CGFloat = 6
     
     open var shadowOffsetWidth: Int = 0
     open var shadowOffsetHeight: Int = 2
-    open var shadowColor: UIColor? = UIColor.black
+    open var shadowColor: UIColor? = UIColor.lightGray
     open var shadowOpacity: Float = 0.4
     
     override open func layoutSubviews() {

@@ -63,6 +63,8 @@ extension BaseTableViewCell: UICollectionViewDelegate, UICollectionViewDataSourc
             if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
                 layout.scrollDirection = .horizontal
             }
+            cell.descProduct.text = ""
+            cell.productButton.isHidden = true
             return cell
         default:
             self.title.text = "The Recommended"
@@ -70,6 +72,8 @@ extension BaseTableViewCell: UICollectionViewDelegate, UICollectionViewDataSourc
             if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
                 layout.scrollDirection = .vertical
             }
+              cell.descProduct.text = "All Cotton wool fabric, protein fiber filled, delicate and delicate detail ..."
+            cell.productButton.isHidden = false
             return cell
         }
        

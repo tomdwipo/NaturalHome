@@ -10,8 +10,10 @@ import UIKit
 import BaseFramework
 class ProductCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var descProduct: UILabel!
     @IBOutlet weak var baseViewProduct: MaterialCard!
     @IBOutlet weak var imageProduct: UIImageView!
+    @IBOutlet weak var productButton: UIButton!
     
     override func awakeFromNib() {
         setView()

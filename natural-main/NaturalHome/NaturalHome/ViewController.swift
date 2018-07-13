@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
+import NaturalDashboard
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        DashboardRoute.createModule(self)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

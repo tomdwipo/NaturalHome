@@ -1,3 +1,40 @@
-PODFILE CHECKSUM: cc20897cca83ad049c8a442638c430faecb53102
+PODS:
+  - BaseFramework (0.0.1):
+    - HexColors
+  - HexColors (6.0.0)
+  - NaturalDashboard (0.0.1):
+    - BaseFramework
+    - NaturalHome
+  - NaturalHome (0.0.1):
+    - BaseFramework
+    - ParallaxHeader
+  - ParallaxHeader (2.0.0)
+
+DEPENDENCIES:
+  - BaseFramework (from `../../natural-Module/BaseFramework`)
+  - NaturalDashboard (from `../../natural-Module/NaturalDashboard`)
+  - NaturalHome (from `../../natural-Module/NaturalHome`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HexColors
+    - ParallaxHeader
+
+EXTERNAL SOURCES:
+  BaseFramework:
+    :path: "../../natural-Module/BaseFramework"
+  NaturalDashboard:
+    :path: "../../natural-Module/NaturalDashboard"
+  NaturalHome:
+    :path: "../../natural-Module/NaturalHome"
+
+SPEC CHECKSUMS:
+  BaseFramework: 795e3832fc4aa36b0ee5142568ff8913d4c0d718
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  NaturalDashboard: 1607390b01f405115e22b1bd2e2eee7f923fa0f3
+  NaturalHome: 1d3179b1b496f4ff1cf49e16b02142e11748812a
+  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
+
+PODFILE CHECKSUM: c78427a69bfa5bd813f55514a2b2fd53b380a016
 
 COCOAPODS: 1.5.0

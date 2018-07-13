@@ -22,10 +22,10 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDK-fF-BAe" customClass="MaterialCard" customModule="BaseFramework">
                         <rect key="frame" x="8" y="4" width="203" height="95"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product" translatesAutoresizingMaskIntoConstraints="NO" id="ZK4-r8-uxK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZK4-r8-uxK">
                                 <rect key="frame" x="8" y="8" width="72.5" height="79"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pure White vas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ar2-yw-nCR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pure White vas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ar2-yw-nCR">
                                 <rect key="frame" x="88.5" y="8" width="110.5" height="18"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="0.36862745099999999" green="0.45098039220000002" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,19 +37,47 @@
                                 <color key="textColor" red="0.97254901960784312" green="0.80000000000000004" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxo-Ly-djv">
+                                <rect key="frame" x="88" y="30" width="111" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.36862745099999999" green="0.45098039220000002" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0J-y9-Aed">
+                                <rect key="frame" x="143" y="66" width="56" height="24"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.45098039220000002" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="HVe-9K-0Fl"/>
+                                    <constraint firstAttribute="height" constant="24" id="Qyo-kq-r5k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="buy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="hxo-Ly-djv" firstAttribute="top" secondItem="ar2-yw-nCR" secondAttribute="bottom" constant="4" id="0cr-K9-EmO"/>
                             <constraint firstItem="ZK4-r8-uxK" firstAttribute="top" secondItem="RDK-fF-BAe" secondAttribute="top" constant="8" id="FIu-3T-Fij"/>
                             <constraint firstItem="zDS-04-Ruy" firstAttribute="leading" secondItem="ZK4-r8-uxK" secondAttribute="trailing" constant="8" id="Ihk-a8-QqF"/>
                             <constraint firstAttribute="trailing" secondItem="zDS-04-Ruy" secondAttribute="trailing" constant="4" id="N91-jm-yxV"/>
                             <constraint firstItem="ZK4-r8-uxK" firstAttribute="leading" secondItem="RDK-fF-BAe" secondAttribute="leading" constant="8" id="OaN-ab-ubF"/>
                             <constraint firstItem="ar2-yw-nCR" firstAttribute="leading" secondItem="ZK4-r8-uxK" secondAttribute="trailing" constant="8" id="Syy-I6-II6"/>
+                            <constraint firstAttribute="trailing" secondItem="hxo-Ly-djv" secondAttribute="trailing" constant="4" id="TAk-Iy-0Al"/>
+                            <constraint firstAttribute="trailing" secondItem="a0J-y9-Aed" secondAttribute="trailing" constant="4" id="Ukf-Jm-7m0"/>
                             <constraint firstItem="ar2-yw-nCR" firstAttribute="top" secondItem="RDK-fF-BAe" secondAttribute="top" constant="8" id="iFk-7u-6cx"/>
                             <constraint firstItem="ZK4-r8-uxK" firstAttribute="width" secondItem="RDK-fF-BAe" secondAttribute="width" multiplier="1/2.8" id="khE-TT-ehs"/>
                             <constraint firstAttribute="bottom" secondItem="zDS-04-Ruy" secondAttribute="bottom" constant="8" id="kqY-CE-Hy0"/>
                             <constraint firstAttribute="trailing" secondItem="ar2-yw-nCR" secondAttribute="trailing" constant="4" id="lve-il-85N"/>
                             <constraint firstAttribute="bottom" secondItem="ZK4-r8-uxK" secondAttribute="bottom" constant="8" id="pJo-UZ-pHK"/>
+                            <constraint firstItem="a0J-y9-Aed" firstAttribute="centerY" secondItem="zDS-04-Ruy" secondAttribute="centerY" id="vMc-hd-nHQ"/>
+                            <constraint firstItem="hxo-Ly-djv" firstAttribute="leading" secondItem="ZK4-r8-uxK" secondAttribute="trailing" constant="8" id="yqA-CE-0gV"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -64,12 +92,11 @@
             <size key="customSize" width="219" height="103"/>
             <connections>
                 <outlet property="baseViewProduct" destination="RDK-fF-BAe" id="h0N-i1-jLS"/>
+                <outlet property="descProduct" destination="hxo-Ly-djv" id="OZq-zW-ZI6"/>
                 <outlet property="imageProduct" destination="ZK4-r8-uxK" id="AG2-wR-i8H"/>
+                <outlet property="productButton" destination="a0J-y9-Aed" id="jXt-gK-8be"/>
             </connections>
             <point key="canvasLocation" x="53.5" y="149.5"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="product" width="2008" height="2008"/>
-    </resources>
 </document>

@@ -141,6 +141,21 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BaseFramework/BaseFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NaturalDashboard/NaturalDashboard.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NaturalHome/NaturalHome.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BaseFramework/BaseFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NaturalDashboard/NaturalDashboard.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NaturalHome/NaturalHome.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

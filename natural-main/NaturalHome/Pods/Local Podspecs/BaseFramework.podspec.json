@@ -1,0 +1,30 @@
+{
+  "name": "BaseFramework",
+  "version": "0.0.1",
+  "summary": "Framework Application.",
+  "homepage": "https://github.com/tommyputranto",
+  "license": "MIT (ios)",
+  "authors": {
+    "Tommy": "tommyputranto1@gmail.com"
+  },
+  "social_media_url": "https://github.com/tommyputranto",
+  "source": {
+    "git": "https://github.com/tommyputranto",
+    "tag": "0.0.1"
+  },
+  "source_files": "BaseFramework/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "BaseFramework": [
+      "BaseFramework/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}"
+    ]
+  },
+  "resources": "BaseFramework/Assets/**/*",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "HexColors": [
+
+    ]
+  }
+}

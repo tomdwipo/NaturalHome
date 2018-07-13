@@ -1,0 +1,33 @@
+{
+  "name": "NaturalDashboard",
+  "version": "0.0.1",
+  "summary": "Framework Application.",
+  "homepage": "https://github.com/tommyputranto",
+  "license": "MIT (ios)",
+  "authors": {
+    "Tommy": "tommyputranto1@gmail.com"
+  },
+  "social_media_url": "https://github.com/tommyputranto",
+  "source": {
+    "git": "https://github.com/tommyputranto",
+    "tag": "0.0.1"
+  },
+  "source_files": "NaturalDashboard/Module/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "NaturalDashboard": [
+      "NaturalDashboard/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}"
+    ]
+  },
+  "resources": "NaturalDashboard/Assets/**/*",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "BaseFramework": [
+
+    ],
+    "NaturalHome": [
+
+    ]
+  }
+}

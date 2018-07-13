@@ -187,7 +187,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         default:
             let totalCell: CGFloat = CGFloat(self.totalCellRecommended)
             let height : CGFloat
-            height =  (self.view.frame.height / 4.5) * totalCell
+            height =  (self.view.frame.height / 5.8) * totalCell
             return CGFloat(height)
         }
        

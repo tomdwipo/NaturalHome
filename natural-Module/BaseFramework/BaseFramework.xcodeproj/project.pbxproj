@@ -18,6 +18,7 @@
 		03AE8BFC20F3582400E24D31 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8BFB20F3582400E24D31 /* MaterialCard.swift */; };
 		03AE8C2220F3597F00E24D31 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C2120F3597F00E24D31 /* BundleHelper.swift */; };
 		03AE8C2620F359FA00E24D31 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE8C2520F359FA00E24D31 /* BaseViewController.swift */; };
+		03BF4FB620F850AF0062A020 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4FB520F850AF0062A020 /* BaseButton.swift */; };
 		11C7AD67D7BA577D36268C0F /* Pods_BaseFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB2C6D804110CFDB403F1A2 /* Pods_BaseFrameworkTests.framework */; };
 		B6DBBB61D4B17A7739A956AD /* Pods_BaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE845B0C754013E54245CD8 /* Pods_BaseFramework.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		03AE8BFB20F3582400E24D31 /* MaterialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
 		03AE8C2120F3597F00E24D31 /* BundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
 		03AE8C2520F359FA00E24D31 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		03BF4FB520F850AF0062A020 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		201046863A03A81A088911AC /* Pods-BaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseFramework/Pods-BaseFramework.release.xcconfig"; sourceTree = "<group>"; };
 		7CB2C6D804110CFDB403F1A2 /* Pods_BaseFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F4039326449427F2C524D5 /* Pods-BaseFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseFrameworkTests/Pods-BaseFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				03AE8BFB20F3582400E24D31 /* MaterialCard.swift */,
+				03BF4FB520F850AF0062A020 /* BaseButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				03AE8BF920F3531E00E24D31 /* PrefHelper.swift in Sources */,
 				03AE8BF320F346D900E24D31 /* DateHelper.swift in Sources */,
 				03AE8BFC20F3582400E24D31 /* MaterialCard.swift in Sources */,
+				03BF4FB620F850AF0062A020 /* BaseButton.swift in Sources */,
 				03AE8C2220F3597F00E24D31 /* BundleHelper.swift in Sources */,
 				03AE8BF520F347F000E24D31 /* ColorHelper.swift in Sources */,
 				03AE8C2620F359FA00E24D31 /* BaseViewController.swift in Sources */,

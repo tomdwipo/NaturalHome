@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NaturalStore' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'BaseFramework', :path => '../BaseFramework'
+  pod 'PagingMenuController'
+
+  # Pods for NaturalStore
+
+  target 'NaturalStoreTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+target 'NaturalStoreApps' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    pod 'NaturalStore', :path => '../NaturalStore'
+    
+    # Pods for NaturalStore
+    
+    target 'NaturalStoreAppsTests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+end

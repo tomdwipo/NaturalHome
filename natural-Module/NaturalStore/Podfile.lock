@@ -1,0 +1,34 @@
+PODS:
+  - BaseFramework (0.0.1):
+    - HexColors
+  - HexColors (6.0.0)
+  - NaturalStore (0.0.1):
+    - BaseFramework
+    - PagingMenuController
+  - PagingMenuController (2.2.0)
+
+DEPENDENCIES:
+  - BaseFramework (from `../BaseFramework`)
+  - NaturalStore (from `../NaturalStore`)
+  - PagingMenuController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HexColors
+    - PagingMenuController
+
+EXTERNAL SOURCES:
+  BaseFramework:
+    :path: "../BaseFramework"
+  NaturalStore:
+    :path: "../NaturalStore"
+
+SPEC CHECKSUMS:
+  BaseFramework: 795e3832fc4aa36b0ee5142568ff8913d4c0d718
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  NaturalStore: 5033f6040b2996506f6ee3af1e1a31bcac2610ae
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+
+PODFILE CHECKSUM: 96606f63167d2af492d6fb007b997081206bce65
+
+COCOAPODS: 1.5.0

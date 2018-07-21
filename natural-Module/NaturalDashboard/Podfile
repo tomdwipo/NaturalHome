@@ -6,6 +6,7 @@ target 'NaturalDashboard' do
   use_frameworks!
  pod 'BaseFramework', :path => '../BaseFramework'
     pod 'NaturalHome', :path => '../NaturalHome'
+    pod 'NaturalStore', :path => '../NaturalStore'
 
   # Pods for NaturalDashboard
 

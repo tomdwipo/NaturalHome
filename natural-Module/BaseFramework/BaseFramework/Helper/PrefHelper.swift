@@ -154,7 +154,7 @@ public extension UINavigationBar {
 //            }
             
           //  if element.isKind(of: NSClassFromString("_UINavigationBarBackIndicatorView") as! UIView.Type) {
-                element.alpha = element.alpha == 0 ? 0 : alpha
+               element.alpha = element.alpha == 0 ? 0 : alpha
            // }
         }
         

@@ -58,10 +58,9 @@ extension HomeViewController {
     
     func setNavigation() {
         self.navigationController!.navigationBar.lt_setBackgroundColor(backgroundColor: UIColor.red)
-
-//            self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)
-//            self.navigationController!.navigationBar.shadowImage = UIImage()
-//            self.navigationController!.navigationBar.isTranslucent = true
+        self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController!.navigationBar.shadowImage = UIImage()
+        self.navigationController!.navigationBar.isTranslucent = true
 
     }
     
@@ -74,12 +73,15 @@ extension HomeViewController {
             searchBar.setPlaceholderTextColor(color: UIColor.white)
             searchBar.setMagnifyingGlassColorTo(color: UIColor.white)
             searchBar.setclearImageColor(color: UIColor.white)
+            self.navigationController!.view.backgroundColor = .clear
         }else{
             searchBar.setTextColor(color: UIColor.darkGray)
              searchBar.changeSearchBarColor(color: UIColor(red: 246/256, green: 246/256, blue: 253/256, alpha: 1.0))
             searchBar.setPlaceholderTextColor(color: UIColor.darkGray)
             searchBar.setMagnifyingGlassColorTo(color: UIColor.darkGray)
             searchBar.setclearImageColor(color: UIColor.darkGray)
+            self.navigationController!.view.backgroundColor = .gray
+
         }
        
         let leftNavBarButton = UIBarButtonItem(customView:searchBar)
@@ -136,11 +138,9 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print(scrollView.contentOffset.y)
         let color = UIColor.white
         let offsetY: CGFloat = scrollView.contentOffset.y
         if offsetY > CGFloat(NAVBAR_CHANGE_POINT) {
-           
             let alpha = min(1, 1 - ((CGFloat(NAVBAR_CHANGE_POINT + 64) - offsetY) / 64))
             self.navigationController!.navigationBar.lt_setBackgroundColor(backgroundColor: color.withAlphaComponent(alpha))
             if offsetY > CGFloat(SEARCHBAR_CHANGE_POINT) {
@@ -173,6 +173,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
     
     func setNavigationBarTransformProgress(_ progress: CGFloat) {
+        
         self.navigationController!.navigationBar.lt_setTranslationY(translationY: (-44 * progress))
         self.navigationController!.navigationBar.lt_setElementsAlpha(alpha: (1 - progress))
     }

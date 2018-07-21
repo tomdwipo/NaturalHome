@@ -10,6 +10,11 @@ import UIKit
 
 class FittingViewController: UIViewController {
 
+    class func instantiateFromStoryboard() -> FittingViewController {
+        let storyboard = UIStoryboard(name: Storyboard.fitting, bundle: StoreRouter.bundle )
+        return storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! FittingViewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

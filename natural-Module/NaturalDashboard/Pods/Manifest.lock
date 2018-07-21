@@ -8,16 +8,22 @@ PODS:
   - NaturalHome (0.0.1):
     - BaseFramework
     - ParallaxHeader
+  - NaturalStore (0.0.1):
+    - BaseFramework
+    - PagingMenuController
+  - PagingMenuController (2.2.0)
   - ParallaxHeader (2.0.0)
 
 DEPENDENCIES:
   - BaseFramework (from `../BaseFramework`)
   - NaturalDashboard (from `../NaturalDashboard`)
   - NaturalHome (from `../NaturalHome`)
+  - NaturalStore (from `../NaturalStore`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - HexColors
+    - PagingMenuController
     - ParallaxHeader
 
 EXTERNAL SOURCES:
@@ -27,14 +33,18 @@ EXTERNAL SOURCES:
     :path: "../NaturalDashboard"
   NaturalHome:
     :path: "../NaturalHome"
+  NaturalStore:
+    :path: "../NaturalStore"
 
 SPEC CHECKSUMS:
   BaseFramework: 795e3832fc4aa36b0ee5142568ff8913d4c0d718
   HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
   NaturalDashboard: 1607390b01f405115e22b1bd2e2eee7f923fa0f3
   NaturalHome: 1d3179b1b496f4ff1cf49e16b02142e11748812a
+  NaturalStore: 5033f6040b2996506f6ee3af1e1a31bcac2610ae
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
   ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
 
-PODFILE CHECKSUM: be812bdd525eb6fe2f532e7036cf7292607f3507
+PODFILE CHECKSUM: e859c9551abceed23eff2f8804f5603d21a6d9eb
 
 COCOAPODS: 1.5.0

@@ -1,0 +1,6 @@
+framework module NaturalStore {
+  umbrella header "NaturalStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

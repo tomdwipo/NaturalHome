@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class StoreInteractor: PresenterToInteractorProtocol {
+    
+    var presenter: InteractorToPresenterProtocol?
+    
+    func fetchView() {
+        self.presenter?.viewFetched()
+    }
+    
+    
+}

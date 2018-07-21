@@ -10,6 +10,11 @@ import UIKit
 
 class ShopsViewController: UIViewController {
 
+    class func instantiateFromStoryboard() -> ShopsViewController {
+        let storyboard = UIStoryboard(name: Storyboard.shops, bundle: StoreRouter.bundle )
+        return storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! ShopsViewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

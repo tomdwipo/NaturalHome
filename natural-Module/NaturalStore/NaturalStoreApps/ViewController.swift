@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
+import NaturalStore
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        StoreRouter.createModule(self)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

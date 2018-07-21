@@ -7,3 +7,28 @@
 //
 
 import Foundation
+
+class StorePresenter: ViewToPresenterProtocol {
+    var view: PresenterToViewProtocol?
+    var interactor: PresenterToInteractorProtocol?
+    var router: PresenterToRouterProtocol?
+    
+    func updateView() {
+        self.interactor?.fetchView()
+        
+    }
+    
+}
+
+extension StorePresenter: InteractorToPresenterProtocol {
+    func viewFetched() {
+        self.view?.viewUpdate()
+    }
+    
+    func dataFetched(message: String) {
+    }
+    
+    func dataFetchedFailed(message: String) {
+        self.view?.showError(message: message)
+    }
+}

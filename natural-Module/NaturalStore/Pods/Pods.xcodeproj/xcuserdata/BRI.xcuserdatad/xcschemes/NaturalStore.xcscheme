@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C01F87EB577442CCF867556383F53940"
+               BlueprintIdentifier = "71001E26EA1C8904FDF6BABCB18E0071"
                BlueprintName = "NaturalStore"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "NaturalStore.framework">

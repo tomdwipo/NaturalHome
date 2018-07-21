@@ -10,6 +10,11 @@ import UIKit
 
 class PersonalViewController: UIViewController {
 
+    class func instantiateFromStoryboard() -> PersonalViewController {
+        let storyboard = UIStoryboard(name: Storyboard.personal, bundle: StoreRouter.bundle )
+        return storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! PersonalViewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

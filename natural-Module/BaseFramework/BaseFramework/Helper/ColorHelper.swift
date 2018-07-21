@@ -44,4 +44,8 @@ public extension UIColor {
         
         return String(format:"#%06x", rgb)
     }
+    
+   public class func baseColor() -> UIColor {
+        return UIColor(red: 246/256, green: 246/256, blue: 253/256, alpha: 1.0)
+    }
 }
